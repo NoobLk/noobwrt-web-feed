@@ -49,6 +49,7 @@
     "luci-lib-ip": "25.340.26705~d88390b",
     "luci-lib-jsonc": "25.340.26705~d88390b",
     "luci-lib-nixio": "25.340.26705~d88390b",
+    "luci-lib-uqr": "25.340.26705~d88390b",
     "luci-lua-runtime": "25.340.26705~d88390b",
     "rpcd-mod-luci": "20240305-r1",
     "ucode-mod-html": "1",

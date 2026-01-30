@@ -44,6 +44,26 @@ Description:  Extended attributes support
  - getfattr
  - setfattr
 
+Package: bc
+Version: 1.07.1-r1
+Depends: libc, libreadline8, libncurses6
+Source: feeds/packages/utils/bc
+SourceName: bc
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1766058532
+URL: https://www.gnu.org/software/bc/
+CPE-ID: cpe:/a:gnu:bc
+Maintainer: Aleksey Vasilenko <aleksey.vasilenko@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: bc_1.07.1-r1_aarch64_cortex-a53.ipk
+Size: 36742
+SHA256sum: 025a1235b608db4121fce633e0fd63d2cee5ce51cffe4fa5790b6e28a702ec08
+Description:  bc is a language that supports arbitrary precision numbers with
+ interactive execution of statements.
+
 Package: cgi-io
 Version: 2022.08.10~901b0f04-r21
 Depends: libc, libubox20240329, libubus20250102
@@ -2182,6 +2202,67 @@ Size: 70272
 SHA256sum: 2743749fdeb90219dfe26b4cccd1b01a7db578beef9aef5351bfc1047fec47df
 Description:  A client-side URL transfer utility
 
+Package: dc
+Version: 1.07.1-r1
+Depends: libc, bc
+Source: feeds/packages/utils/bc
+SourceName: bc
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1766058532
+URL: https://www.gnu.org/software/bc/
+CPE-ID: cpe:/a:gnu:bc
+Maintainer: Aleksey Vasilenko <aleksey.vasilenko@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: dc_1.07.1-r1_aarch64_cortex-a53.ipk
+Size: 20630
+SHA256sum: eb4cd54f0b688938266f89551d55cdbc96028a79c345d44b590d97d6fcd11b70
+Description:  dc is a reverse-polish desk calculator which supports unlimited
+ precision arithmetic.
+
+Package: jq-full
+Version: 1.8.1-r1
+Depends: libc, oniguruma5
+Provides: jq
+Source: feeds/packages/utils/jq
+SourceName: jq
+License: MIT
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1766058532
+URL: https://jqlang.github.io/jq/
+CPE-ID: cpe:/a:jqlang:jq
+Maintainer: Marko Ratkaj <markoratkaj@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1259520
+Filename: jq-full_1.8.1-r1_aarch64_cortex-a53.ipk
+Size: 429554
+SHA256sum: d9c74863c6d1b64e7275c0ca4449f0b9e22f127e274995c22cf07ed7ac440c7c
+Description:  Lightweight and flexible command-line JSON processor.
+ This package was compiled with ONIGURUMA regex libary and has full regex support.
+
+Package: jq
+Version: 1.8.1-r1
+Depends: libc
+Source: feeds/packages/utils/jq
+SourceName: jq
+License: MIT
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1766058532
+URL: https://jqlang.github.io/jq/
+CPE-ID: cpe:/a:jqlang:jq
+Maintainer: Marko Ratkaj <markoratkaj@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1259520
+Filename: jq_1.8.1-r1_aarch64_cortex-a53.ipk
+Size: 423310
+SHA256sum: ef9a8d21402a56a730b5366fb4d8f29a85ecb0ee795d6e889135ac5abd032e5f
+Description:  Lightweight and flexible command-line JSON processor.
+ This package was compiled without ONIGURUMA regex libary. match/test/sub and related functions are not available. 
+
 Package: libacl
 Version: 2.3.2-r2
 Depends: libc, libattr
@@ -2243,6 +2324,135 @@ Size: 250327
 SHA256sum: 4edaa16ad1554df919868ef39ba3dbca0e5d2f9b069df98e2a3d2c336547033d
 Description:  A client-side URL transfer library
 
+Package: libevdev
+Version: 1.13.1-r1
+Depends: libc
+Source: feeds/packages/libs/libevdev
+SourceName: libevdev
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1766058532
+URL: https://www.freedesktop.org/wiki/Software/libevdev/
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: libevdev_1.13.1-r1_aarch64_cortex-a53.ipk
+Size: 32862
+SHA256sum: af3d0773782cbb97a61235ef4a155715c72fd1d22f847f30e8bc3c92db9806b2
+Description:  libevdev is a wrapper library for evdev devices. it moves the common
+ tasks when dealing with evdev devices into a library and provides a
+ library interface to the callers, thus avoiding erroneous ioctls, etc.
+ 
+ The eventual goal is that libevdev wraps all ioctls available to
+ evdev devices, thus making direct access unnecessary.
+
+Package: libfreetype
+Version: 2.13.3-r1
+Depends: libc, zlib, libpng
+Source: feeds/packages/libs/freetype
+SourceName: freetype
+License: FTL GPL-2.0-only MIT ZLIB GPL-3.0-or-later
+LicenseFiles: docs/LICENSE.TXT docs/FTL.TXT docs/GPLv2.TXT src/bdf/README src/pcf/README src/gzip/zlib.h builds/unix/config.sub builds/unix/config.guess builds/unix/libtool 
+Section: libs
+SourceDateEpoch: 1766058532
+URL: https://www.freetype.org/
+CPE-ID: cpe:/a:freetype:freetype
+Maintainer: Val Kulkov <val.kulkov@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 665600
+Filename: libfreetype_2.13.3-r1_aarch64_cortex-a53.ipk
+Size: 317126
+SHA256sum: 9de0087b7c1abc9f6d4673dee148aabe62b18d21921e65c7d0501112391b949e
+Description:  The FreeType project is a team of volunteers who develop free,
+ portable and high-quality software solutions for digital typography.
+ They specifically target embedded systems and focus on bringing small,
+ efficient and ubiquitous products.
+
+Package: libgd-full
+Version: 2.3.3-r1
+Depends: libc, libjpeg, libpng, libwebp, libtiff6, libfreetype
+Provides: libgd
+Source: feeds/packages/libs/libgd
+SourceName: libgd
+License: GD
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1766058532
+URL: https://libgd.github.io/
+CPE-ID: cpe:/a:libgd:libgd
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 399360
+Filename: libgd-full_2.3.3-r1_aarch64_cortex-a53.ipk
+Size: 109432
+SHA256sum: 5611aea9be8d1d827acd2436490bc18217c76e36dfae4cbf830b547cccc86d99
+Description:  GD is an open source code library for the dynamic creation of images by
+ programmers. GD creates PNG, JPEG and GIF images, among other formats.
+ .
+ This variant of the libgd package is compiled will all features enabled.
+
+Package: libgd
+Version: 2.3.3-r1
+Depends: libc, libjpeg, libpng, libwebp
+Conflicts: libgd-full
+Source: feeds/packages/libs/libgd
+SourceName: libgd
+License: GD
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1766058532
+URL: https://libgd.github.io/
+CPE-ID: cpe:/a:libgd:libgd
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 389120
+Filename: libgd_2.3.3-r1_aarch64_cortex-a53.ipk
+Size: 94606
+SHA256sum: e5620533d9d56ee7d51608963661b8d0ba7e3fc716dc1d2844bb21532425f342
+Description:  GD is an open source code library for the dynamic creation of images by
+ programmers. GD creates PNG, JPEG and GIF images, among other formats.
+
+Package: libjpeg-turbo-utils
+Version: 3.0.3-r1
+Depends: libc, libjpeg-turbo
+Provides: jpeg-tools
+Source: feeds/packages/libs/libjpeg-turbo
+SourceName: libjpeg-turbo
+License: BSD-3-Clause IJG zlib
+LicenseFiles: LICENSE.md
+Section: utils
+SourceDateEpoch: 1766058532
+URL: https://www.libjpeg-turbo.org/
+CPE-ID: cpe:/a:libjpeg-turbo:libjpeg-turbo
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 409600
+Filename: libjpeg-turbo-utils_3.0.3-r1_aarch64_cortex-a53.ipk
+Size: 63504
+SHA256sum: 50fe10788ee5fac496d4d1ddb1ab57fb06f54d9063ce4858a16e2db3a7c77dfc
+Description:  These are the JPEG utilities that come with libjpeg-turbo.
+
+Package: libjpeg-turbo
+Version: 3.0.3-r1
+Depends: libc
+Provides: libjpeg
+Source: feeds/packages/libs/libjpeg-turbo
+SourceName: libjpeg-turbo
+License: BSD-3-Clause IJG zlib
+LicenseFiles: LICENSE.md
+Section: libs
+SourceDateEpoch: 1766058532
+URL: https://www.libjpeg-turbo.org/
+CPE-ID: cpe:/a:libjpeg-turbo:libjpeg-turbo
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 471040
+Filename: libjpeg-turbo_3.0.3-r1_aarch64_cortex-a53.ipk
+Size: 178887
+SHA256sum: 91a19be28ea85f1d3f0a6ebf5d51aea8ecb820b0acd9f3a474c8d5a1ff0523bb
+Description:  libjpeg-turbo is a speed focused fork of libjpeg.
+
 Package: libnghttp2-14
 Version: 1.63.0-r1
 Depends: libc
@@ -2263,6 +2473,121 @@ Size: 73607
 SHA256sum: b964110d77de091d9908a66d22a5f8c647b3cb7f7a1bac9dd011a895203bbf4f
 Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
 
+Package: libpng
+Version: 1.6.44-r2
+Depends: libc, zlib
+Source: feeds/packages/libs/libpng
+SourceName: libpng
+License: Libpng GPL-2.0-or-later BSD-3-Clause
+LicenseFiles: LICENSE contrib/gregbook/COPYING contrib/gregbook/LICENSE
+Section: libs
+SourceDateEpoch: 1766058532
+URL: http://www.libpng.org/pub/png/libpng.html
+CPE-ID: cpe:/a:libpng:libpng
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 276480
+Filename: libpng_1.6.44-r2_aarch64_cortex-a53.ipk
+Size: 98613
+SHA256sum: 02d50f6150d93d2ef6e872c5543ddf0708676f70277d8a942fccda78fed9e0bd
+Description:  A PNG format files handling library
+
+Package: libtiff6
+Version: 4.7.0-r1
+Depends: libc, zlib, libjpeg
+Provides: libtiff
+Source: feeds/packages/libs/tiff
+SourceName: tiff
+License: libtiff
+LicenseFiles: COPYRIGHT
+Section: libs
+SourceDateEpoch: 1766058532
+URL: http://simplesystems.org/libtiff/
+ABIVersion: 6
+CPE-ID: cpe:/a:libtiff:libtiff
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 471040
+Filename: libtiff6_4.7.0-r1_aarch64_cortex-a53.ipk
+Size: 152087
+SHA256sum: c1f10f4de92a5821b7aa8a49e0b190470513b383eadc0896dc237e489539a0cd
+Description:  TIFF library
+
+Package: libudev-zero
+Version: 1.0.3-r1
+Depends: libc, libevdev
+Conflicts: libudev, eudev, udev
+Provides: libudev
+Source: feeds/packages/libs/libudev-zero
+SourceName: libudev-zero
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1766058532
+URL: https://github.com/illiliti/libudev-zero
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libudev-zero_1.0.3-r1_aarch64_cortex-a53.ipk
+Size: 11102
+SHA256sum: 31c4313aee9e871f478b14e734f475f1db5ffb7993413f59845eb7279bc1e925
+Description:  Drop-in replacement for libudev
+
+Package: libwebp
+Version: 1.4.0-r1
+Depends: libc
+Source: feeds/packages/libs/libwebp
+SourceName: libwebp
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1766058532
+URL: https://www.webmproject.org
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 604160
+Filename: libwebp_1.4.0-r1_aarch64_cortex-a53.ipk
+Size: 228529
+SHA256sum: 7d0293a9034f2c490acd23be163bf08e4f3ae0e31f308c7ac4dc4019c8bdf3ae
+Description:  The libwebp package contains a library for the WebP format.
+
+Package: lua-bit32
+Version: 5.3.0-r1
+Depends: libc, lua
+Source: feeds/packages/lang/lua-bit32
+SourceName: lua-bit32
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1766058532
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: lua-bit32_5.3.0-r1_aarch64_cortex-a53.ipk
+Size: 8867
+SHA256sum: 14096f3259b093eaf99976e593667090144181eec3a379a7d89cff0b974315e2
+Description:  lua-bit32 is the native Lua 5.2 bit manipulation library,
+ backported to Lua 5.1
+
+Package: luaposix
+Version: 36.2.1-r1
+Depends: libc, lua, lua-bit32
+Source: feeds/packages/lang/luaposix
+SourceName: luaposix
+License: MIT
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1766058532
+URL: https://github.com/luaposix/luaposix
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1894400
+Filename: luaposix_36.2.1-r1_aarch64_cortex-a53.ipk
+Size: 238966
+SHA256sum: b16f238761399fd21aef36687012f5963724e102b846468b1b206a978bd6b713
+Description:  luaposix is a general POSIX library for Lua providing access
+ to various low level libc functions.
+
 Package: microsocks
 Version: 1.0.5-r2
 Depends: libc
@@ -2281,4 +2606,230 @@ Size: 7326
 SHA256sum: cdcf3b94a2dc86beda256ffadb2ff68ed49a733d0c65ebece5ec384268dd6fe5
 Description:  Low resource SOCKS5 proxy.
  Supports only SOCKS5 protocol and forwarding only TCP/IP connections.
+
+Package: oniguruma5
+Version: 6.9.9-r1
+Depends: libc
+Provides: oniguruma
+Source: feeds/packages/libs/oniguruma
+SourceName: oniguruma
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1766058532
+URL: https://github.com/kkos/oniguruma
+ABIVersion: 5
+CPE-ID: cpe:/a:oniguruma_project:oniguruma
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 624640
+Filename: oniguruma5_6.9.9-r1_aarch64_cortex-a53.ipk
+Size: 185927
+SHA256sum: 3bbcf890af6da1f962013543ac721b44a1967ec4afb16135634c4f9022d14329
+Description:  Oniguruma is a modern and flexible regular expressions library.
+ It encompasses features from different regular expression implementations that
+ traditionally exist in different languages.
+ 
+ Character encoding can be specified per regular expression object.
+
+Package: pciids
+Version: 0.387-r1
+Depends: libc
+Source: feeds/packages/utils/hwdata
+SourceName: hwdata
+License: GPL-2.0-or-later  XFree86-1.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1766058532
+URL: https://github.com/vcrhonek/hwdata
+Architecture: aarch64_cortex-a53
+Installed-Size: 1464320
+Filename: pciids_0.387-r1_aarch64_cortex-a53.ipk
+Size: 338444
+SHA256sum: 43420526f6350696b8a73c438731a2724c23184a1337b7afbed10a2ca0df3f32
+Description:  PCI ID list
+
+Package: sms-tool
+Version: 2023.09.21~1b6ca032-r1
+Depends: libc
+Source: feeds/packages/utils/sms-tool
+SourceName: sms-tool
+License: Apache-2.0
+LicenseFiles: LICENSE-2.0.txt
+Section: utils
+SourceDateEpoch: 1766058532
+URL: https://github.com/obsy/sms_tool
+Maintainer: Andrey Butirsky <butirsky@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: sms-tool_2023.09.21~1b6ca032-r1_aarch64_cortex-a53.ipk
+Size: 9718
+SHA256sum: 9de33f10bffb1099a5f0249f24a1f9c6608cf1fad4838acf34345672200a8cea
+Description:  SMS Tool for 3G/4G modem
+
+Package: tailscale
+Version: 1.80.3-r1
+Depends: libc, ca-bundle, kmod-tun
+Provides: tailscaled
+Source: feeds/packages/net/tailscale
+SourceName: tailscale
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1766058532
+URL: https://tailscale.com
+CPE-ID: cpe:/a:tailscale:tailscale
+Maintainer: Zephyr Lykos <self@mochaa.ws>, Sandro Jäckel <sandro.jaeckel@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 23275520
+Filename: tailscale_1.80.3-r1_aarch64_cortex-a53.ipk
+Size: 8929154
+SHA256sum: fadd63a5b0bd50b14a8373668b55a472fff6e14bfaf968ed4f1f17af541d26a2
+Description:  It creates a secure network between your servers, computers,
+ and cloud instances. Even when separated by firewalls or subnets.
+
+Package: tiff-utils
+Version: 4.7.0-r1
+Depends: libc, libtiff6
+Source: feeds/packages/libs/tiff
+SourceName: tiff
+License: libtiff
+LicenseFiles: COPYRIGHT
+Section: utils
+SourceDateEpoch: 1766058532
+URL: http://simplesystems.org/libtiff/
+CPE-ID: cpe:/a:libtiff:libtiff
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1269760
+Filename: tiff-utils_4.7.0-r1_aarch64_cortex-a53.ipk
+Size: 167387
+SHA256sum: f229a72d76937c36c75eb6a9f629eb6f3470baa8fd0544260bb1cc2666023311
+Description:  TIFF utilities
+
+Package: usbids
+Version: 0.387-r1
+Depends: libc
+Source: feeds/packages/utils/hwdata
+SourceName: hwdata
+License: GPL-2.0-or-later  XFree86-1.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1766058532
+URL: https://github.com/vcrhonek/hwdata
+Architecture: aarch64_cortex-a53
+Installed-Size: 737280
+Filename: usbids_0.387-r1_aarch64_cortex-a53.ipk
+Size: 255810
+SHA256sum: b8c55312d44e722570ce7742b9e20e2ae8a13fee102453be3dcc5c9fdce8c5c0
+Description:  USB ID list
+
+Package: usbutils
+Version: 017-r1
+Depends: libc, libusb-1.0-0, libudev, librt, libpthread, usbids
+Source: feeds/packages/utils/usbutils
+SourceName: usbutils
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1766058532
+URL: http://www.linux-usb.org/
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 245760
+Filename: usbutils_017-r1_aarch64_cortex-a53.ipk
+Size: 56579
+SHA256sum: b5054a128b973229f8931062d1f91b4e4934a2d59d4ad1b8993ed897abd12852
+Description:  USB devices listing utilities
+
+Package: vnstat
+Version: 1.18-r3
+Depends: libc
+Source: feeds/packages/net/vnstat
+SourceName: vnstat
+Section: net
+SourceDateEpoch: 1766058532
+URL: http://humdi.net/vnstat/
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 286720
+Filename: vnstat_1.18-r3_aarch64_cortex-a53.ipk
+Size: 76902
+SHA256sum: ccae3e6cd3b6b90bfae7b7ed2547ac5b73cb6e96972413e2047e30853516ff49
+Description:  vnStat is a network traffic monitor for Linux that keeps a log of daily
+ network traffic for the selected interface(s). vnStat isn't a packet
+ sniffer. The traffic information is analyzed from the /proc -filesystem,
+ so vnStat can be used without root permissions.
+
+Package: vnstati
+Version: 1.18-r3
+Depends: libc, vnstat, libgd
+Source: feeds/packages/net/vnstat
+SourceName: vnstat
+Section: net
+SourceDateEpoch: 1766058532
+URL: http://humdi.net/vnstat/
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: vnstati_1.18-r3_aarch64_cortex-a53.ipk
+Size: 34306
+SHA256sum: 90d63421958d4c84ad8fec291c7e8d8909d8c6c548651d2561ee05cbe2077ca6
+Description:  The purpose of vnstati is to provide image output support for statistics
+ collected using vnstat(1). However, the image file format is limited to
+ png. All basic outputs of vnStat are supported excluding live traffic
+ features. The image can be outputted either to a file or to standard
+ output.
+
+Package: wget-nossl
+Version: 1.24.5-r1
+Depends: libc, libpcre2, zlib
+Provides: gnu-wget, wget
+Alternatives: 300:/usr/bin/wget:/usr/libexec/wget-nossl
+Source: feeds/packages/net/wget
+SourceName: wget
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1766058532
+URL: https://www.gnu.org/software/wget/index.html
+CPE-ID: cpe:/a:gnu:wget
+Architecture: aarch64_cortex-a53
+Installed-Size: 419840
+Filename: wget-nossl_1.24.5-r1_aarch64_cortex-a53.ipk
+Size: 195181
+SHA256sum: 7e3e440d7e174b195915f8c83eb930004eccd8c28a09a2f219b76df741bc3d89
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built without SSL support.
+
+Package: wget-ssl
+Version: 1.24.5-r1
+Depends: libc, libpcre2, zlib, libopenssl3, librt
+Provides: gnu-wget, wget
+Alternatives: 300:/usr/bin/wget:/usr/libexec/wget-ssl
+Source: feeds/packages/net/wget
+SourceName: wget
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1766058532
+URL: https://www.gnu.org/software/wget/index.html
+CPE-ID: cpe:/a:gnu:wget
+Architecture: aarch64_cortex-a53
+Installed-Size: 481280
+Filename: wget-ssl_1.24.5-r1_aarch64_cortex-a53.ipk
+Size: 216161
+SHA256sum: 76f67c46a2fd2d4f2a7950c3a7fd80d62788920233f9af51780a8f2dee93538b
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built with SSL support.
 
