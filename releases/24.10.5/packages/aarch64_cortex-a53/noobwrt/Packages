@@ -1,0 +1,63 @@
+Package: chinadns-ng
+Version: 2025.08.09-r1
+Depends: libc
+License: AGPL-3.0-only
+Section: net
+URL: https://github.com/zfl9/chinadns-ng
+Architecture: aarch64_cortex-a53
+Installed-Size: 522240
+Filename: chinadns-ng_2025.08.09-r1_aarch64_cortex-a53.ipk
+Size: 269733
+SHA256sum: d5b931765c6544bd1cc539266c869f767a7d7748798dc29d2730d6dd893adfe8
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: dns2socks
+Version: 2.1-r2
+Depends: libc, libpthread
+License: BSD-3-Clause
+Section: net
+URL: http://dns2socks.sourceforge.net/
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: dns2socks_2.1-r2_aarch64_cortex-a53.ipk
+Size: 11825
+SHA256sum: 9815966fb256059487ef7e5f20ba7bdc3cf5183bcc396478be6ed5055eed9758
+Description:  This is a command line utility to resolve DNS requests via
+ a SOCKS tunnel like Tor or a HTTP proxy.
+
+Package: luci-app-passwall
+Version: 26.1.25-r1
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, chinadns-ng, dns2socks, dnsmasq-full, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, microsocks, resolveip, tcping, luci-lua-runtime
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 3256320
+Filename: luci-app-passwall_26.1.25-r1_all.ipk
+Size: 977692
+SHA256sum: aaf4626cc59a01f3214d9221942ea6accb8c99806705537385e282101bb60c1b
+Description:  LuCI support for PassWall
+
+Package: luci-i18n-passwall-zh-cn
+Version: 26.1.25
+Depends: libc, luci-app-passwall
+Section: luci
+Architecture: all
+Installed-Size: 40960
+Filename: luci-i18n-passwall-zh-cn_26.1.25_all.ipk
+Size: 17124
+SHA256sum: 87c48d52ab76206c36f2343a8d70556b53653661c26d72979eb759acdfd8169a
+Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
+
+Package: tcping
+Version: 0.3-r1
+Depends: libc
+License: GPL-2.0-only
+Section: net
+URL: https://github.com/jlyo/tcping
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: tcping_0.3-r1_aarch64_cortex-a53.ipk
+Size: 4320
+SHA256sum: a6534913540e5542cf81098d7470b332b69c1453a24e76e0a2048e94b46ad6f8
+Description:  tcping measures the latency of a tcp-connection
+
