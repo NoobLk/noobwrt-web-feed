@@ -4,6 +4,7 @@
   "packages": {
     "acl": "2.3.2-r2",
     "attr": "2.5.2-r3",
+    "cgi-io": "2022.08.10~901b0f04-r21",
     "coreutils-b2sum": "9.7-r1",
     "coreutils-base32": "9.7-r1",
     "coreutils-base64": "9.7-r1",

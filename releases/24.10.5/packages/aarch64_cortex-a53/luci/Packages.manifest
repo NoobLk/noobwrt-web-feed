@@ -49,3 +49,19 @@ Size: 34776
 SHA256sum: 2a234fbea18309fca7027a71f615e59509beb2c506d3b0cb9eaccc04a8a3de52
 Description:  NIXIO POSIX library
 
+Package: ucode-mod-lua
+Version: 1
+Depends: libc, libucode20230711, liblua5.1.5
+Source: feeds/luci/contrib/package/ucode-mod-lua
+SourceName: ucode-mod-lua
+License: ISC
+Section: utils
+SourceDateEpoch: 1765005905
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: ucode-mod-lua_1_aarch64_cortex-a53.ipk
+Size: 10067
+SHA256sum: c37c7ca0a4726765b14db7c11f7d6bad5c390ba140b58679d05532f3539fef3f
+Description:  ucode to Lua bridge library
+

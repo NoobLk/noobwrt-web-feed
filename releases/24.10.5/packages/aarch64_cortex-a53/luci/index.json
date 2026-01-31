@@ -4,6 +4,7 @@
   "packages": {
     "luci-lib-ip": "25.340.26705~d88390b",
     "luci-lib-jsonc": "25.340.26705~d88390b",
-    "luci-lib-nixio": "25.340.26705~d88390b"
+    "luci-lib-nixio": "25.340.26705~d88390b",
+    "ucode-mod-lua": "1"
   }
 }
