@@ -1,1 +1,17 @@
+Package: tcping
+Version: 0.3-r1
+Depends: libc
+Source: feeds/noobwrt/feeds/passwall/tcping
+SourceName: tcping
+License: GPL-2.0-only
+LicenseFiles: license.txt
+Section: net
+SourceDateEpoch: 1769828089
+URL: https://github.com/jlyo/tcping
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: tcping_0.3-r1_aarch64_cortex-a53.ipk
+Size: 4327
+SHA256sum: 5342bf50b4a21892096a894e8887c313e38a1fd7665658b001a893451c77d5f6
+Description:  tcping measures the latency of a tcp-connection
 

@@ -1,1 +1,39 @@
+Package: luci-lib-ip
+Version: 25.340.26705~d88390b
+Depends: libc, liblua5.1.5, libnl-tiny1
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: luci-lib-ip_25.340.26705~d88390b_aarch64_cortex-a53.ipk
+Size: 13243
+SHA256sum: 8dc89aeb53c2c6f14a8aa94991990bde296a5e3bc70600a3572e09fc45d3a008
+Description:  Lua library for IP calculation and routing information
+
+Package: luci-lib-jsonc
+Version: 25.340.26705~d88390b
+Depends: libc, liblua5.1.5, libjson-c5
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: luci-lib-jsonc_25.340.26705~d88390b_aarch64_cortex-a53.ipk
+Size: 5366
+SHA256sum: 1ab2b047d13d61706cb288448ae4daca454b331faa867d46b7a1a342ff4da174
+Description:  Lua binding for JSON-C
+
+Package: luci-lib-nixio
+Version: 25.340.26705~d88390b
+Depends: libc, liblua5.1.5
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: aarch64_cortex-a53
+Installed-Size: 153600
+Filename: luci-lib-nixio_25.340.26705~d88390b_aarch64_cortex-a53.ipk
+Size: 34776
+SHA256sum: 2a234fbea18309fca7027a71f615e59509beb2c506d3b0cb9eaccc04a8a3de52
+Description:  NIXIO POSIX library
 

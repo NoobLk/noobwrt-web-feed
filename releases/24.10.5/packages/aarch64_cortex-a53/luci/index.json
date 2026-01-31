@@ -2,6 +2,8 @@
   "version": 2,
   "architecture": "aarch64_cortex-a53",
   "packages": {
-    "null": null
+    "luci-lib-ip": "25.340.26705~d88390b",
+    "luci-lib-jsonc": "25.340.26705~d88390b",
+    "luci-lib-nixio": "25.340.26705~d88390b"
   }
 }
