@@ -12,8 +12,6 @@
     "unzip": "6.0-r8",
     "v2ray-geoip": "202510050144-r1",
     "v2ray-geosite-ir": "202510130040-r1",
-    "v2ray-geosite": "20250916122507-r1",
-    "xray-core": "25.1.30-r1",
-    "xray-example": "25.1.30-r1"
+    "v2ray-geosite": "20250916122507-r1"
   }
 }

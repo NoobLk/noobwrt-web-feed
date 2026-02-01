@@ -1,1 +1,1 @@
-{"serialNumber":"urn:uuid:a144384b-7b08-4e38-b4d7-c125f588989d","metadata":{"timestamp":"2026-02-01T11:45:27Z"},"specVersion":"1.4","version":1,"bomFormat":"CycloneDX","components":[{"name":"tcping","licenses":[{"license":{"name":"GPL-2.0-only"}}],"type":"application","version":"0.3"}]}
+{"components":[{"licenses":[{"license":{"name":"GPL-2.0-only"}}],"type":"application","name":"tcping","version":"0.3"}],"metadata":{"timestamp":"2026-02-01T12:48:41Z"},"serialNumber":"urn:uuid:55f4af79-2188-43e9-a398-4933e1f501ad","specVersion":"1.4","version":1,"bomFormat":"CycloneDX"}
