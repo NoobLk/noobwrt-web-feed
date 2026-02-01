@@ -168,3 +168,33 @@ Size: 667077
 SHA256sum: c2d1890c9de7270e16744b1e42e02df51e6ca7393589640e841740ff2503607c
 Description:  Geosite List for V2Ray
 
+Package: xray-core
+Version: 25.1.30-r1
+Depends: libc, ca-bundle
+License: MPL-2.0
+Section: net
+URL: https://xtls.github.io
+Architecture: aarch64_cortex-a53
+Installed-Size: 27627520
+Filename: xray-core_25.1.30-r1_aarch64_cortex-a53.ipk
+Size: 9841388
+SHA256sum: bba5fc85d9a58dcf538fc89e30ac5e9b1aa0784d22cf179308e62d06f9390c44
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: xray-example
+Version: 25.1.30-r1
+Depends: libc, xray-core
+License: MPL-2.0
+Section: net
+URL: https://xtls.github.io
+Architecture: all
+Installed-Size: 10240
+Filename: xray-example_25.1.30-r1_all.ipk
+Size: 1432
+SHA256sum: 3ecab06110a5e3d15df1774a45f0038f8936e03abc4b4822a4da37194dfcd53b
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This includes example configuration files for xray-core.
+
