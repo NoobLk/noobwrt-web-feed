@@ -349,6 +349,22 @@ SHA256sum: 025a1235b608db4121fce633e0fd63d2cee5ce51cffe4fa5790b6e28a702ec08
 Description:  bc is a language that supports arbitrary precision numbers with
  interactive execution of statements.
 
+Package: btrfs-progs
+Version: 6.11-r1
+Depends: libc, libattr, libuuid1, libmount1, zlib, libblkid1, liblzo2, libpthread, kmod-fs-btrfs
+License: GPL-2.0-only
+Section: utils
+URL: https://btrfs.readthedocs.io
+Architecture: aarch64_cortex-a53
+Installed-Size: 2529280
+Filename: btrfs-progs_6.11-r1_aarch64_cortex-a53.ipk
+Size: 1139479
+SHA256sum: c3bdcdf192e3db8d90f160c156f49021449aaf41e39eac89407f147d0a782717
+Description:  Btrfs is a new copy on write filesystem for Linux aimed at implementing
+ advanced features while focusing on fault tolerance, repair and easy
+ administration. Initially developed by Oracle, Btrfs is licensed under the
+ GPL and open for contribution from anyone.
+
 Package: certtool
 Version: 3.8.5-r1
 Depends: libc, libgnutls
@@ -1983,6 +1999,48 @@ SHA256sum: eb4cd54f0b688938266f89551d55cdbc96028a79c345d44b590d97d6fcd11b70
 Description:  dc is a reverse-polish desk calculator which supports unlimited
  precision arithmetic.
 
+Package: dosfstools
+Version: 4.2-r4
+Depends: libc
+License: GPL-3.0-or-later
+Section: utils
+URL: https://github.com/dosfstools
+CPE-ID: cpe:/a:dosfstools_project:dosfstools
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: dosfstools_4.2-r4_aarch64_cortex-a53.ipk
+Size: 71470
+SHA256sum: 359dc3ee7dae17bca71811b479fc33c9a0572d4d7f863e7836d6c1c15660c0ab
+Description:  The dosfstools package includes the mkfs.fat and fsck.fat utilities, which respectively make and check MS-DOS FAT filesystems.
+
+Package: exfat-fsck
+Version: 1.2.5-r1
+Depends: libc
+License: GPL-2.0-only
+Section: utils
+URL: https://github.com/exfatprogs/exfatprogs
+CPE-ID: cpe:/a:namjaejeon:exfatprogs
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: exfat-fsck_1.2.5-r1_aarch64_cortex-a53.ipk
+Size: 23916
+SHA256sum: 3d7efd31614eee3556c421954aaccf0166b911e99bdeaa508daf40d73558cfde
+Description:  Utility for checking/repairing an exFAT File System
+
+Package: exfat-mkfs
+Version: 1.2.5-r1
+Depends: libc
+License: GPL-2.0-only
+Section: utils
+URL: https://github.com/exfatprogs/exfatprogs
+CPE-ID: cpe:/a:namjaejeon:exfatprogs
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: exfat-mkfs_1.2.5-r1_aarch64_cortex-a53.ipk
+Size: 22605
+SHA256sum: da1c1399a724c1893ff2cc861a64dcf9fb6c6e60f7d34d9269295c7e2f0eee8e
+Description:  Utility for creating an exFAT File System
+
 Package: gnutls-utils
 Version: 3.8.5-r1
 Depends: libc, libgnutls, libgnutls-dane
@@ -2461,6 +2519,27 @@ Description:  The FreeType project is a team of volunteers who develop free,
  They specifically target embedded systems and focus on bringing small,
  efficient and ubiquitous products.
 
+Package: libgcrypt
+Version: 1.10.3-r1
+Depends: libc, libgpg-error
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://www.gnupg.org/related_software/libgcrypt/
+CPE-ID: cpe:/a:gnupg:libgcrypt
+Architecture: aarch64_cortex-a53
+Installed-Size: 880640
+Filename: libgcrypt_1.10.3-r1_aarch64_cortex-a53.ipk
+Size: 411264
+SHA256sum: a9d85683e7c4dddc2ba6dca5d6cb508d5212fa9537d610442c58b8c52d67bd02
+Description:  This is a general purpose cryptographic library based on the code from
+ GnuPG. It provides functions for all cryptograhic building blocks:
+ symmetric ciphers (AES, DES, Arcfour, CAST5), hash algorithms (MD5, SHA-1,
+ RIPE-MD160, SHA-224/256, SHA-384/512), MACs (HMAC for all hash
+ algorithms), public key algorithms (RSA, DSA), large integer functions,
+ random numbers and a lot of supporting functions. Some algorithms have
+ been disabled to reduce size (Blowfish, Twofish, Serpent,
+ RC2, SEED, Camellia, CRC, MD4, TIGER-192, Whirlpool, ElGamal, ECC).
+
 Package: libgd-full
 Version: 2.3.3-r1
 Depends: libc, libjpeg, libpng, libwebp, libtiff6, libfreetype
@@ -2544,6 +2623,24 @@ Description:  GnuTLS is a secure communications library implementing the SSL, TL
  efficient with focus on security and interoperability.
  This package contains the GnuTLS shared library, needed by other programs.
 
+Package: libgpg-error
+Version: 1.49-r1
+Depends: libc
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://www.gnupg.org/related_software/libgpg-error/
+CPE-ID: cpe:/a:gnupg:libgpg-error
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: libgpg-error_1.49-r1_aarch64_cortex-a53.ipk
+Size: 62469
+SHA256sum: 9def91bfb4c5ce82bebebb85ef36f7b1258f61f5ab024c5652b84401dbccfcdc
+Description:  An helper library for common error codes and descriptions.
+ This is a library that defines common error values for all GnuPG
+ components. Among these are GPG, GPGSM, GPGME, GPG-Agent, libgcrypt,
+ Libksba, DirMngr, Pinentry, SmartCard Daemon and possibly more in the
+ future.
+
 Package: libinotifytools
 Version: 4.23.9.0-r2
 Depends: libc
@@ -2607,6 +2704,23 @@ Filename: libkmod_32-r1_aarch64_cortex-a53.ipk
 Size: 38236
 SHA256sum: 38df7b0c2cb5b54f8c6a8164c2274dbcbb76c75d0c3eeba9caa3b7bb7001531a
 Description:  Linux kernel module handling (library)
+
+Package: liblzo2
+Version: 2.10-r4
+Depends: libc
+Provides: liblzo
+License: GPL-2.0-or-later
+Section: libs
+URL: http://www.oberhumer.com/opensource/lzo/
+ABIVersion: 2
+CPE-ID: cpe:/a:oberhumer:lzo
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: liblzo2_2.10-r4_aarch64_cortex-a53.ipk
+Size: 39151
+SHA256sum: 462e1251c80068f6225932be44cb046aca17899ba7b76ec8dadbeb4e8c32df6b
+Description:  LZO is a data compression library which is suitable for data de-/compression
+ in real-time. This means it favours speed over compression ratio.
 
 Package: libmariadb-plugin-auth-gssapi-client
 Version: 3.4.1-r1
@@ -2780,6 +2894,19 @@ Filename: libpam_1.5.2-r1_aarch64_cortex-a53.ipk
 Size: 230653
 SHA256sum: 70da44b64a511ec74714586ce443c207f903cc14393bd15377392835a4ad8e02
 Description:  The Linux-PAM Pluggable Authentication Modules.
+
+Package: libparted
+Version: 3.6-r1
+Depends: libc, libblkid1, libuuid1
+License: GPL-3.0-or-later
+Section: libs
+CPE-ID: cpe:/a:parted_project:parted
+Architecture: aarch64_cortex-a53
+Installed-Size: 542720
+Filename: libparted_3.6-r1_aarch64_cortex-a53.ipk
+Size: 192370
+SHA256sum: d6d9f7d4ca806eb23a312adcc40487fb6e8f544e8d0fc6e00177601cd9d7331e
+Description:  GNU Parted shared library
 
 Package: libpci
 Version: 3.14.0-r1
@@ -3088,6 +3215,189 @@ SHA256sum: cdcf3b94a2dc86beda256ffadb2ff68ed49a733d0c65ebece5ec384268dd6fe5
 Description:  Low resource SOCKS5 proxy.
  Supports only SOCKS5 protocol and forwarding only TCP/IP connections.
 
+Package: msmtp-mta
+Version: 1.8.31-r1
+Depends: libc, msmtp
+Alternatives: 100:/usr/sbin/sendmail:/usr/bin/msmtp, 100:/usr/lib/sendmail:/usr/bin/msmtp
+License: GPL-3.0-or-later
+Section: mail
+URL: https://marlam.de/msmtp
+CPE-ID: cpe:/a:marlam:msmtp
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: msmtp-mta_1.8.31-r1_aarch64_cortex-a53.ipk
+Size: 1150
+SHA256sum: c5c43a181ea99c8f46742704a396faabdd96dab466e6e48767d3cbb994ba57b3
+Description:  msmtp is an SMTP client. In the default mode, it transmits a mail to
+ an SMTP server (for example at a free mail provider) which does the
+ delivery. To use this program with your mail user agent (MUA), create
+ a configuration file with your mail account(s) and tell your MUA to
+ call msmtp instead of /usr/sbin/sendmail.
+ This package add a link from sendmail to msmtp
+ and is built with SSL support.
+
+Package: msmtp-nossl
+Version: 1.8.31-r1
+Depends: libc
+Provides: msmtp
+License: GPL-3.0-or-later
+Section: mail
+URL: https://marlam.de/msmtp
+CPE-ID: cpe:/a:marlam:msmtp
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: msmtp-nossl_1.8.31-r1_aarch64_cortex-a53.ipk
+Size: 47123
+SHA256sum: 8bd8361fefa3b6fac9b93552e766632f8f1fc09c089bffb147715e98503f8416
+Description:  msmtp is an SMTP client. In the default mode, it transmits a mail to
+ an SMTP server (for example at a free mail provider) which does the
+ delivery. To use this program with your mail user agent (MUA), create
+ a configuration file with your mail account(s) and tell your MUA to
+ call msmtp instead of /usr/sbin/sendmail.
+ This package is built without SSL support.
+
+Package: msmtp-queue
+Version: 1.8.31-r1
+Depends: libc, bash, msmtp
+License: GPL-3.0-or-later
+Section: mail
+URL: https://marlam.de/msmtp
+CPE-ID: cpe:/a:marlam:msmtp
+Architecture: aarch64_cortex-a53
+Installed-Size: 40960
+Filename: msmtp-queue_1.8.31-r1_aarch64_cortex-a53.ipk
+Size: 11103
+SHA256sum: b86c891bfda08292b2802e9b94072feb90b2bea819ac996ac8cb36a4fa596381
+Description:  msmtp is an SMTP client. In the default mode, it transmits a mail to
+ an SMTP server (for example at a free mail provider) which does the
+ delivery. To use this program with your mail user agent (MUA), create
+ a configuration file with your mail account(s) and tell your MUA to
+ call msmtp instead of /usr/sbin/sendmail.
+ This package contains the msmtp queue scripts.
+
+Package: msmtp
+Version: 1.8.31-r1
+Depends: libc, libgnutls, ca-bundle
+License: GPL-3.0-or-later
+Section: mail
+URL: https://marlam.de/msmtp
+CPE-ID: cpe:/a:marlam:msmtp
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: msmtp_1.8.31-r1_aarch64_cortex-a53.ipk
+Size: 51957
+SHA256sum: f58c73e134c6a06f073ca6a3c6e66f912b4fb34164051726d98a9ba4ec166b66
+Description:  msmtp is an SMTP client. In the default mode, it transmits a mail to
+ an SMTP server (for example at a free mail provider) which does the
+ delivery. To use this program with your mail user agent (MUA), create
+ a configuration file with your mail account(s) and tell your MUA to
+ call msmtp instead of /usr/sbin/sendmail.
+ This package is built with SSL support.
+
+Package: mwan3
+Version: 2.11.16-r5
+Depends: libc, ip, ipset, iptables, ip6tables, iptables-mod-conntrack-extra, iptables-mod-ipopt, jshn
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 163840
+Filename: mwan3_2.11.16-r5_all.ipk
+Size: 23618
+SHA256sum: bb93f7e86bde2d045d124b57b4c9b7d584922f928976f52ee88dcf827b0b3805
+Description:  Hotplug script which makes configuration of multiple WAN interfaces simple
+ and manageable. With loadbalancing/failover support for up to 250 wan
+ interfaces, connection tracking and an easy to manage traffic ruleset.
+
+Package: nail
+Version: 12.5-r5
+Depends: libc, libopenssl3
+License: BSD-2-Clause
+Section: mail
+URL: http://heirloom.sourceforge.net/mailx.html
+Architecture: aarch64_cortex-a53
+Installed-Size: 337920
+Filename: nail_12.5-r5_aarch64_cortex-a53.ipk
+Size: 156633
+SHA256sum: 7d30041a88628ea6cd465a293dc117d49d4a748949e90e7905890b0b2bd534b1
+Description:  Heirloom mailx (formerly known as "nail") is intended provide
+ the functionality of the POSIX mailx command with additional
+ support for MIME messages, IMAP (including caching), POP3,
+ SMTP, S/MIME, message threading/sorting, scoring, and filtering
+
+Package: ntfs-3g-low
+Version: 2022.10.3-r1
+Depends: libc, ntfs-3g
+License: GPL-2.0-only LGPL-2.1-or-later
+Section: utils
+URL: https://www.tuxera.com
+CPE-ID: cpe:/a:tuxera:ntfs-3g
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: ntfs-3g-low_2022.10.3-r1_aarch64_cortex-a53.ipk
+Size: 42344
+SHA256sum: b5a2c3daa93ee76c07dea026414cf977a549af52c362fe0940ee1dac9333ca4d
+Description:  Contains:
+ - lowntfs-3g
+ - mount.lowntfs-3g (symlink to lowntfs-3g)
+ 
+ A driver variant using the fuse low-level interface missing some of the
+ enhanced functionality for streams or the like. You might want to check:
+ http://www.tuxera.com/community/ntfs-3g-manual/
+ 
+
+Package: ntfs-3g-utils
+Version: 2022.10.3-r1
+Depends: libc, ntfs-3g, libgcrypt, libuuid1
+License: GPL-2.0-only LGPL-2.1-or-later
+Section: utils
+URL: https://www.tuxera.com
+CPE-ID: cpe:/a:tuxera:ntfs-3g
+Architecture: aarch64_cortex-a53
+Installed-Size: 1269760
+Filename: ntfs-3g-utils_2022.10.3-r1_aarch64_cortex-a53.ipk
+Size: 318208
+SHA256sum: e8d324fa9f33bb6e6ca95dc0e1848e28c6451a85384abba2c3d4cc5bfe733d3d
+Description:  Suite of NTFS utilities for doing neat things with NTFS.
+ Contains:
+ - mkntfs - Create an NTFS filesystem.
+ - ntfscat - Dump a file's content to the standard output.
+ - ntfsclone - Efficiently clone, backup, restore or rescue NTFS.
+ - ntfscluster - Locate the files which use the given sectors or clusters.
+ - ntfscmp - Compare two NTFS filesystems and tell the differences.
+ - ntfscp - Copy a file to an NTFS volume.
+ - ntfssecaudit - Display ownership and permissions, check consistency
+ - ntfsfix - Check and fix some common errors, clear the LogFile.
+ - ntfsinfo - Show information about NTFS or one of the files or directories within it.
+ - ntfslabel - Show, or set, an NTFS filesystem's volume label.
+ - ntfsls - List information about files in a directory residing on an NTFS.
+ - ntfsresize - Resize NTFS without losing data.
+ - ntfsundelete - Recover deleted files from NTFS.
+ - ntfsusermap - Define mapping of Windows accounts to Linux logins
+
+Package: ntfs-3g
+Version: 2022.10.3-r1
+Depends: libc, kmod-fuse, libpthread
+License: GPL-2.0-only LGPL-2.1-or-later
+Section: utils
+URL: https://www.tuxera.com
+CPE-ID: cpe:/a:tuxera:ntfs-3g
+Architecture: aarch64_cortex-a53
+Installed-Size: 532480
+Filename: ntfs-3g_2022.10.3-r1_aarch64_cortex-a53.ipk
+Size: 190820
+SHA256sum: e8a23ebf7e360e8a696883c8eb8eca1c6eb5cd14fee68dc5ad48df53929714ac
+Description:  Ntfs-3g is a NTFS driver, which can create, remove, rename,
+ move files, directories, hard links, and streams. It can read
+ and write files, including streams and sparse files. It can
+ handle special files like symbolic links, devices, and FIFOs.
+ Moreover it can also read transparently compressed files.
+ 
+ Contains:
+ - ntfs-3g
+ - ntfs-3g.probe
+ - mount.ntfs-3g (symlink to ntfs-3g)
+ 
+
 Package: oniguruma5
 Version: 6.9.9-r1
 Depends: libc
@@ -3135,6 +3445,21 @@ Filename: openldap-utils_2.6.8-r2_aarch64_cortex-a53.ipk
 Size: 247611
 SHA256sum: f7ae0721c7248746419eee849c4e71d858c6d24635ee36ce460b5c6e48c6714b
 Description:  This package contains client programs required to access LDAP servers.
+
+Package: parted
+Version: 3.6-r1
+Depends: libc, libparted, libreadline8, libncurses6
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:parted_project:parted
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: parted_3.6-r1_aarch64_cortex-a53.ipk
+Size: 31025
+SHA256sum: d7f1f25ad69f52bc2390d96138129cb5acad365a9be2850b63869ca95ed674d9
+Description:  GNU Parted manipulates partition tables. This is useful for
+ creating space for new operating systems, reorganizing
+ disk usage, copying data on hard disks and disk imaging.
 
 Package: pciids
 Version: 0.387-r1
@@ -3928,6 +4253,68 @@ Description:  PHP is a widely-used general-purpose scripting language that is es
  
  Please note, that installing php5 and php8 in parallel on the same target
  is not supported in OpenWrt/LEDE.
+
+Package: smartd-mail
+Version: 7.4-r1
+Depends: libc, smartd, nail, msmtp-mta
+License: GPL-2.0-or-later
+Section: utils
+URL: https://www.smartmontools.org/
+CPE-ID: cpe:/a:smartmontools:smartmontools
+Architecture: all
+Installed-Size: 10240
+Filename: smartd-mail_7.4-r1_all.ipk
+Size: 3340
+SHA256sum: 78917946099b8b8b49ee5b3c85431a6573a34795f9d6e6d14bd58b3c7a6fcc57
+Description:  A script for mailing about SMART issues
+
+Package: smartd
+Version: 7.4-r1
+Depends: libc, libstdcpp6
+License: GPL-2.0-or-later
+Section: utils
+URL: https://www.smartmontools.org/
+CPE-ID: cpe:/a:smartmontools:smartmontools
+Architecture: aarch64_cortex-a53
+Installed-Size: 337920
+Filename: smartd_7.4-r1_aarch64_cortex-a53.ipk
+Size: 151216
+SHA256sum: 4752ad6ac344c42a60d2e38343ef1a5899e5a4292c348ce46c945fc1fa08308c
+Description:  smartmontools contains utility programs (smartd) to
+ control/monitor storage systems using the Self-Monitoring, Analysis
+ and Reporting Technology System (S.M.A.R.T.) built into most modern
+ ATA and SCSI disks. It is derived from smartsuite.
+
+Package: smartmontools-drivedb
+Version: 7.4-r1
+Depends: libc
+License: GPL-2.0-or-later
+Section: utils
+URL: https://www.smartmontools.org/
+CPE-ID: cpe:/a:smartmontools:smartmontools
+Architecture: all
+Installed-Size: 256000
+Filename: smartmontools-drivedb_7.4-r1_all.ipk
+Size: 57310
+SHA256sum: ea044dae64d0df2d0edd67985f8931ed3819534d3b8efd8fade4dcf0f19f84ed
+Description:  Database of known drives and USB bridges for smartctl and smartd.
+
+Package: smartmontools
+Version: 7.4-r1
+Depends: libc, libstdcpp6
+License: GPL-2.0-or-later
+Section: utils
+URL: https://www.smartmontools.org/
+CPE-ID: cpe:/a:smartmontools:smartmontools
+Architecture: aarch64_cortex-a53
+Installed-Size: 604160
+Filename: smartmontools_7.4-r1_aarch64_cortex-a53.ipk
+Size: 256001
+SHA256sum: 0add3a4996d3cb7dc2d7a40763d86c80ae7407b7d4d4df2e339b5851acc96afb
+Description:  smartmontools contains utility programs (smartctl) to
+ control/monitor storage systems using the Self-Monitoring, Analysis
+ and Reporting Technology System (S.M.A.R.T.) built into most modern
+ ATA and SCSI disks. It is derived from smartsuite.
 
 Package: sms-tool
 Version: 2023.09.21~1b6ca032-r1

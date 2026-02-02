@@ -51,6 +51,23 @@ Size: 8819
 SHA256sum: 2e78468ca571be082af593b0d114994a5e4b8ac1f36fb17bc9e118a78cf45816
 Description:  LuCI HTTP utility library
 
+Package: luci-app-mwan3
+Version: 25.340.26705~d88390b
+Depends: libc, luci-base, mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 61440
+Filename: luci-app-mwan3_25.340.26705~d88390b_all.ipk
+Size: 9645
+SHA256sum: 9fe0148b5c1e83dce419d83caced26a5fecb208b63b520c5518f285e61ddb142
+Description:  LuCI support for the MWAN3 MultiWAN Manager
+
 Package: luci-base
 Version: 25.340.26705~d88390b
 Depends: libc, rpcd, rpcd-mod-file, rpcd-mod-luci, rpcd-mod-ucode, cgi-io, ucode, ucode-mod-fs, ucode-mod-uci, ucode-mod-ubus, ucode-mod-math, ucode-mod-html, liblucihttp-ucode
@@ -694,6 +711,598 @@ Size: 56007
 SHA256sum: 3242818a3ca0cba72f474a4eb3a42c3985892bc9d898bed710b94b790490722c
 Description:  Translation for luci-base - 正體中文 (Traditional Chinese)
 
+Package: luci-i18n-mwan3-ar
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-mwan3-ar_25.340.26705~d88390b_all.ipk
+Size: 2394
+SHA256sum: 0221c747fe6d373acddb4f909e92cc41eb94ec51d29b8a5f3b15d4b03eeaa43a
+Description:  Translation for luci-app-mwan3 - العربية (Arabic)
+
+Package: luci-i18n-mwan3-bg
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-mwan3-bg_25.340.26705~d88390b_all.ipk
+Size: 1756
+SHA256sum: cb01024a78c1cc38f748c4b503cb5cbbef5df20de060ff3006a927c504fe999d
+Description:  Translation for luci-app-mwan3 - български (Bulgarian)
+
+Package: luci-i18n-mwan3-bn
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-mwan3-bn_25.340.26705~d88390b_all.ipk
+Size: 1607
+SHA256sum: ea30557de7c93465d14d64e84d33eb7e42f874aa66f74827f6c04976f0c23f9b
+Description:  Translation for luci-app-mwan3 - বাংলা (Bengali)
+
+Package: luci-i18n-mwan3-ca
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-mwan3-ca_25.340.26705~d88390b_all.ipk
+Size: 1301
+SHA256sum: 574291d42d6fae0f7b226ee48236889f5d9d58143108a7d91360a7a8c1c85ed4
+Description:  Translation for luci-app-mwan3 - Català (Catalan)
+
+Package: luci-i18n-mwan3-cs
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-mwan3-cs_25.340.26705~d88390b_all.ipk
+Size: 5850
+SHA256sum: 935413237b42dea238b8a9c6612e427533318e8cbbd058169156aae4989945fb
+Description:  Translation for luci-app-mwan3 - Čeština (Czech)
+
+Package: luci-i18n-mwan3-da
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-mwan3-da_25.340.26705~d88390b_all.ipk
+Size: 1639
+SHA256sum: c45f8904fcbd5605b4bcdb011e01aaa4d4527a89e28d7010e10f09474eb612fd
+Description:  Translation for luci-app-mwan3 - Dansk (Danish)
+
+Package: luci-i18n-mwan3-de
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-mwan3-de_25.340.26705~d88390b_all.ipk
+Size: 5554
+SHA256sum: bb51880e01c70fa88cee0f7e039c0324f3b36dd18f5c50900d762e8d87180a06
+Description:  Translation for luci-app-mwan3 - Deutsch (German)
+
+Package: luci-i18n-mwan3-el
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-mwan3-el_25.340.26705~d88390b_all.ipk
+Size: 1734
+SHA256sum: 746e0c3207dc79d8bc07283a427ba53c6d3e5f269542e593b082799e81a14471
+Description:  Translation for luci-app-mwan3 - Ελληνικά (Greek)
+
+Package: luci-i18n-mwan3-es
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-mwan3-es_25.340.26705~d88390b_all.ipk
+Size: 5669
+SHA256sum: 42ea620560cdb1d4f1fe178c4c4f2a73481123a04e9b7744e8426e791c9263f4
+Description:  Translation for luci-app-mwan3 - Español (Spanish)
+
+Package: luci-i18n-mwan3-fa
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-mwan3-fa_25.340.26705~d88390b_all.ipk
+Size: 2054
+SHA256sum: f258cf9fd8c66166b40d6e8b0fc3a8a03f9eda44033f59bc02f343a5e42f05b1
+Description:  Translation for luci-app-mwan3 - Farsi (Persian)
+
+Package: luci-i18n-mwan3-fi
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-mwan3-fi_25.340.26705~d88390b_all.ipk
+Size: 1772
+SHA256sum: d9d714b280d823f0955cf5d7163be66ed35ebfeb0f4a17b3d52af2623348c0ab
+Description:  Translation for luci-app-mwan3 - Suomi (Finnish)
+
+Package: luci-i18n-mwan3-fr
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-mwan3-fr_25.340.26705~d88390b_all.ipk
+Size: 5674
+SHA256sum: b78b59fd4cd6304686001b1e4bc8be4f3da15de03cd34b5bcabfe3f167c03f1e
+Description:  Translation for luci-app-mwan3 - Français (French)
+
+Package: luci-i18n-mwan3-ga
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-mwan3-ga_25.340.26705~d88390b_all.ipk
+Size: 5709
+SHA256sum: 411537773ce162d67e54295458085c6416ee66eb02c82f8c1199f458c9c65ffa
+Description:  Translation for luci-app-mwan3 - Gaeilge (Irish)
+
+Package: luci-i18n-mwan3-he
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-mwan3-he_25.340.26705~d88390b_all.ipk
+Size: 1799
+SHA256sum: 494534bb28a9d37b957acd8b439c0420921aea3e3ec87dfedcbbc2dcc70dd80f
+Description:  Translation for luci-app-mwan3 - עִבְרִית (Hebrew)
+
+Package: luci-i18n-mwan3-hi
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-mwan3-hi_25.340.26705~d88390b_all.ipk
+Size: 1242
+SHA256sum: 1bbd8f2bd5c3813675e609a43ce08d1cc06ed4510ee96d190e6201f71e22b042
+Description:  Translation for luci-app-mwan3 - हिंदी (Hindi)
+
+Package: luci-i18n-mwan3-hu
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-mwan3-hu_25.340.26705~d88390b_all.ipk
+Size: 3953
+SHA256sum: 0aaa4a3606ff622dd0b0ced02a97d24322e39c94935a209ebaba6f6a2281584a
+Description:  Translation for luci-app-mwan3 - Magyar (Hungarian)
+
+Package: luci-i18n-mwan3-it
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-mwan3-it_25.340.26705~d88390b_all.ipk
+Size: 2023
+SHA256sum: 2703b591cbc22f23fa467207234f09986d1974b66f913057205f7feeedb59da1
+Description:  Translation for luci-app-mwan3 - Italiano (Italian)
+
+Package: luci-i18n-mwan3-ja
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-mwan3-ja_25.340.26705~d88390b_all.ipk
+Size: 4057
+SHA256sum: 947b2e65dbe96d1187d533cb8da238df71bf26a232677b5af825d021df915a88
+Description:  Translation for luci-app-mwan3 - 日本語 (Japanese)
+
+Package: luci-i18n-mwan3-ko
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-mwan3-ko_25.340.26705~d88390b_all.ipk
+Size: 1548
+SHA256sum: 2af6ecb1f4e79e0480ffa0d6d7be488046aee3cf2d3503daa936d1d738a915d6
+Description:  Translation for luci-app-mwan3 - 한국어 (Korean)
+
+Package: luci-i18n-mwan3-lt
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-mwan3-lt_25.340.26705~d88390b_all.ipk
+Size: 6257
+SHA256sum: d00b39eec7ba80a442bff1ffb3bca5444d4efd0d3faa15e102d7edad0475734f
+Description:  Translation for luci-app-mwan3 - Lietuvių (Lithuanian)
+
+Package: luci-i18n-mwan3-mr
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-mwan3-mr_25.340.26705~d88390b_all.ipk
+Size: 1411
+SHA256sum: 5c176f94a685522d9ac1246e17b3cd2b17165d7802a933fa1c0ab43ca113a936
+Description:  Translation for luci-app-mwan3 - Marāṭhī (Marathi)
+
+Package: luci-i18n-mwan3-ms
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-mwan3-ms_25.340.26705~d88390b_all.ipk
+Size: 1321
+SHA256sum: 15ea93367b24afb40515f7de4e451c9b1063405cad9e41e56d0f326cafd06429
+Description:  Translation for luci-app-mwan3 - Bahasa Melayu (Malay)
+
+Package: luci-i18n-mwan3-nl
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-mwan3-nl_25.340.26705~d88390b_all.ipk
+Size: 1185
+SHA256sum: 63388c49cd524d8d79e84fc6c3a5e6a7cecea828d87a44b28c965f232019316f
+Description:  Translation for luci-app-mwan3 - Nederlands (Dutch)
+
+Package: luci-i18n-mwan3-no
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-mwan3-no_25.340.26705~d88390b_all.ipk
+Size: 1478
+SHA256sum: a25baacb7468fb2840e32a66de056179cca85fc81a87389fd56093382c989026
+Description:  Translation for luci-app-mwan3 - Norsk (Norwegian)
+
+Package: luci-i18n-mwan3-pl
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-mwan3-pl_25.340.26705~d88390b_all.ipk
+Size: 5860
+SHA256sum: 0b65928ae198b5e7f7d5e0b35983c90d8c2caaadfa92a56c92b4d16ef2f32fd8
+Description:  Translation for luci-app-mwan3 - Polski (Polish)
+
+Package: luci-i18n-mwan3-pt-br
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-mwan3-pt-br_25.340.26705~d88390b_all.ipk
+Size: 5619
+SHA256sum: 7225011ac6d162a802c2956c3500d4beb5c5d8b9e6879fb7ccba2673b0c5733c
+Description:  Translation for luci-app-mwan3 - Português do Brasil (Brazilian Portuguese)
+
+Package: luci-i18n-mwan3-pt
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-mwan3-pt_25.340.26705~d88390b_all.ipk
+Size: 5502
+SHA256sum: 242bd09617807fc6f5d827ebac8fff766740b9311df0b9452fd777bab369f56f
+Description:  Translation for luci-app-mwan3 - Português (Portuguese)
+
+Package: luci-i18n-mwan3-ro
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-mwan3-ro_25.340.26705~d88390b_all.ipk
+Size: 5779
+SHA256sum: cb734b10eb99e6d97480bec6bf39c9e65b452d949ee2cf8dbf45e32e7949ca6e
+Description:  Translation for luci-app-mwan3 - Română (Romanian)
+
+Package: luci-i18n-mwan3-ru
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 30720
+Filename: luci-i18n-mwan3-ru_25.340.26705~d88390b_all.ipk
+Size: 6469
+SHA256sum: 3917d7fb64b5bce429e4eb3d65e06c5ba126d4da900d9777d6fe7363aceb869d
+Description:  Translation for luci-app-mwan3 - Русский (Russian)
+
+Package: luci-i18n-mwan3-sk
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-mwan3-sk_25.340.26705~d88390b_all.ipk
+Size: 1680
+SHA256sum: 9acef8fb45b01b44cf2ad76ed47258e0e070216e7cdfd9aa8c07782fcfb40a81
+Description:  Translation for luci-app-mwan3 - Slovenčina (Slovak)
+
+Package: luci-i18n-mwan3-sv
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-mwan3-sv_25.340.26705~d88390b_all.ipk
+Size: 2357
+SHA256sum: 417aa0c49f03540da553d9dd88f318c93ac2c2d0a4f2fc379e1f3b491b6d7ba8
+Description:  Translation for luci-app-mwan3 - Svenska (Swedish)
+
+Package: luci-i18n-mwan3-tr
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-mwan3-tr_25.340.26705~d88390b_all.ipk
+Size: 5649
+SHA256sum: a79e10f5a1faceb77d0aef0831f324926d4bd716d60aca5c6c20ee8d0de56fe2
+Description:  Translation for luci-app-mwan3 - Türkçe (Turkish)
+
+Package: luci-i18n-mwan3-uk
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 30720
+Filename: luci-i18n-mwan3-uk_25.340.26705~d88390b_all.ipk
+Size: 6378
+SHA256sum: 06ff15e745b408a8ba9c0e2c7fa4fc6e56abdf642a92e4b84b10e2c4773e95d7
+Description:  Translation for luci-app-mwan3 - Українська (Ukrainian)
+
+Package: luci-i18n-mwan3-vi
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-mwan3-vi_25.340.26705~d88390b_all.ipk
+Size: 5469
+SHA256sum: 4e8a284b8a642af543e416f1c86afd348277138a604558ea3e1cd62fefcb5d7d
+Description:  Translation for luci-app-mwan3 - Tiếng Việt (Vietnamese)
+
+Package: luci-i18n-mwan3-yua
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-mwan3-yua_25.340.26705~d88390b_all.ipk
+Size: 5658
+SHA256sum: dcff63b2aecefa7eabe686ae3ebbebeed36a4af7b7a05baf47777af5bbce8917
+Description:  Translation for luci-app-mwan3 - Yucateco (Yucatec Maya)
+
+Package: luci-i18n-mwan3-zh-cn
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-mwan3-zh-cn_25.340.26705~d88390b_all.ipk
+Size: 5503
+SHA256sum: 412b9617e04fb56e25d8f2463251ac3eb774bd8b003d2a5ffe76c56046e630b1
+Description:  Translation for luci-app-mwan3 - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-mwan3-zh-tw
+Version: 25.340.26705~d88390b
+Depends: libc, luci-app-mwan3
+Source: feeds/luci/applications/luci-app-mwan3
+SourceName: luci-app-mwan3
+License: GPL-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-mwan3-zh-tw_25.340.26705~d88390b_all.ipk
+Size: 5570
+SHA256sum: 0850d680125ffa4a45de580aaa8f6611c3ea3c3b8aa017504e55e1638b46b7c4
+Description:  Translation for luci-app-mwan3 - 正體中文 (Traditional Chinese)
+
 Package: luci-lib-base
 Version: 25.340.26705~d88390b
 Depends: libc, lua, luci-lib-nixio, luci-lib-ip, luci-lib-jsonc, liblucihttp-lua
@@ -727,6 +1336,23 @@ Filename: luci-lib-ip_25.340.26705~d88390b_aarch64_cortex-a53.ipk
 Size: 13243
 SHA256sum: 8dc89aeb53c2c6f14a8aa94991990bde296a5e3bc70600a3572e09fc45d3a008
 Description:  Lua library for IP calculation and routing information
+
+Package: luci-lib-ipkg
+Version: 25.340.26705~d88390b
+Depends: libc, luci-base, luci-lua-runtime
+Source: feeds/luci/libs/luci-lib-ipkg
+SourceName: luci-lib-ipkg
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 10240
+Filename: luci-lib-ipkg_25.340.26705~d88390b_all.ipk
+Size: 2954
+SHA256sum: 1171d12d7feed56117097ac861f182b930781715f1056a33edc917cd3b74b281
+Description:  Legacy opkg interface class
 
 Package: luci-lib-jsonc
 Version: 25.340.26705~d88390b
