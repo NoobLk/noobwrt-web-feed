@@ -8,37 +8,50 @@ layout: base
 <table style="width:100%">
   <tr>
     <th>Name</th>
-  </tr>
+    <th>Type</th>
+    <th>Size</th>
+  </tr>
 
-<!-- ref: <github.com/bryango/resources> start -->
-{%- for res in site.pages -%}
+<!-- Display all directories and files from releases folder -->
+{%- assign items = site.static_files | where_exp: "item", "item.path contains '/releases/'" -%}
+{%- assign dirs = "" | split: "" -%}
 
-<!-- ignore /assets/ -->
-  {%- assign checkStart = res.url | split: '/assets/' -%}
-  {%- if checkStart[0] == '' -%}
+{%- for file in items -%}
+  {%- assign file_path = file.path | remove_first: "/releases" -%}
+  {%- assign parts = file_path | split: "/" -%}
+  
+  {%- if parts.size > 1 -%}
+    {%- assign dir_name = parts[0] -%}
+    
+    {%- if dirs contains dir_name -%}
+      {%- continue -%}
+    {%- else -%}
+      {%- assign dirs = dirs | push: dir_name -%}
+      <tr>
+        <td><a class="post-link" href="releases/{{ dir_name }}/" >{{ dir_name }}/</a></td>
+        <td>folder</td>
+        <td>-</td>
+      </tr>
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+
+<!-- Display files in current directory -->
+{%- for file in site.static_files -%}
+  {%- if file.path == "/index.html" -%}
     {%- continue -%}
   {%- endif -%}
-<!-- ignore / -->
-  {%- assign checkStart = res.url | split: page.url -%}
-  {%- if checkStart[0] != '' -%}
+  
+  {%- if file.path contains "/assets/" or file.path contains "/.git" or file.path contains "/prenodes.sh" -%}
     {%- continue -%}
   {%- endif -%}
-<!-- keep /*/ -->
-  {%- assign target = res.url | remove_first: page.url -%}
-  {%- if target contains '/' -%}
-    {%- assign folder_new = target | split: '/' | first -%}
-  {%- else -%}
-    {%- continue -%}
-  {%- endif -%}
-<!-- register new subdir -->
-  {%- if folder_new != folder -%}
-    {%- assign folder = folder_new -%}
+  
+  {%- assign depth = file.path | split: "/" | size -%}
+  {%- if depth == 2 -%}
     <tr>
-      <td><a class="post-link" href="{{ folder | append: '/' }}" >{{ folder | append: '/' }}</a></td>
+      <td><a class="post-link" href="{{ file.path }}" >{{ file.name }}</a></td>
+      <td>file</td>
+      <td>{{ file.size | divided_by: 1024 }} KB</td>
     </tr>
   {%- endif -%}
-
-{% endfor %}
-<!-- ref: <github.com/bryango/resources> end -->
-
-</table>
+{%- endfor -%}
