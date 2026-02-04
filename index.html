@@ -12,6 +12,13 @@ layout: base
     <th>Size</th>
   </tr>
 
+<!-- Display releases folder link -->
+<tr>
+  <td><a class="post-link" href="releases/" >releases/</a></td>
+  <td>folder</td>
+  <td>-</td>
+</tr>
+
 <!-- Display all directories and files from releases folder -->
 {%- assign items = site.static_files | where_exp: "item", "item.path contains '/releases/'" -%}
 {%- assign dirs = "" | split: "" -%}
