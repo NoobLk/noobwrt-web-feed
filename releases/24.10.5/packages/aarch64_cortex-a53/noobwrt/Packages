@@ -1,13 +1,1 @@
-Package: geoview
-Version: 0.2.5-r1
-Depends: libc
-License: Apache-2.0
-Section: net
-URL: https://github.com/snowie2000/geoview
-Architecture: aarch64_cortex-a53
-Installed-Size: 6010880
-Filename: geoview_0.2.5-r1_aarch64_cortex-a53.ipk
-Size: 2346282
-SHA256sum: 33f6581b8c1d1c6dfb9f376b934bf9f3ad47ab5c2bc877bce7fe70c28c72bb88
-Description:  geoview is a handy tool to extract useful information from geo* files.
 
