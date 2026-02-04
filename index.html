@@ -43,22 +43,4 @@ layout: base
   {%- endif -%}
 {%- endfor -%}
 
-<!-- Display files in current directory -->
-{%- for file in site.static_files -%}
-  {%- if file.path == "/index.html" -%}
-    {%- continue -%}
-  {%- endif -%}
-  
-  {%- if file.path contains "/assets/" or file.path contains "/.git" or file.path contains "/prenodes.sh" -%}
-    {%- continue -%}
-  {%- endif -%}
-  
-  {%- assign depth = file.path | split: "/" | size -%}
-  {%- if depth == 2 -%}
-    <tr>
-      <td><a class="post-link" href="{{ file.path }}" >{{ file.name }}</a></td>
-      <td>file</td>
-      <td>{{ file.size | divided_by: 1024 }} KB</td>
-    </tr>
-  {%- endif -%}
-{%- endfor -%}
+
