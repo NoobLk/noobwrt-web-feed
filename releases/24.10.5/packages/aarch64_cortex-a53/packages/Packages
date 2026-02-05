@@ -143,6 +143,22 @@ Size: 135244
 SHA256sum: cc04c61dbd1c76d398d856095ee6a966a4ecbdf000fb94f234951af2edcfe858
 Description:  Managed Domain handling.
 
+Package: apache-mod-php8
+Version: 8.3.27-r1
+Depends: libc, php8, apache, libstdcpp6, libpcre2, zlib
+License: PHP-3.01
+Section: net
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 4864000
+Filename: apache-mod-php8_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 1673214
+SHA256sum: 469758f1e875382c35cd225254b73a6bacce2b5d5749d2548396850af0c1b4a7
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the PHP module for the Apache Web Server.
+
 Package: apache-mod-proxy-html
 Version: 2.4.65-r1
 Depends: libc, apache, apache-mod-proxy, libxml2-16
@@ -328,10 +344,580 @@ CPE-ID: cpe:/a:gnu:bc
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: bc_1.07.1-r1_aarch64_cortex-a53.ipk
-Size: 36742
-SHA256sum: 025a1235b608db4121fce633e0fd63d2cee5ce51cffe4fa5790b6e28a702ec08
+Size: 36668
+SHA256sum: e36cf3a808574498d41adef00735ff9abe4508a62fd8e6a8fbf4cf85a9c8b4ef
 Description:  bc is a language that supports arbitrary precision numbers with
  interactive execution of statements.
+
+Package: bluez-daemon
+Version: 5.72-r2
+Depends: libc, bluez-libs, bluez-utils, bluez-utils-extra, glib2, libncurses6, libreadline8, dbus, libical
+License: GPL-2.0-or-later
+Section: utils
+URL: https://www.bluez.org/
+CPE-ID: cpe:/a:bluez:bluez
+Architecture: aarch64_cortex-a53
+Installed-Size: 2242560
+Filename: bluez-daemon_5.72-r2_aarch64_cortex-a53.ipk
+Size: 844733
+SHA256sum: c83287b8c775857f5d2989a00ede28ab46d0b2e29caf799eff73badffae185df
+Description:  Bluetooth daemon
+
+Package: bluez-libs
+Version: 5.72-r2
+Depends: libc, libpthread, kmod-bluetooth
+License: GPL-2.0-or-later
+Section: libs
+URL: https://www.bluez.org/
+CPE-ID: cpe:/a:bluez:bluez
+Architecture: aarch64_cortex-a53
+Installed-Size: 215040
+Filename: bluez-libs_5.72-r2_aarch64_cortex-a53.ipk
+Size: 79557
+SHA256sum: 4192cf1e1188d18523e9d70ae8748f0603fe0112fa8f852aade7481eafad3ac4
+Description:  Bluetooth library
+
+Package: bluez-utils-btmon
+Version: 5.72-r2
+Depends: libc, bluez-libs, glib2
+License: GPL-2.0-or-later
+Section: utils
+URL: https://www.bluez.org/
+CPE-ID: cpe:/a:bluez:bluez
+Architecture: aarch64_cortex-a53
+Installed-Size: 798720
+Filename: bluez-utils-btmon_5.72-r2_aarch64_cortex-a53.ipk
+Size: 279081
+SHA256sum: 73dc57929c2c733b599eb85d56d1964105e99689312dd3269362a905690ca340
+Description:  Bluetooth utilities
+
+Package: bluez-utils-extra
+Version: 5.72-r2
+Depends: libc, bluez-libs, libpthread, librt, glib2, libncurses6, libreadline8, dbus
+License: GPL-2.0-or-later
+Section: utils
+URL: https://www.bluez.org/
+CPE-ID: cpe:/a:bluez:bluez
+Architecture: aarch64_cortex-a53
+Installed-Size: 614400
+Filename: bluez-utils-extra_5.72-r2_aarch64_cortex-a53.ipk
+Size: 169745
+SHA256sum: c6bb6017d9cc26437a1bf8594c802fa1b3ecaac60e0dfd4acb3e72e692de622e
+Description:  Bluetooth additional utilities
+
+Package: bluez-utils
+Version: 5.72-r2
+Depends: libc, bluez-libs
+License: GPL-2.0-or-later
+Section: utils
+URL: https://www.bluez.org/
+CPE-ID: cpe:/a:bluez:bluez
+Architecture: aarch64_cortex-a53
+Installed-Size: 1474560
+Filename: bluez-utils_5.72-r2_aarch64_cortex-a53.ipk
+Size: 381834
+SHA256sum: c8f8c2a0c7551e1feb1856faa82d4aafed323f1f428115d629d5954b4d83a1b3
+Description:  Bluetooth utilities
+
+Package: boost-atomic
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt, boost-system
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: boost-atomic_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 4197
+SHA256sum: 56382b3928c0d1670e5217bf072ed275d1192b2d25307d06fbc6917827f98787
+Description:  This package contains the Boost atomic library.
+
+Package: boost-charconv
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt, libquadmath
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: boost-charconv_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 64973
+SHA256sum: 43d6a371dcf2fa23a652c1240fe7412c5df080cd4d02e73891eff1c7874aa558
+Description:  This package contains the Boost charconv library.
+
+Package: boost-chrono
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt, boost-system
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: boost-chrono_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 9629
+SHA256sum: 2072021bfd46e922a21b473dc4d9fb7e710ca8cea18d9957c16d35a675691e89
+Description:  This package contains the Boost chrono library.
+
+Package: boost-cobalt
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt, boost-system, boost-container
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: boost-cobalt_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 42123
+SHA256sum: 84153ab26742b1db0d369826452775a6c492b461e620224481017794248ba55f
+Description:  This package contains the Boost cobalt library.
+
+Package: boost-container
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: boost-container_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 22515
+SHA256sum: 62987b9c545fcc7af6f6313a768453f5578ddccbd36b18cf82b0fa37ae42b9df
+Description:  This package contains the Boost container library.
+
+Package: boost-context
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt, boost-chrono, boost-system
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: boost-context_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 2661
+SHA256sum: 4152b291234567d4715a29741aa7c0126c86bad00dab39f0633fb72207000861
+Description:  This package contains the Boost context library.
+
+Package: boost-contract
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt, boost-system
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: boost-contract_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 21873
+SHA256sum: 4508482af82a5f4d530ce48f44352cf89820f6e9250ad0849961a671978865a1
+Description:  This package contains the Boost contract library.
+
+Package: boost-coroutine
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt, boost-system, boost-chrono, boost-context, boost-thread
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: boost-coroutine_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 5136
+SHA256sum: 6c00cd8400e838c15fa988e49fd34136435ebf9820a030bbf0209bfb9d5217d5
+Description:  This package contains the Boost coroutine library.
+
+Package: boost-date_time
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: boost-date_time_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 1802
+SHA256sum: af3576d4f4b2d31cffc64a44f7a30a40b90a98cbc695d8958c871e9f432d48a3
+Description:  This package contains the Boost date_time library.
+
+Package: boost-fiber
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt, boost-coroutine, boost-filesystem
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: boost-fiber_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 24076
+SHA256sum: 8fb095090f3c3978db8e556c362ebcd5221315b0560d5f43e8776b904911cfe0
+Description:  This package contains the Boost fiber library.
+
+Package: boost-filesystem
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt, boost-system, boost-atomic
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: boost-filesystem_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 43085
+SHA256sum: 3370c473f4d5600335ff5292a4fa907dcd0434c9f80f102816a5472ca4d220fc
+Description:  This package contains the Boost filesystem library.
+
+Package: boost-graph
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt, boost-regex
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 276480
+Filename: boost-graph_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 92910
+SHA256sum: 54a37049e6c72c66d7827fde1bf0a6adaac117052df626d691a5fbf4e0158256
+Description:  This package contains the Boost graph library.
+
+Package: boost-iostreams
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt, zlib, liblzma, libbz2-1.0, libzstd
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: boost-iostreams_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 20612
+SHA256sum: 7f76adead246ff802a463ac055c7f079b9ade1573f0a30a7e8c6fd3dc466158d
+Description:  This package contains the Boost iostreams library.
+
+Package: boost-json
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt, boost-container
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 337920
+Filename: boost-json_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 114539
+SHA256sum: 614b1c1e6031b8ea9173236d6725660d1782684b0bed0992e5cece5eb4626410
+Description:  This package contains the Boost json library.
+
+Package: boost-locale
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt, boost-system, boost-chrono, boost-thread, icu75
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 399360
+Filename: boost-locale_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 115178
+SHA256sum: 665529fb3e09b60e38c99bffebf6be070534dd98b5fdcdb41aaccd476c993a74
+Description:  This package contains the Boost locale library.
+
+Package: boost-log
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt, boost-system, boost-chrono, boost-date_time, boost-thread, boost-filesystem, boost-regex
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 1126400
+Filename: boost-log_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 357966
+SHA256sum: b2ba4ca86fd178285d2fa05c988d483216055f00d0598ebb42ac54f1b0caddde
+Description:  This package contains the Boost log library.
+
+Package: boost-math
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 737280
+Filename: boost-math_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 270722
+SHA256sum: b114e983e6ce791115e5dc6de4983d95a8d0dab510d5a7d38b93a6339a0121d3
+Description:  This package contains the Boost math library.
+
+Package: boost-nowide
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: boost-nowide_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 5850
+SHA256sum: 204f6f2f2779118df6fb94e2313cf2373aeb447a50fcad9d07bddff99a4af185
+Description:  This package contains the Boost nowide library.
+
+Package: boost-program_options
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: boost-program_options_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 68120
+SHA256sum: b7e0d072225b0fa924fc884c0d0f6f0257c03d0179715693ebd2234431bf024d
+Description:  This package contains the Boost program_options library.
+
+Package: boost-python3
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt, python3-base
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: boost-python3_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 66270
+SHA256sum: 1788668e9e0c77c15f98b20087495f4f2de58ec269f62179a20bfbbf76feb29f
+Description:  This package contains the Boost python3 library.
+
+Package: boost-random
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt, boost-system
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: boost-random_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 8163
+SHA256sum: 1d017b0d7e69dba90c3942c402ef34759fa6f3faf2572db2aca24a1dd8efc158
+Description:  This package contains the Boost random library.
+
+Package: boost-regex
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt, icu75
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: boost-regex_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 78089
+SHA256sum: 687196899479c44a676bc158fee8a7670d603451cb2f38198efcdbbc2b3e9860
+Description:  This package contains the Boost regex library.
+
+Package: boost-serialization
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 266240
+Filename: boost-serialization_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 62008
+SHA256sum: c3e69532336743bf180963092592b308381a85b1e13fe77c499774859f1d80f2
+Description:  This package contains the Boost serialization library.
+
+Package: boost-stacktrace
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: boost-stacktrace_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 6338
+SHA256sum: d88cfb2a34b07974bff11741259e8f27bce19ebe0606ba2b88ef19cceedd6c5a
+Description:  This package contains the Boost stacktrace library.
+
+Package: boost-system
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: boost-system_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 1789
+SHA256sum: 3a4916e753e2329c0b7efa775e9b3a8f27b563258832cf5c6cdad283f7ff8f04
+Description:  This package contains the Boost system library.
+
+Package: boost-test
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt, boost-system, boost-timer
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 532480
+Filename: boost-test_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 177632
+SHA256sum: 74c7e106d42b607b7aced544dd97ffb0aae59251cf01f1c98cfa74891c12642c
+Description:  Boost C++ source library (test)
+
+Package: boost-thread
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt, boost-system, boost-chrono, boost-atomic
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: boost-thread_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 23719
+SHA256sum: 31bf5c8cd7fe9b9f9521858edeff8910cb12a0d68d3d005be51a12e384a23d1d
+Description:  This package contains the Boost thread library.
+
+Package: boost-timer
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt, boost-chrono
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: boost-timer_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 5350
+SHA256sum: 87c4ee79da5ebb6e171532da91c00b0fd1ecb06ae961fc06370754e9270f0c9b
+Description:  This package contains the Boost timer library.
+
+Package: boost-type_erasure
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt, boost-chrono, boost-system, boost-thread
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: boost-type_erasure_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 13136
+SHA256sum: cb5e4ff1ef7b0d2b3af76eb37a55b7c8f02531ff63bccedb14fb4904c474cf50
+Description:  This package contains the Boost type_erasure library.
+
+Package: boost-url
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 337920
+Filename: boost-url_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 100579
+SHA256sum: 04c1cb1a9f75f1d208dca45614aeda2f11deefc1ed3906860350a03c2997c56f
+Description:  This package contains the Boost url library.
+
+Package: boost-wave
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt, boost-date_time, boost-thread, boost-filesystem
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 727040
+Filename: boost-wave_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 190284
+SHA256sum: 51ff97ac01c2b03b7b4312433a4c4078158926314aae2153e5a97da2717527bc
+Description:  This package contains the Boost wave library.
+
+Package: boost-wserialization
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt, boost-serialization
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: boost-wserialization_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 41930
+SHA256sum: 9354de5c6d137b56b09546a2ac12d965013600883a9fd47b86d0972b92c99a27
+Description:  This package contains the Boost wserialization library.
+
+Package: boost
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: boost_1.86.0-r1_aarch64_cortex-a53.ipk
+Size: 1252
+SHA256sum: c10cea89c61c1d999387c27dbdfb2ed9251952d322e708b7f9c5df3f1c9d9767
+Description:  This package provides the Boost v1.86.0 libraries.
+ Boost is a set of free, peer-reviewed, portable C++ source libraries.
+ 
+ This package provides the following run-time libraries:
+ - atomic
+ - charconv
+ - chrono
+ - cobalt
+ - container
+ - context
+ - contract
+ - coroutine and coroutine2 (Coroutine is deprecated - use Coroutine2)
+ - date_time
+ - exception
+ - filesystem
+ - fiber
+ - graph
+ - - graph-parallel
+ - iostreams
+ - json
+ - locale
+ - log
+ - math
+ - nowide
+ - program_options
+ - python3
+ - random
+ - regex
+ - serialization and wserialization
+ - stackstrace
+ - system
+ - thread
+ - timer
+ - type_erasure
+ - url
+ - wave
+ 
+ There are many more header-only libraries supported by Boost.
+ See more at http://www.boost.org/doc/libs/1_86_0/
 
 Package: btrfs-progs
 Version: 6.11-r1
@@ -3104,6 +3690,33 @@ Size: 125347
 SHA256sum: c2126e611fc92f715c6995c4d68acf674d54f24dc46cb5e97bbd73732c4517ad
 Description:  PostgreSQL client library.
 
+Package: libpython3-3.11
+Version: 3.11.14-r1
+Depends: libc, libpthread
+Provides: libpython3
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+ABIVersion: -3.11
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 4679680
+Filename: libpython3-3.11_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 1362689
+SHA256sum: 82413b5c575ad32f299c782aaf7a4b92249b04e6b982155d8e600e47f3a12421
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains only core Python library.
+
 Package: librespeed-go
 Version: 1.1.5-r5
 Depends: libc
@@ -3762,6 +4375,2095 @@ Description:  unixODBC is an Open Source ODBC sub-system and an ODBC SDK for Lin
  Mac OSX, and UNIX.
  
  This package provides the PostgreSQL driver for ODBC.
+
+Package: php8-cgi
+Version: 8.3.27-r1
+Depends: libc, php8, libstdcpp6
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 4208640
+Filename: php8-cgi_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 1580495
+SHA256sum: 4a901e5102cf5f85d545b08fa022d79cdaf32adf1b93bc8363370ae0fa105203
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the CGI version of the PHP8 interpreter.
+
+Package: php8-cli
+Version: 8.3.27-r1
+Depends: libc, php8, libstdcpp6
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 4280320
+Filename: php8-cli_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 1601228
+SHA256sum: 1f69b6cd10da8ea6e9038a2a3bbed310ea633a14ce67200085536cebc8240cce
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the CLI version of the PHP8 interpreter.
+
+Package: php8-fastcgi
+Version: 8.3.27-r1
+Depends: libc, php8, php8-cgi
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: php8-fastcgi_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 1409
+SHA256sum: c5e72b711ebbec68c77d9da90f7476ffe5f16f78832f10fc5ab8407386433c37
+Description:  As FastCGI support is now a core feature the php8-fastcgi package now depends
+ on the php8-cgi package, containing just the startup script.
+
+Package: php8-fpm
+Version: 8.3.27-r1
+Depends: libc, php8, libstdcpp6
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 4311040
+Filename: php8-fpm_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 1639492
+SHA256sum: e96218cd28e245c5f722f1eea1c0c38ce5adab08aa5183dbfd48ceaccb85785c
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the FastCGI Process Manager of the PHP8 interpreter.
+
+Package: php8-mod-bcmath
+Version: 8.3.27-r1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: php8-mod-bcmath_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 13645
+SHA256sum: 4169ed91be47df759c440cf5d729d0bc513a462194766c4bc1d3662d333cb5e8
+Description:  Bcmath shared module
+
+Package: php8-mod-calendar
+Version: 8.3.27-r1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: php8-mod-calendar_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 11606
+SHA256sum: fb1aae23e417bb7c5999c0f3c496066c2582542a1a9b8ec0d8c82c786392e389
+Description:  Calendar shared module
+
+Package: php8-mod-ctype
+Version: 8.3.27-r1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: php8-mod-ctype_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 3620
+SHA256sum: 28c3bb4f08c6de8d3b9f80ec4ead7d3e409daf0fab5b97494bd14f4643e713d0
+Description:  Ctype shared module
+
+Package: php8-mod-curl
+Version: 8.3.27-r1
+Depends: libc, php8, libcurl4
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: php8-mod-curl_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 37087
+SHA256sum: 9f28b90bca6d02b59b19471c728099728be77237c24cae3d60f88fea3875f520
+Description:  cURL shared module
+
+Package: php8-mod-dom
+Version: 8.3.27-r1
+Depends: libc, php8, libxml2-16
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 276480
+Filename: php8-mod-dom_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 65892
+SHA256sum: 705966eb17785d266750d62cdefd98e56520ff3c7292727863b7be9badc663b6
+Description:  DOM shared module
+
+Package: php8-mod-exif
+Version: 8.3.27-r1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: php8-mod-exif_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 29601
+SHA256sum: 948434ea4384e208b578ac11be2c57bd16b202b5c1bf9962943ce0b769b02d56
+Description:  EXIF shared module
+
+Package: php8-mod-fileinfo
+Version: 8.3.27-r1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 8140800
+Filename: php8-mod-fileinfo_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 457705
+SHA256sum: 051af5223f36931e719936d6f832430a99f9ea5787212516d842cb957b318e12
+Description:  Fileinfo shared module
+
+Package: php8-mod-filter
+Version: 8.3.27-r1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: php8-mod-filter_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 17823
+SHA256sum: 27ac7e991bd3c06c47a14bab33e6b88d1376b39561aed9bb47b69fed90893b76
+Description:  Filter shared module
+
+Package: php8-mod-ftp
+Version: 8.3.27-r1
+Depends: libc, php8, libopenssl3
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: php8-mod-ftp_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 21162
+SHA256sum: c49c014f343f1084eb31744e31e23098c52aa7b221618de1edb59fa7e4ea8748
+Description:  FTP shared module
+
+Package: php8-mod-gd
+Version: 8.3.27-r1
+Depends: libc, php8, libgd-full
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: php8-mod-gd_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 28860
+SHA256sum: 863ad1105849faa66e9959b3af6a64bfd07078775a185159dc20e125065cda96
+Description:  GD graphics shared module
+
+Package: php8-mod-gettext
+Version: 8.3.27-r1
+Depends: libc, php8, libintl-full8
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: php8-mod-gettext_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 4745
+SHA256sum: ee4b7ecc375d9846bcc190b8594824166f31dbad177406773f7299f7869e1975
+Description:  Gettext shared module
+
+Package: php8-mod-gmp
+Version: 8.3.27-r1
+Depends: libc, php8, libgmp10
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: php8-mod-gmp_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 17667
+SHA256sum: b8cbe049512039fbee976b48f991dc4a1637b218d04f610a8b9e121c7663995a
+Description:  GMP shared module
+
+Package: php8-mod-iconv
+Version: 8.3.27-r1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: php8-mod-iconv_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 15835
+SHA256sum: 752117361b228fc0d8391a652eb261b5c00ceecfc902f30ab6de94d92c73f746
+Description:  iConv shared module
+
+Package: php8-mod-imap
+Version: 8.3.27-r1
+Depends: libc, php8, libopenssl3, libpam, uw-imap
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: php8-mod-imap_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 31408
+SHA256sum: 1c7544c8a50bd530d53450a18ed3ed603230717741cacbb55f682c8fafa2b03d
+Description:  IMAP shared module
+
+Package: php8-mod-intl
+Version: 8.3.27-r1
+Depends: libc, php8, icu75
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 604160
+Filename: php8-mod-intl_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 159750
+SHA256sum: 097d56a045eb36b1d054c2e8bbc1f7da1fc23c15ea5ec0e5bda4a2d385006be5
+Description:  Note that this package depends in ICU library which is built without data
+ by default. This is to satisfy programs build and run dependencies but to
+ keep the installed footprint small on the target system(s).
+ However, the data is required to make the ICU library useful - and thus
+ directly affects PHPs ICU extension, too - so consider to also
+ select/install package 'icu-full-data'.
+
+Package: php8-mod-ldap
+Version: 8.3.27-r1
+Depends: libc, php8, libopenldap, libsasl2
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: php8-mod-ldap_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 31160
+SHA256sum: 4be3025f6a929ddb2e1ebb82c202c1309fdd54ba55bc706845c3d4f1f941dfc4
+Description:  LDAP shared module
+
+Package: php8-mod-mbstring
+Version: 8.3.27-r1
+Depends: libc, php8, oniguruma5
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 1187840
+Filename: php8-mod-mbstring_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 625040
+SHA256sum: c3d897b7399c75f664d4a15779418124b9e9d5291726e2256f6cb182c99c1956
+Description:  MBString shared module
+
+Package: php8-mod-mysqli
+Version: 8.3.27-r1
+Depends: libc, php8, php8-mod-mysqlnd
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: php8-mod-mysqli_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 41367
+SHA256sum: 20c953844016063be62ec2b7fb11dcb2c3aefd200683d3981552124af068c8e2
+Description:  MySQL Improved Extension shared module
+
+Package: php8-mod-mysqlnd
+Version: 8.3.27-r1
+Depends: libc, php8, php8-mod-openssl
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 276480
+Filename: php8-mod-mysqlnd_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 76697
+SHA256sum: d65e6f8356b8561d179245f831b55f9f328a73ebb2232c65c084cc378179175f
+Description:  MySQL Native Driver shared module
+
+Package: php8-mod-opcache
+Version: 8.3.27-r1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 1648640
+Filename: php8-mod-opcache_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 468270
+SHA256sum: c1f7c0b91b72456cd7a39daf3688be1e8291951d6f3fe80fca7b62d7bf29d7b4
+Description:  OPcache shared module
+
+Package: php8-mod-openssl
+Version: 8.3.27-r1
+Depends: libc, php8, libopenssl3
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: php8-mod-openssl_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 67478
+SHA256sum: 780540771ba23574b55c75524c7aa0a8eed29696fb5c77fe985b518da01ff08a
+Description:  OpenSSL shared module
+
+Package: php8-mod-pcntl
+Version: 8.3.27-r1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: php8-mod-pcntl_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 13472
+SHA256sum: a4f33e8b69aadee67858e2dbc9854ac835ec90052215366c151bedc9ba03932d
+Description:  PCNTL shared module
+
+Package: php8-mod-pdo-mysql
+Version: 8.3.27-r1
+Depends: libc, php8, php8-mod-pdo, php8-mod-mysqlnd
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: php8-mod-pdo-mysql_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 11087
+SHA256sum: 5dd965072bfed374a97f9c160105deca5993ebed0055e561c412cb0865bd8409
+Description:  PDO driver for MySQL shared module
+
+Package: php8-mod-pdo-pgsql
+Version: 8.3.27-r1
+Depends: libc, php8, php8-mod-pdo, libpq
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: php8-mod-pdo-pgsql_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 17674
+SHA256sum: e508590813c2a13330dfec62abffe88333e2bc6c24067ff4da47ef3c98c24ac8
+Description:  PDO driver for PostgreSQL shared module
+
+Package: php8-mod-pdo-sqlite
+Version: 8.3.27-r1
+Depends: libc, php8, php8-mod-pdo, libsqlite3-0, librt
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: php8-mod-pdo-sqlite_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 11415
+SHA256sum: 2370341b4137a12306fef937504afa85645d1132a99d91eb5734b0c3018aaf1f
+Description:  PDO driver for SQLite 3.x shared module
+
+Package: php8-mod-pdo
+Version: 8.3.27-r1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: php8-mod-pdo_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 41541
+SHA256sum: fa32ca1151b102a9a26a290d94c0bf077bb11392924962f19bfcb007fda8a446
+Description:  PHP Data Objects shared module
+
+Package: php8-mod-pgsql
+Version: 8.3.27-r1
+Depends: libc, php8, libpq
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: php8-mod-pgsql_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 44613
+SHA256sum: 362aa53a0aa10cb9adfb24d6c3dd72f80e472148680e8829824e33c5be2e687c
+Description:  PostgreSQL shared module
+
+Package: php8-mod-phar
+Version: 8.3.27-r1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 276480
+Filename: php8-mod-phar_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 99242
+SHA256sum: ba89578b87b502617af1f60194a3b1a9065fdf051bab14eb252810d2a8797c2d
+Description:  Phar Archives shared module
+
+Package: php8-mod-session
+Version: 8.3.27-r1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: php8-mod-session_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 34508
+SHA256sum: 605e8a3b77dc74fbb12be5f14cfff93c26d58e28370d69ff2b0e4530c819234b
+Description:  Session shared module
+
+Package: php8-mod-shmop
+Version: 8.3.27-r1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: php8-mod-shmop_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 4797
+SHA256sum: 3b5130495924f4543070d7c072a74a21ca15c9aaa3915f4f7219d7b45602cb11
+Description:  Shared Memory shared module
+
+Package: php8-mod-simplexml
+Version: 8.3.27-r1
+Depends: libc, php8, libxml2-16
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: php8-mod-simplexml_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 18962
+SHA256sum: 699623826575aa2057d241256eac26cf10e07fed5ec7762cfd189b47add9c259
+Description:  SimpleXML shared module
+
+Package: php8-mod-snmp
+Version: 8.3.27-r1
+Depends: libc, php8, libnetsnmp, libopenssl3
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: php8-mod-snmp_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 19819
+SHA256sum: 28959b6ad5d0ec9894ef5cc46470632e82e281bd96c70164f5b2371d55a406fa
+Description:  SNMP shared module
+
+Package: php8-mod-soap
+Version: 8.3.27-r1
+Depends: libc, php8, libxml2-16
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 337920
+Filename: php8-mod-soap_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 121808
+SHA256sum: b35643bc899b115de96c076a749780feabaf28da51329fb1419fb1f211902c3c
+Description:  SOAP shared module
+
+Package: php8-mod-sockets
+Version: 8.3.27-r1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: php8-mod-sockets_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 35723
+SHA256sum: 679cf8f0c74db79cd0b4919acbd8736f6be092d8fdd31d04bc29dee4c24b46d5
+Description:  Sockets shared module
+
+Package: php8-mod-sodium
+Version: 8.3.27-r1
+Depends: libc, php8, libsodium
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: php8-mod-sodium_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 21329
+SHA256sum: 45a433ab053ec0a3982be8ff3bfb200fc75a00bc54f190d8b16efc642cc6c7fb
+Description:  Sodium shared module
+
+Package: php8-mod-sqlite3
+Version: 8.3.27-r1
+Depends: libc, php8, libsqlite3-0
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: php8-mod-sqlite3_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 22547
+SHA256sum: 173e9643141deca141ee8dda24d42226006825f5df19276b26dccb90f969f4db
+Description:  SQLite3 shared module
+
+Package: php8-mod-sysvmsg
+Version: 8.3.27-r1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: php8-mod-sysvmsg_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 6687
+SHA256sum: d3a901dc613ec8b833c441cb6e8a8c1f0f47764884de23f9e81856820c93ea79
+Description:  System V messages shared module
+
+Package: php8-mod-sysvsem
+Version: 8.3.27-r1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: php8-mod-sysvsem_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 4533
+SHA256sum: dbdf5d822de212a22a3da726720c7b6238e70d095a3f77d2553c7021a572fd8f
+Description:  System V shared memory shared module
+
+Package: php8-mod-sysvshm
+Version: 8.3.27-r1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: php8-mod-sysvshm_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 5349
+SHA256sum: 580faf11ccffc072a25031be8d18ea33398e3eafcfcad4dc1c51b54745550df4
+Description:  System V semaphore shared module
+
+Package: php8-mod-tokenizer
+Version: 8.3.27-r1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: php8-mod-tokenizer_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 10765
+SHA256sum: c980812b7d474e24efa10fc9eb49f6cec37c3a288174898536881a6ba632ee2d
+Description:  Tokenizer shared module
+
+Package: php8-mod-xml
+Version: 8.3.27-r1
+Depends: libc, php8, libxml2-16
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: php8-mod-xml_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 17994
+SHA256sum: 30a6935c95abac06ee45315f7ec56b729c9d097608f21c680c99f30c634b2107
+Description:  XML shared module
+
+Package: php8-mod-xmlreader
+Version: 8.3.27-r1
+Depends: libc, php8, php8-mod-dom, libxml2-16
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: php8-mod-xmlreader_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 12545
+SHA256sum: d3e06dc0356aa3e7401ff7e23798c7371acc5851efccfc5b1f49e269ab73c6a5
+Description:  XMLReader shared module
+
+Package: php8-mod-xmlwriter
+Version: 8.3.27-r1
+Depends: libc, php8, libxml2-16
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: php8-mod-xmlwriter_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 10469
+SHA256sum: d75808c1d5b1c620fab373c9939546fbb7baf1174b4191af8dcdda6055b83979
+Description:  XMLWriter shared module
+
+Package: php8-mod-zip
+Version: 8.3.27-r1
+Depends: libc, php8, libzip
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: php8-mod-zip_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 26898
+SHA256sum: 4a22253c5a871fee9db637aca00e1932ba7f1e6f2324c51a80e8f3f5b0886ecd
+Description:  ZIP shared module
+
+Package: php8
+Version: 8.3.27-r1
+Depends: libc, libpcre2, zlib, libxml2-16, zoneinfo-core
+Conflicts: php7
+License: PHP-3.01
+Section: lang
+URL: http://www.php.net/
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: php8_8.3.27-r1_aarch64_cortex-a53.ipk
+Size: 2536
+SHA256sum: 194f3e5a82a3a70de49f7aab086218231971e2460309fba3fb96fd3ad6f524e1
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains only the PHP config file. You must actually choose
+ your PHP flavour (cli, cgi or fastcgi).
+ 
+ Please note, that installing php5 and php8 in parallel on the same target
+ is not supported in OpenWrt/LEDE.
+
+Package: python3-asyncio-src
+Version: 3.11.14-r1
+Depends: libc
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 522240
+Filename: python3-asyncio-src_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 110341
+SHA256sum: 5927e9ec0848a0d7b6f65164c622fd86c1a3d5529d93292ed41a04cee76aed48
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the asyncio module.
+ 
+ This package contains the Python source files for python3-asyncio.
+
+Package: python3-asyncio
+Version: 3.11.14-r1
+Depends: libc, python3-light
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 706560
+Filename: python3-asyncio_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 248848
+SHA256sum: 1192e98fbc2d36781efccbea74c80d505f120b2dacd30352ecf22124ccdcccaf
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the asyncio module.
+
+Package: python3-base-src
+Version: 3.11.14-r1
+Depends: libc
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 1802240
+Filename: python3-base-src_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 255924
+SHA256sum: 615819b815088e941234e6cec4318773177684e5fbc079481ea32f52d3e52b2a
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains only the interpreter and the bare minimum for the
+ interpreter to start.
+ 
+ This package contains the Python source files for python3-base.
+
+Package: python3-base
+Version: 3.11.14-r1
+Depends: libc, libpython3-3.11
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 1126400
+Filename: python3-base_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 223095
+SHA256sum: 71c7f2415c457a0a801b45c3499508606d66fbff3edd48678cbce034b8f40e05
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains only the interpreter and the bare minimum for the
+ interpreter to start.
+
+Package: python3-cgi-src
+Version: 3.11.14-r1
+Depends: libc
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 40960
+Filename: python3-cgi-src_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 11045
+SHA256sum: af8a9ae875983ea6918e208db6cfab568fb1d0b137cf517d767ae45f1e1d2374
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the cgi module.
+ 
+ This package contains the Python source files for python3-cgi.
+
+Package: python3-cgi
+Version: 3.11.14-r1
+Depends: libc, python3-light, python3-email
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 51200
+Filename: python3-cgi_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 20170
+SHA256sum: b466ca512e3d1fd33ddcea4278a5a45d3907ee77a3c8520505d7b7babc185fb3
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the cgi module.
+
+Package: python3-cgitb-src
+Version: 3.11.14-r1
+Depends: libc
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 20480
+Filename: python3-cgitb-src_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 5086
+SHA256sum: ae2dc1b00c28ac18bbe1af3a64c6900b9863d2ecc4f90a33b780fc978b2f5d85
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the cgitb module.
+ 
+ This package contains the Python source files for python3-cgitb.
+
+Package: python3-cgitb
+Version: 3.11.14-r1
+Depends: libc, python3-light, python3-cgi, python3-pydoc
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 30720
+Filename: python3-cgitb_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 10254
+SHA256sum: 6cc42431a9696064e6a1fcee88e1652b20f9e82fc9c587a9f129789003fe0ec3
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the cgitb module.
+
+Package: python3-codecs-src
+Version: 3.11.14-r1
+Depends: libc
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: python3-codecs-src_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 1357
+SHA256sum: a1144e6ddc6de47cad625393a510695f86bc63764b3e6e35335b7fef5a965020
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains codecs and Unicode support.
+ 
+ This package contains the Python source files for python3-codecs.
+
+Package: python3-codecs
+Version: 3.11.14-r1
+Depends: libc, python3-light
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 2181120
+Filename: python3-codecs_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 752978
+SHA256sum: f8e04e9af97b4411e563343237f80b2f2f42bce6245248be26b2e76eeb80a7c2
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains codecs and Unicode support.
+
+Package: python3-ctypes-src
+Version: 3.11.14-r1
+Depends: libc
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: python3-ctypes-src_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 18901
+SHA256sum: 5c2b5bc4c9b5674515de40527827d840d71f26ef3b12642f8e99e0b699b3be0b
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the ctypes module.
+ 
+ This package contains the Python source files for python3-ctypes.
+
+Package: python3-ctypes
+Version: 3.11.14-r1
+Depends: libc, python3-light, libffi
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 245760
+Filename: python3-ctypes_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 78816
+SHA256sum: e079e1c760ba2efa466143d76492db4839043d1ec8418afba5651e97be0b6944
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the ctypes module.
+
+Package: python3-dbm-src
+Version: 3.11.14-r1
+Depends: libc
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 30720
+Filename: python3-dbm-src_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 7118
+SHA256sum: 2b0bd87ee99e783ae0b9f28a96e10f06dcaa5ed8469eba66dacfc6a0c8093e01
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the dbm module.
+ 
+ This package contains the Python source files for python3-dbm.
+
+Package: python3-dbm
+Version: 3.11.14-r1
+Depends: libc, python3-light, libgdbm
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 163840
+Filename: python3-dbm_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 23068
+SHA256sum: d447082e859f2e6665a8cd8b3b8a52b123b328b1394e0359c0a7272932ab9d49
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the dbm module.
+
+Package: python3-decimal-src
+Version: 3.11.14-r1
+Depends: libc
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: python3-decimal-src_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 1537
+SHA256sum: ccbf546d4bf180ce5c779c042aa6574f3296bd0d299c87d8785252214e39e453
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the decimal module.
+ 
+ This package contains the Python source files for python3-decimal.
+
+Package: python3-decimal
+Version: 3.11.14-r1
+Depends: libc, python3-light
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 215040
+Filename: python3-decimal_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 83113
+SHA256sum: 31ec2a9898701c7e0ef35f28299a668b1e3ec4202f876f735653e01642814cf6
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the decimal module.
+
+Package: python3-dev-src
+Version: 3.11.14-r1
+Depends: libc
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: python3-dev-src_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 2281
+SHA256sum: 33999825b63c7b0f0c7e38cce047a971c81c8b3440497106f09f860897bc3212
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains files for building Python modules, extending the
+ Python interpreter, or embedded Python in applications.
+ 
+ This package contains the Python source files for python3-dev.
+
+Package: python3-dev
+Version: 3.11.14-r1
+Depends: libc, python3, python3-lib2to3
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 79718400
+Filename: python3-dev_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 38185177
+SHA256sum: 4887e3de2a6951ef1cdc221ab086c73dd325d33d4f0560d61d4f7cfd6e7296f7
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains files for building Python modules, extending the
+ Python interpreter, or embedded Python in applications.
+
+Package: python3-distutils-src
+Version: 3.11.14-r1
+Depends: libc
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 645120
+Filename: python3-distutils-src_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 155536
+SHA256sum: d21482ee225aac587636715c69d0f4c3688d1dd9681acaa1462486be99abe1ad
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the distutils module.
+ 
+ This package contains the Python source files for python3-distutils.
+
+Package: python3-distutils
+Version: 3.11.14-r1
+Depends: libc, python3-light, python3-email
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 696320
+Filename: python3-distutils_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 262533
+SHA256sum: 397bd6f95c1b1261abfcbdfffef5e3bbd25a7529b10fb227aa1973517286c08e
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the distutils module.
+
+Package: python3-email-src
+Version: 3.11.14-r1
+Depends: libc
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 419840
+Filename: python3-email-src_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 98119
+SHA256sum: d886443ee7078798094cfc83d483a5f5bac87515d6fb9180efb8fe2928be6648
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the email module.
+ 
+ This package contains the Python source files for python3-email.
+
+Package: python3-email
+Version: 3.11.14-r1
+Depends: libc, python3-light
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 532480
+Filename: python3-email_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 187700
+SHA256sum: 1ce717214f712b94bf3cba9f7bb9ea05674dc858ab8b6adcbb0923fcb82e4cb5
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the email module.
+
+Package: python3-lib2to3-src
+Version: 3.11.14-r1
+Depends: libc
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 358400
+Filename: python3-lib2to3-src_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 76287
+SHA256sum: b04dc6cdfb4a114fc351ccd09f14301c879e04ce5968045b4fc5b38109f8c905
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the lib2to3 module.
+ 
+ This package contains the Python source files for python3-lib2to3.
+
+Package: python3-lib2to3
+Version: 3.11.14-r1
+Depends: libc, python3
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 501760
+Filename: python3-lib2to3_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 174211
+SHA256sum: fff19baa660fb025caf4fcee8601d5e1e3b789f1a75bd359c63e18167b695fc6
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the lib2to3 module.
+
+Package: python3-light-src
+Version: 3.11.14-r1
+Depends: libc
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 5212160
+Filename: python3-light-src_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 1256225
+SHA256sum: a071286d086ac4d9b2529b78553a51775b12f8b616710034f0a2557580df769d
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package installs the base interpreter package and contains the most
+ commonly used parts of the standard library.
+ 
+ This package contains the Python source files for python3-light.
+
+Package: python3-light
+Version: 3.11.14-r1
+Depends: libc, python3-base, libbz2-1.0, zlib
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 9758720
+Filename: python3-light_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 2886419
+SHA256sum: d1e38c771f2e7d73ea9723cb803a06516130a11f53c045223f2c75cda295d8c0
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package installs the base interpreter package and contains the most
+ commonly used parts of the standard library.
+
+Package: python3-logging-src
+Version: 3.11.14-r1
+Depends: libc
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 194560
+Filename: python3-logging-src_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 47669
+SHA256sum: 4145cae681bdafcb8df4bbfb94e5febdb04a7a293235d6c10a23d996bb87575b
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the logging module.
+ 
+ This package contains the Python source files for python3-logging.
+
+Package: python3-logging
+Version: 3.11.14-r1
+Depends: libc, python3-light
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 225280
+Filename: python3-logging_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 85152
+SHA256sum: e1b94c9691615ec8bddf0c1d9358290f05abf028e218b2c6c994010534dfb3b9
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the logging module.
+
+Package: python3-lzma-src
+Version: 3.11.14-r1
+Depends: libc
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 20480
+Filename: python3-lzma-src_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 5461
+SHA256sum: 433178d9d8ae9c4d0cbae08bca9d0cc49a7d245d6c27839114609e036decc0fa
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the lzma module.
+ 
+ This package contains the Python source files for python3-lzma.
+
+Package: python3-lzma
+Version: 3.11.14-r1
+Depends: libc, python3-light, liblzma
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 92160
+Filename: python3-lzma_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 20400
+SHA256sum: 5d0aea7bc347863217216dfa9d0db7047b0f16454250236bee36b0cf46f75a1f
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the lzma module.
+
+Package: python3-multiprocessing-src
+Version: 3.11.14-r1
+Depends: libc
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 296960
+Filename: python3-multiprocessing-src_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 67791
+SHA256sum: d797d47be9a725a8debd0c5289c6ec3208e8563861c3a54179daa491f135f329
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the multiprocessing module.
+ 
+ This package contains the Python source files for python3-multiprocessing.
+
+Package: python3-multiprocessing
+Version: 3.11.14-r1
+Depends: libc, python3-light
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 512000
+Filename: python3-multiprocessing_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 175453
+SHA256sum: 33fe89bf5362a9ea3b099923c2844485cd9664e4a7502b4517d66626d1f5634f
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the multiprocessing module.
+
+Package: python3-ncurses-src
+Version: 3.11.14-r1
+Depends: libc
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 30720
+Filename: python3-ncurses-src_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 7473
+SHA256sum: 8a262cb8b9a5b32bdcd19d1aa86aa62aa8c91d58dcd064b6328a3d13da881aae
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the ncurses module.
+ 
+ This package contains the Python source files for python3-ncurses.
+
+Package: python3-ncurses
+Version: 3.11.14-r1
+Depends: libc, python3-light, libncursesw6
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 245760
+Filename: python3-ncurses_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 53477
+SHA256sum: 444cfb918de6a5d78d65e6ff9d66a6c8327696f03877d6faadac5f565c67aa1f
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the ncurses module.
+
+Package: python3-openssl-src
+Version: 3.11.14-r1
+Depends: libc
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: python3-openssl-src_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 1354
+SHA256sum: 6641f03a73725f5e4d85aa2640970c97e6a6d5a86c39b3586b40545a693b4e7d
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the ssl module.
+ 
+ This package contains the Python source files for python3-openssl.
+
+Package: python3-openssl
+Version: 3.11.14-r1
+Depends: libc, python3-light, libopenssl3, ca-certs
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 307200
+Filename: python3-openssl_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 81222
+SHA256sum: dce06e6b293acf79144947438163b3bc6c13960184302ce54b6f9363a9ac0441
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the ssl module.
+
+Package: python3-pydoc-src
+Version: 3.11.14-r1
+Depends: libc
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 1003520
+Filename: python3-pydoc-src_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 219762
+SHA256sum: 142025401496c475c3b4fabde0f5109d1adf82b9f0e01d2ecdfb70aaadb0771d
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the pydoc module.
+ 
+ This package contains the Python source files for python3-pydoc.
+
+Package: python3-pydoc
+Version: 3.11.14-r1
+Depends: libc, python3-light
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 768000
+Filename: python3-pydoc_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 252585
+SHA256sum: bc2008eaf34e6bc27b3bea56d8f7ecbf2d34d1251fd7935bd27b10c4f3021d98
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the pydoc module.
+
+Package: python3-readline-src
+Version: 3.11.14-r1
+Depends: libc
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: python3-readline-src_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 1352
+SHA256sum: c37b230389cd2f887830dbfd97e53df2b0c3471788d1f4576edb9f605400f1a0
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the readline module.
+ 
+ This package contains the Python source files for python3-readline.
+
+Package: python3-readline
+Version: 3.11.14-r1
+Depends: libc, python3-light, libreadline8
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: python3-readline_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 11470
+SHA256sum: c221c8573d64fcac12f58ae89fd644cba7ffa3ba12d4aec9993f37701d549a8a
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the readline module.
+
+Package: python3-sqlite3-src
+Version: 3.11.14-r1
+Depends: libc
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 20480
+Filename: python3-sqlite3-src_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 4722
+SHA256sum: 280b2c52b7574c15f1dff568ddc6faf193948ce04103cddd2e59efaac3f6673e
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the sqlite3 module.
+ 
+ This package contains the Python source files for python3-sqlite3.
+
+Package: python3-sqlite3
+Version: 3.11.14-r1
+Depends: libc, python3-light, libsqlite3-0
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 163840
+Filename: python3-sqlite3_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 42311
+SHA256sum: b288c4a8160f7e9e8578935f7ecb96a79b06d6a8be1f5019f1cabbb9eb1a950a
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the sqlite3 module.
+
+Package: python3-unittest-src
+Version: 3.11.14-r1
+Depends: libc
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 266240
+Filename: python3-unittest-src_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 60160
+SHA256sum: 4205009d4152b831966814f8a9e75b1ca6a8705fde4c469f6f0d998ff64f0fa2
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the unittest module.
+ 
+ This package contains the Python source files for python3-unittest.
+
+Package: python3-unittest
+Version: 3.11.14-r1
+Depends: libc, python3-light
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 348160
+Filename: python3-unittest_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 131770
+SHA256sum: 409d295e67e58d7c2c5117a4b4a0024e4d2580bc79fd53d65eaf6192ca8707ee
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the unittest module.
+
+Package: python3-urllib-src
+Version: 3.11.14-r1
+Depends: libc
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 174080
+Filename: python3-urllib-src_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 43704
+SHA256sum: eed21a8283d06f86549db58b3cce9b5d962eee3b95087e6a6b9fa81e60924562
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the URL handling modules.
+ 
+ This package contains the Python source files for python3-urllib.
+
+Package: python3-urllib
+Version: 3.11.14-r1
+Depends: libc, python3-light, python3-email
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 215040
+Filename: python3-urllib_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 85762
+SHA256sum: 966d31624889abb7554cac2c06a1ed6460df42b0cea0dcb8a2d5e3506ab8386a
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the URL handling modules.
+
+Package: python3-uuid-src
+Version: 3.11.14-r1
+Depends: libc
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 40960
+Filename: python3-uuid-src_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 9841
+SHA256sum: 6a49770b28dd4c14274d935a30b6ea86ebca0ffb750f795d6a5cbbc7fe5bdab7
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the uuid module.
+ 
+ This package contains the Python source files for python3-uuid.
+
+Package: python3-uuid
+Version: 3.11.14-r1
+Depends: libc, python3-light, libuuid1
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 112640
+Filename: python3-uuid_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 16760
+SHA256sum: 25bd4a7f867d5258050c09885ab2fa4d9bf624ca93ef2181efdbd40a20ba47ea
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the uuid module.
+
+Package: python3-venv-src
+Version: 3.11.14-r1
+Depends: libc
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 51200
+Filename: python3-venv-src_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 11398
+SHA256sum: daa1815362daaf23b36dbcddb598a58e5bbafc96da4510e4678783ad0d587944
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the venv module.
+ 
+ This package contains the Python source files for python3-venv.
+
+Package: python3-venv
+Version: 3.11.14-r1
+Depends: libc, python3
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 3440640
+Filename: python3-venv_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 3265047
+SHA256sum: 855447695e892157633b5411fa4515c778ee993163ebf2d3ed93c3476fa4335a
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the venv module.
+
+Package: python3-xml-src
+Version: 3.11.14-r1
+Depends: libc
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 419840
+Filename: python3-xml-src_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 92789
+SHA256sum: 032f250476615fa3db7c1aa944665a832002dd340df038e2a70aa36f55f7f0a8
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the XML modules.
+ 
+ This package contains the Python source files for python3-xml.
+
+Package: python3-xml
+Version: 3.11.14-r1
+Depends: libc, python3-light, python3-urllib
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 808960
+Filename: python3-xml_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 281631
+SHA256sum: 3815e4abb27ccae8a634fc124c09851e749deccef6bcbad884043a1c2d703252
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the XML modules.
+
+Package: python3
+Version: 3.11.14-r1
+Depends: libc, python3-light, python3-asyncio, python3-cgi, python3-cgitb, python3-codecs, python3-ctypes, python3-dbm, python3-decimal, python3-distutils, python3-email, python3-logging, python3-lzma, python3-multiprocessing, python3-ncurses, python3-openssl, python3-pydoc, python3-readline, python3-sqlite3, python3-unittest, python3-urllib, python3-uuid, python3-xml
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: python3_3.11.14-r1_aarch64_cortex-a53.ipk
+Size: 1463
+SHA256sum: ddc09192e118624bee08d1ddb2a506f4b19222c491211fc430e1ec248704b658
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package installs almost all parts of the standard Python
+ installation.
 
 Package: smartd-mail
 Version: 7.4-r1
