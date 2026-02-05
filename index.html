@@ -8,39 +8,37 @@ layout: base
 <table style="width:100%">
   <tr>
     <th>Name</th>
-    <th>Type</th>
-    <th>Size</th>
-  </tr>
+  </tr>
 
-<!-- Display releases folder link -->
-<tr>
-  <td><a class="post-link" href="releases/" >releases/</a></td>
-  <td>folder</td>
-  <td>-</td>
-</tr>
+<!-- ref: <github.com/bryango/resources> start -->
+{%- for res in site.pages -%}
 
-<!-- Display all directories and files from releases folder -->
-{%- assign items = site.static_files | where_exp: "item", "item.path contains '/releases/'" -%}
-{%- assign dirs = "" | split: "" -%}
-
-{%- for file in items -%}
-  {%- assign file_path = file.path | remove_first: "/releases" -%}
-  {%- assign parts = file_path | split: "/" -%}
-  
-  {%- if parts.size > 1 -%}
-    {%- assign dir_name = parts[0] -%}
-    
-    {%- if dirs contains dir_name -%}
-      {%- continue -%}
-    {%- else -%}
-      {%- assign dirs = dirs | push: dir_name -%}
-      <tr>
-        <td><a class="post-link" href="releases/{{ dir_name }}/" >{{ dir_name }}/</a></td>
-        <td>folder</td>
-        <td>-</td>
-      </tr>
-    {%- endif -%}
+<!-- ignore /assets/ -->
+  {%- assign checkStart = res.url | split: '/assets/' -%}
+  {%- if checkStart[0] == '' -%}
+    {%- continue -%}
   {%- endif -%}
-{%- endfor -%}
+<!-- ignore / -->
+  {%- assign checkStart = res.url | split: page.url -%}
+  {%- if checkStart[0] != '' -%}
+    {%- continue -%}
+  {%- endif -%}
+<!-- keep /*/ -->
+  {%- assign target = res.url | remove_first: page.url -%}
+  {%- if target contains '/' -%}
+    {%- assign folder_new = target | split: '/' | first -%}
+  {%- else -%}
+    {%- continue -%}
+  {%- endif -%}
+<!-- register new subdir -->
+  {%- if folder_new != folder -%}
+    {%- assign folder = folder_new -%}
+    <tr>
+      <td><a class="post-link" href="{{ folder | append: '/' }}" >{{ folder | append: '/' }}</a></td>
+    </tr>
+  {%- endif -%}
 
+{% endfor %}
+<!-- ref: <github.com/bryango/resources> end -->
 
+</table>
