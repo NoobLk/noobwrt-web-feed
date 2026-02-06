@@ -4351,8 +4351,8 @@ Maintainer: Marcel Denia <naoir@gmx.net>
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: libgdbm_1.23-r1_aarch64_cortex-a53.ipk
-Size: 30474
-SHA256sum: 17af0561d8010e00c6f1ad17ea3eedab375cd70be6f6ec841fdb12e836a094e9
+Size: 30337
+SHA256sum: 5c882fedbf22e07234ebb93508cd73f911c74a1623faa34550a1acc309a9c845
 Description:  GNU database manager library
  GNU dbm is a set of database routines that use extendible hashing and
  works similar to the standard UNIX dbm routines.
@@ -4930,8 +4930,8 @@ Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_cortex-a53
 Installed-Size: 13076480
 Filename: librespeed-go_1.1.5-r5_aarch64_cortex-a53.ipk
-Size: 5220030
-SHA256sum: 3a61b305d21e098c51abcf8cff23f9471d4df8bfefe21c0f8db68b83a6e83f43
+Size: 5221138
+SHA256sum: 5a40ce1382911988cd0dd8be02903ee2012b4b8b3830d3120a1bcfa1e65ec1de
 Description:  This is a very lightweight speed test implemented in JavaScript,
  using XMLHttpRequest and Web Workers.
  
@@ -7263,8 +7263,8 @@ Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 79718400
 Filename: python3-dev_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 38188542
-SHA256sum: df5e69dca9cf99a44106ed0cb311d58d867cb995c496dfe6042143e9f656f241
+Size: 38186516
+SHA256sum: e3d8cda2f4c16f681a1fa8efad13436fcf11c143ef860e3a5db007c8e709bc94
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -8606,8 +8606,8 @@ Maintainer: Zephyr Lykos <self@mochaa.ws>, Sandro Jäckel <sandro.jaeckel@gmail.
 Architecture: aarch64_cortex-a53
 Installed-Size: 23439360
 Filename: tailscale_1.80.3-r1_aarch64_cortex-a53.ipk
-Size: 9016704
-SHA256sum: f27a7e1626a7dc8e76efdbd6a1b412ad60003eaca1e418c8f993d079df297fdc
+Size: 9018487
+SHA256sum: cb2c4e2e5d3348a4688f966d95574d56e44e3c0726dbb416f84da788e1aeedcd
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -9061,8 +9061,8 @@ Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_cortex-a53
 Installed-Size: 27729920
 Filename: xray-core_25.1.30-r1_aarch64_cortex-a53.ipk
-Size: 9935987
-SHA256sum: be761d94b86ef6c4a0155f7dcc5c527f04f41ffe7b92d24faf8e8102875b8f15
+Size: 9935973
+SHA256sum: 52e5e2cb5793449084b59a99f9b28e041c1aa90afe0652ebafc317d6fbb1c60c
 Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
  It secures your network connections and thus protects your privacy.
 

@@ -63,8 +63,8 @@ URL: https://github.com/snowie2000/geoview
 Architecture: aarch64_cortex-a53
 Installed-Size: 6010880
 Filename: geoview_0.2.5-r1_aarch64_cortex-a53.ipk
-Size: 2346246
-SHA256sum: f1a83b78d1b5bdbf21b965c52f60dee3c14d6808a6d59e6c3ad1da58577ac483
+Size: 2345195
+SHA256sum: 9cabffc4286569f995f96936c739315016c27a6215fcb799a70cad707f01e8be
 Description:  geoview is a handy tool to extract useful information from geo* files.
 
 Package: internet-detector
@@ -1406,6 +1406,18 @@ Size: 4050904
 SHA256sum: b4bc9bb6d911dbea20e2925b340558603428cea0e30bcab9f6ac690f2e480d48
 Description:  LuCi Theme For OpenWrt - carbonPX
 
+Package: luci-theme-noobwrt
+Version: 1.0.6-r20260602
+Depends: libc, wget, jsonfilter
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 1136640
+Filename: luci-theme-noobwrt_1.0.6-r20260602_all.ipk
+Size: 856759
+SHA256sum: 79da65e539dc2eae92d78410e671a802ea733e7385681cb4ec506f650af93000
+Description:  Noobwrt Theme
+
 Package: luci-theme-peditx
 Version: 1.2.3-r01
 Depends: libc
@@ -1437,8 +1449,8 @@ URL: http://www.remlab.net/ndisc6/
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: ndisc6_1.0.2-r1_aarch64_cortex-a53.ipk
-Size: 6161
-SHA256sum: 342d374381b50c1ba0cb0349793c6e4249a5e22a5b25239a85e9593cb02e2f20
+Size: 6160
+SHA256sum: 666eb817601df3217058ed9ce1ed32a0c74baa5d097b8bd6e1ffd856ca97a371
 Description:  An ICMPv6 neighbour discovery tools
 
 Package: qbittorrent
@@ -1614,8 +1626,8 @@ URL: http://www.remlab.net/ndisc6/
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: rdisc6_1.0.2-r1_aarch64_cortex-a53.ipk
-Size: 7283
-SHA256sum: 27259c046d46a9317df3ef76d343530b7dcc13ff451eb3f9cd851607ba0c4cbe
+Size: 7276
+SHA256sum: 2c48c5e7edbfbd0e3e8b235976d38bd9dab5cfa3b018c779327cc90435771f95
 Description:  An ICMPv6 router discovery tool
 
 Package: rdnssd
@@ -1626,8 +1638,8 @@ URL: http://www.remlab.net/ndisc6/
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: rdnssd_1.0.2-r1_aarch64_cortex-a53.ipk
-Size: 8449
-SHA256sum: 86d9ede8c4f415874e5fe030a84d7c9af5617da237ed97c11451aa3313b5bff3
+Size: 8446
+SHA256sum: fa3dffce6b2d46a1e9b418b56803f8658a07874c25b43b22f6c8834098f8d543
 Description:  A recursive DNS server discovery daemon gathering
  information through stateless IPv6 autoconfiguration (RFC5006)
 
@@ -1694,7 +1706,7 @@ Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: traceroute6_1.0.2-r1_aarch64_cortex-a53.ipk
 Size: 14948
-SHA256sum: 674da7a7f20385d4e85389bbdd476c959cee2d6887156512a0c2bf7157051daf
+SHA256sum: 7c2b0c5be69aa9788e820f5232a7aa077e0640bdc53aa891b620f9bb08cf13bb
 Description:  An IPv6-based traceroute implementation
 
 Package: ubus-at-daemon
