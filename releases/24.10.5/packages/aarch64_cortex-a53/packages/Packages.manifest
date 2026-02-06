@@ -7263,8 +7263,8 @@ Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 79718400
 Filename: python3-dev_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 38186516
-SHA256sum: e3d8cda2f4c16f681a1fa8efad13436fcf11c143ef860e3a5db007c8e709bc94
+Size: 38186809
+SHA256sum: ccae21790412cacb90650dede0361b53202e0ae29b47360549c33b2b5d192a03
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming

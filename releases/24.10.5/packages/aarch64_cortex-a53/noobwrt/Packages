@@ -1449,8 +1449,8 @@ URL: http://www.remlab.net/ndisc6/
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: ndisc6_1.0.2-r1_aarch64_cortex-a53.ipk
-Size: 6160
-SHA256sum: 666eb817601df3217058ed9ce1ed32a0c74baa5d097b8bd6e1ffd856ca97a371
+Size: 6166
+SHA256sum: 07d3e1907984176e9294bd05f46a48ccbfa8895d2be2fe8c2e1f8761ad67b1ab
 Description:  An ICMPv6 neighbour discovery tools
 
 Package: qbittorrent
@@ -1627,7 +1627,7 @@ Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: rdisc6_1.0.2-r1_aarch64_cortex-a53.ipk
 Size: 7276
-SHA256sum: 2c48c5e7edbfbd0e3e8b235976d38bd9dab5cfa3b018c779327cc90435771f95
+SHA256sum: 165903f535fb8f26413072f3210344aa5c01877b5f04386ff34652a329d332d1
 Description:  An ICMPv6 router discovery tool
 
 Package: rdnssd
@@ -1638,8 +1638,8 @@ URL: http://www.remlab.net/ndisc6/
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: rdnssd_1.0.2-r1_aarch64_cortex-a53.ipk
-Size: 8446
-SHA256sum: fa3dffce6b2d46a1e9b418b56803f8658a07874c25b43b22f6c8834098f8d543
+Size: 8445
+SHA256sum: acf141d6ef5943424770066b2750deee246b32dc41f56c689d403b36187cdd30
 Description:  A recursive DNS server discovery daemon gathering
  information through stateless IPv6 autoconfiguration (RFC5006)
 
@@ -1705,8 +1705,8 @@ URL: http://www.remlab.net/ndisc6/
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: traceroute6_1.0.2-r1_aarch64_cortex-a53.ipk
-Size: 14948
-SHA256sum: 7c2b0c5be69aa9788e820f5232a7aa077e0640bdc53aa891b620f9bb08cf13bb
+Size: 14938
+SHA256sum: 6b0696d2e77f726f0df42cdb3ed08dd6dcaf378346457b7d90f701e894a852e0
 Description:  An IPv6-based traceroute implementation
 
 Package: ubus-at-daemon
