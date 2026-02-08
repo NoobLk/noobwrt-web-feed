@@ -387,8 +387,8 @@ CPE-ID: cpe:/a:bluez:bluez
 Architecture: aarch64_cortex-a53
 Installed-Size: 798720
 Filename: bluez-utils-btmon_5.72-r2_aarch64_cortex-a53.ipk
-Size: 279081
-SHA256sum: 73dc57929c2c733b599eb85d56d1964105e99689312dd3269362a905690ca340
+Size: 278760
+SHA256sum: 1035d6a43d9a0ecc4419abcd532c452768606655465b73ac0fccf4f8ab343237
 Description:  Bluetooth utilities
 
 Package: bluez-utils-extra
@@ -5537,8 +5537,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: aarch64_cortex-a53
 Installed-Size: 79718400
 Filename: python3-dev_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 38186809
-SHA256sum: ccae21790412cacb90650dede0361b53202e0ae29b47360549c33b2b5d192a03
+Size: 38189216
+SHA256sum: e838190936534be540cdab6c4f33e30b9119760671653410998f137164e51dea
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
