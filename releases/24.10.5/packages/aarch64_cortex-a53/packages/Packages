@@ -3308,6 +3308,22 @@ Size: 105034
 SHA256sum: dc2a7262d1abedd591822372dd63f3915114a5edd27172107fe977570953ab09
 Description:  A general purpose authentication library (libraries)
 
+Package: libsensors5
+Version: 3.6.0-r1
+Depends: libc, sysfsutils
+Provides: libsensors
+License: GPL-2.0-or-later LGPL-2.1-or-later
+Section: libs
+URL: https://hwmon.wiki.kernel.org/lm_sensors
+ABIVersion: 5
+CPE-ID: cpe:/a:lm_sensors:lm_sensors
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libsensors5_3.6.0-r1_aarch64_cortex-a53.ipk
+Size: 22029
+SHA256sum: acf908209fd9c11028f0cfff36ba6f38899f8d9f3a86daf07d13bb9678a38427
+Description:  lm-sensors libraries
+
 Package: libsodium
 Version: 1.0.19-r1
 Depends: libc
@@ -3446,6 +3462,34 @@ Size: 343015
 SHA256sum: cceb9bae5f27e845e567277538269c0783ac15ebd743daf630b1eba6d0e70ae3
 Description:  Zstandard - Fast real-time compression algorithm.
  This package provides libzstd library.
+
+Package: lm-sensors-detect
+Version: 3.6.0-r1
+Depends: libc, sysfsutils, lm-sensors, perl, perlbase-essential, perlbase-fcntl, perlbase-file, perlbase-xsloader
+License: GPL-2.0-or-later LGPL-2.1-or-later
+Section: utils
+URL: https://hwmon.wiki.kernel.org/lm_sensors
+CPE-ID: cpe:/a:lm_sensors:lm_sensors
+Architecture: aarch64_cortex-a53
+Installed-Size: 225280
+Filename: lm-sensors-detect_3.6.0-r1_aarch64_cortex-a53.ipk
+Size: 47350
+SHA256sum: 94a8245ff5759686bb059129ae3626a3269b4c7f56973ee6e2770b34b677a498
+Description:  script to autodetect sensor hardware
+
+Package: lm-sensors
+Version: 3.6.0-r1
+Depends: libc, sysfsutils, libsensors5
+License: GPL-2.0-or-later LGPL-2.1-or-later
+Section: utils
+URL: https://hwmon.wiki.kernel.org/lm_sensors
+CPE-ID: cpe:/a:lm_sensors:lm_sensors
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: lm-sensors_3.6.0-r1_aarch64_cortex-a53.ipk
+Size: 9378
+SHA256sum: c3ef20b2d3612bf09e61e0803964bc2cc091103d4660637bc42d66b24925941b
+Description:  utility to read hardware sensor data
 
 Package: lua-bit32
 Version: 5.3.0-r1
@@ -3787,6 +3831,1562 @@ Size: 52303
 SHA256sum: 8f6743d8f3e3734088dddc9d82e193e7a6159ed9e8aaaad7603b291ec1a119e2
 Description:  contains collection of programs for inspecting and manipulating configuration
  of PCI devices
+
+Package: perl
+Version: 5.40.0-r2
+Depends: libc, libpthread
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.perl.com/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 4014080
+Filename: perl_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 1265143
+SHA256sum: 6b528e3159e7d96f9aca0e95c7b30ebdaa947687e15254ca6ea022522e0e7b48
+Description:  Perl is a stable, cross platform programming language.
+ It is used for mission critical projects in the public and private sectors
+ and is widely used to program web applications of all needs.
+
+Package: perlbase-anydbm-file
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-anydbm-file_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 1320
+SHA256sum: 7e219eb1f5c2d7facb3f0bf6687b9eb07b6837d0cc0aa9a3dec72e981b3b587f
+Description:  AnyDBM_File perl module
+
+Package: perlbase-app
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-autouse, perlbase-base, perlbase-config, perlbase-cpan, perlbase-essential, perlbase-file, perlbase-getopt, perlbase-if, perlbase-tap, perlbase-text
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: perlbase-app_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 18495
+SHA256sum: 5d7d0f534dc7c4238813816982bd38010a605d1d50822ac1a39bc6baf8ddafaf
+Description:  app perl module
+
+Package: perlbase-archive
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-cwd, perlbase-essential, perlbase-file, perlbase-io
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 92160
+Filename: perlbase-archive_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 22817
+SHA256sum: a1712a4658a2bbe72ba938888b01f04b7905a3d6bc4b18060a63bd60e4f24852
+Description:  Archive perl module
+
+Package: perlbase-attribute
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 20480
+Filename: perlbase-attribute_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 4509
+SHA256sum: b8edf478f8a20e0577713a03ff0ee8899d36b0999148c6c3f4bf013fa9d479ca
+Description:  Attribute perl module
+
+Package: perlbase-attributes
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: perlbase-attributes_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 5914
+SHA256sum: e7f532dace27a4e3c59904afcd29b2216277625fa5962e0274b70606bf1ae2f4
+Description:  attributes perl module
+
+Package: perlbase-autodie
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 40960
+Filename: perlbase-autodie_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 10185
+SHA256sum: 4771d4983a6d1b88bcef4e3811cf4590e3ecdde052690a11f7d03666331d2da3
+Description:  autodie perl module
+
+Package: perlbase-autoloader
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-autoloader_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 3125
+SHA256sum: d9bc5fea90b8f8e7a6ab70223d557ed74ea777e4ce86682cbcb86a14d971140f
+Description:  AutoLoader perl module
+
+Package: perlbase-autosplit
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-config, perlbase-essential, perlbase-file
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 30720
+Filename: perlbase-autosplit_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 8817
+SHA256sum: c837940c71e86e88d4e4a01bd536e02ff51e1e1cdf567fc51eb568e99c6138e6
+Description:  AutoSplit perl module
+
+Package: perlbase-autouse
+Version: 5.40.0-r2
+Depends: libc, perl
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-autouse_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 1931
+SHA256sum: 4602fd658638e1befffcb9f750112c1d65c8de62e7c68df323d4808af26abb3a
+Description:  autouse perl module
+
+Package: perlbase-b
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-config, perlbase-essential, perlbase-feature
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 430080
+Filename: perlbase-b_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 108816
+SHA256sum: e1f50f3d75e62085859e20852b61df83fcec3de5e948d147b82fab3212228a5e
+Description:  B perl module
+
+Package: perlbase-base
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 20480
+Filename: perlbase-base_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 4382
+SHA256sum: f089fa284691fb38d406eedb73d1bcaf61b2cc6ab8d2c1c7409dc9b3b9f13ad6
+Description:  base perl module
+
+Package: perlbase-benchmark
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 30720
+Filename: perlbase-benchmark_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 7372
+SHA256sum: 2bb277949ed4e9243571a4cb1146bc318e046148088be6a4d643bb56fb1ae326
+Description:  Benchmark perl module
+
+Package: perlbase-bigint
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 20480
+Filename: perlbase-bigint_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 4169
+SHA256sum: e37df16585ff5c6c62ebdf9e4ee9d39ab55f288a8381bde5c4e747aab30af8a2
+Description:  bigint perl module
+
+Package: perlbase-bignum
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-bigint, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 30720
+Filename: perlbase-bignum_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 4821
+SHA256sum: 438b23e6a34f295a48251c5b703612ca1fb48bd9a570eac4cd36f157cc1017ea
+Description:  bignum perl module
+
+Package: perlbase-blib
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-cwd, perlbase-essential, perlbase-file
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-blib_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 1783
+SHA256sum: 7092ef505ceebcc3f366a58be6aa68e95eae516aaf7ff905ead61c2395f29bc5
+Description:  blib perl module
+
+Package: perlbase-bytes
+Version: 5.40.0-r2
+Depends: libc, perl
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-bytes_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 1260
+SHA256sum: de0bdab923879f232e33665877a388a4cf320b103fd38ed6bcfd449636839494
+Description:  bytes perl module
+
+Package: perlbase-charnames
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-bytes, perlbase-essential, perlbase-re, perlbase-unicore
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 40960
+Filename: perlbase-charnames_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 11274
+SHA256sum: 4a201c4f759c5caa0f4643e48af703bd4d962449362510be76c152f3b16acb4f
+Description:  charnames perl module
+
+Package: perlbase-class
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 20480
+Filename: perlbase-class_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 3095
+SHA256sum: f8dac425086ee19c4dd3f464370e90eac2cb9ae169ed88458774b91356b34daa
+Description:  Class perl module
+
+Package: perlbase-compress
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-bytes, perlbase-essential, perlbase-io, perlbase-scalar
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 307200
+Filename: perlbase-compress_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 93585
+SHA256sum: 720ec53a51b5bb16e7f0c82762b0c1a70cb0bf34009d564b8f32f6711b39deef
+Description:  Compress perl module
+
+Package: perlbase-config
+Version: 5.40.0-r2
+Depends: libc, perl
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: perlbase-config_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 20539
+SHA256sum: 55d000b667d0f78e28be6cb227404bcd6564076d7dbc4279b2ebba1195d960dc
+Description:  Config perl module
+
+Package: perlbase-cpan
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-b, perlbase-config, perlbase-cwd, perlbase-dirhandle, perlbase-essential, perlbase-extutils, perlbase-fcntl, perlbase-file, perlbase-filehandle, perlbase-http-tiny, perlbase-net, perlbase-safe, perlbase-scalar, perlbase-sys, perlbase-text
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 778240
+Filename: perlbase-cpan_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 181954
+SHA256sum: 23dbfc50fe431f18cd4e778067be8061bdbb56adff4da09442428b630282ac8a
+Description:  CPAN perl module
+
+Package: perlbase-cwd
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 92160
+Filename: perlbase-cwd_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 12245
+SHA256sum: a8de94323dc41d5ecdde30c26de6c21ac351e8836542ea4be086d2df4b61cded
+Description:  Cwd perl module
+
+Package: perlbase-data
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-bytes, perlbase-essential, perlbase-scalar
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 102400
+Filename: perlbase-data_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 24268
+SHA256sum: 2c752aff559cd77b0149529c1c9c922f7cbee047d9e965ca0c9c68d2c98a7d55
+Description:  Data perl module
+
+Package: perlbase-db-file
+Version: 5.40.0-r2
+Depends: libc, perl, libdb47-5, perlbase-essential, perlbase-tie
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 92160
+Filename: perlbase-db-file_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 21273
+SHA256sum: d1f467c408fd79005c8869b1b267d34ba177c4b2d1e2b6422ab8e07d88021453
+Description:  DB_File perl module
+
+Package: perlbase-db
+Version: 5.40.0-r2
+Depends: libc, perl, libdb47-5, perlbase-essential, perlbase-meta-notation
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 20480
+Filename: perlbase-db_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 4311
+SHA256sum: 83e58c14050f2278358e9203ab21626e8de1f29c341f5c9071bb9e695131bbbe
+Description:  DB perl module
+
+Package: perlbase-dbm-filter
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 20480
+Filename: perlbase-dbm-filter_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 3257
+SHA256sum: 377e5880de7bcb1aa004b5bc9e387d2745a54fbc5ecec9cd4244cebba693e407
+Description:  DBM_Filter perl module
+
+Package: perlbase-devel
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential, perlbase-file, perlbase-selfloader, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 716800
+Filename: perlbase-devel_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 153937
+SHA256sum: 145ed41931e333acd9d946fb6e8faccdeab4be11641669b5073512a2b817ac69
+Description:  Devel perl module
+
+Package: perlbase-diagnostics
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-config, perlbase-essential, perlbase-text
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 20480
+Filename: perlbase-diagnostics_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 5977
+SHA256sum: f5cff657a3c49f5a177897148fff26245e2a557964e9ca0434aa20edb5d8008c
+Description:  diagnostics perl module
+
+Package: perlbase-digest
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-dynaloader, perlbase-essential, perlbase-fcntl, perlbase-integer
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 153600
+Filename: perlbase-digest_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 31957
+SHA256sum: d20a1243fc653d8d9d79443910007c573f52c83b1a7766883f45b7e69c0846b1
+Description:  Digest perl module
+
+Package: perlbase-dirhandle
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential, perlbase-symbol
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-dirhandle_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 1516
+SHA256sum: a1c7d778987c128f99d82e14097baf513d8de8ca98c60ee750ddc8c4442b8625
+Description:  DirHandle perl module
+
+Package: perlbase-dumpvalue
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 20480
+Filename: perlbase-dumpvalue_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 5165
+SHA256sum: 00f6847c37761e5f09112e949b3b53d0f5797e8919254e4bab5fd13a064b1873
+Description:  Dumpvalue perl module
+
+Package: perlbase-dumpvar
+Version: 5.40.0-r2
+Depends: libc, perl
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 20480
+Filename: perlbase-dumpvar_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 5814
+SHA256sum: 11e99d210f2beb0f925d14fc0adfb3d7168760a3e927e31355cdd062441e49bf
+Description:  dumpvar perl module
+
+Package: perlbase-dynaloader
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-config
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 20480
+Filename: perlbase-dynaloader_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 4616
+SHA256sum: 11a6480d4f75160111fe8f5d4cd7488c259551914c2711160523e524c2c1c254
+Description:  DynaLoader perl module
+
+Package: perlbase-encode
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential, perlbase-mime, perlbase-utf8, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10147840
+Filename: perlbase-encode_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 2394987
+SHA256sum: d1f6147a4b16ec90a4956e66e73bc6ee8c0d8e23352be06601e8b6bcf5f5743a
+Description:  Encode perl module
+
+Package: perlbase-encoding
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-encode, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 20480
+Filename: perlbase-encoding_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 4196
+SHA256sum: fb11f3b6362c9c7871743e1d5dd36b238e8ba7b31cb9013b0cf68855ed2d1642
+Description:  encoding perl module
+
+Package: perlbase-english
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-english_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 2234
+SHA256sum: 4c350dbeebf411cc4bd8c1f336637035ab193b3506dbea723d1b32e201e2afeb
+Description:  English perl module
+
+Package: perlbase-env
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-config, perlbase-tie
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-env_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 2010
+SHA256sum: 2cae5d7698995250a244d6141722e49e949be0ee043ca4af02ee8ff1a67d3bc5
+Description:  Env perl module
+
+Package: perlbase-errno
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-config, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-errno_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 3305
+SHA256sum: f63e657b92afcd9c94416607f333e9e9d3cf0de2f53b6deb0969699a52699cfb
+Description:  Errno perl module
+
+Package: perlbase-essential
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-config
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 112640
+Filename: perlbase-essential_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 24375
+SHA256sum: 4b8097165a3266b666a8bb86c1bf3f20249982a8cb49fa1a676194946391de4d
+Description:  essential perl module
+
+Package: perlbase-experimental
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential, perlbase-feature, perlbase-version
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-experimental_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 2452
+SHA256sum: afb02f80b742bb2782e1a8fd676ded3b2ff91d77d2182c11f4e4daaa15c0693d
+Description:  experimental perl module
+
+Package: perlbase-extutils
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-autosplit, perlbase-base, perlbase-config, perlbase-cwd, perlbase-dirhandle, perlbase-encode, perlbase-essential, perlbase-file, perlbase-io, perlbase-ipc, perlbase-ostype, perlbase-symbol, perlbase-text
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 706560
+Filename: perlbase-extutils_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 186189
+SHA256sum: a21bf701c1df002413dc9daaa4f3d7ec8684cd05649a84748a6261a60b313f3f
+Description:  ExtUtils perl module
+
+Package: perlbase-fatal
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-autodie, perlbase-config, perlbase-essential, perlbase-scalar, perlbase-tie
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 61440
+Filename: perlbase-fatal_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 16843
+SHA256sum: 00c4f3772bb5bbcedcaa162cfc5b8c3f30cf84d98596493cb2b69095911824f3
+Description:  Fatal perl module
+
+Package: perlbase-fcntl
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: perlbase-fcntl_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 7707
+SHA256sum: 30a05d37305d86bcfe1580db4c9e09e89ee2e7e5bd4e06ddf9817014497c7a73
+Description:  Fcntl perl module
+
+Package: perlbase-feature
+Version: 5.40.0-r2
+Depends: libc, perl
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 20480
+Filename: perlbase-feature_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 2752
+SHA256sum: 32b1c9396837a39018b1ce81f1f564532b3a1ae47532d7b008b7e87515576796
+Description:  feature perl module
+
+Package: perlbase-fields
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-fields_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 2785
+SHA256sum: 82b16f3c9db4a5a7ffa38d735ca08e78aad8f9c453d896b69a6b0649968ead58
+Description:  fields perl module
+
+Package: perlbase-file
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-class, perlbase-config, perlbase-cwd, perlbase-errno, perlbase-essential, perlbase-fcntl, perlbase-filehandle, perlbase-io, perlbase-locale, perlbase-params, perlbase-scalar, perlbase-symbol, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 378880
+Filename: perlbase-file_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 75258
+SHA256sum: 6394939e88d8a8104397704ea868908925e3c74545abd176c0b46503d2e0bbf3
+Description:  File perl module
+
+Package: perlbase-filecache
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-filecache_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 2272
+SHA256sum: 7d4f8e93116140acd413925376cbfe7c796a319f2fd18af6f07edf9c9001a2ee
+Description:  FileCache perl module
+
+Package: perlbase-filehandle
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential, perlbase-io
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-filehandle_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 1874
+SHA256sum: d942dd0aa5f1928492ec9f58688aa56012f18da6c73dfdc2c663ef5202253e25
+Description:  FileHandle perl module
+
+Package: perlbase-filetest
+Version: 5.40.0-r2
+Depends: libc, perl
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-filetest_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 1259
+SHA256sum: b8b8653929a4dd8bd8c03c3002989bbf5b9573f5bf642c33541dd882d5abb155
+Description:  filetest perl module
+
+Package: perlbase-filter
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-dynaloader, perlbase-essential, perlbase-text
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 92160
+Filename: perlbase-filter_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 8336
+SHA256sum: 1a8f57b6dc1a4c9b19f5e6823687221975abdfb284320d31898b2fd88df34a23
+Description:  Filter perl module
+
+Package: perlbase-findbin
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-cwd, perlbase-essential, perlbase-file
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-findbin_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 2047
+SHA256sum: ccdec8d78bd6e8f08a314a3a3d1662212b6c4d959c6609cc2c6e5b7d183edfb1
+Description:  FindBin perl module
+
+Package: perlbase-gdbm-file
+Version: 5.40.0-r2
+Depends: libc, perl, libgdbm, perlbase-essential, perlbase-tie, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: perlbase-gdbm-file_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 18267
+SHA256sum: 363646b036981f99576bcb2b37daa5d8865ab3db61a2f87ae0d70b0a2a8a662c
+Description:  GDBM_File perl module
+
+Package: perlbase-getopt
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 61440
+Filename: perlbase-getopt_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 14500
+SHA256sum: 501ae4aa66bf8822d4904656d622d59a3e5368075f75118b3a3d0af7925bdeab
+Description:  Getopt perl module
+
+Package: perlbase-hash
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential, perlbase-scalar, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 153600
+Filename: perlbase-hash_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 18281
+SHA256sum: 4068747e24513bf3ee1febe7eabbd7cdcfcc1223a7334de9238f7efdb84337a7
+Description:  Hash perl module
+
+Package: perlbase-http-tiny
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-errno, perlbase-essential, perlbase-io
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 51200
+Filename: perlbase-http-tiny_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 13291
+SHA256sum: 21eda0045115057f63658eb2a074ff6416481c03e6ee79ff6f58874b1d6fc12f
+Description:  http-tiny perl module
+
+Package: perlbase-i18n
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential, perlbase-posix, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 133120
+Filename: perlbase-i18n_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 21965
+SHA256sum: 68fe50c75047131aa0903fc09b78f20da0fea8b777b709aa1f212dbc18d32234
+Description:  I18N perl module
+
+Package: perlbase-if
+Version: 5.40.0-r2
+Depends: libc, perl
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-if_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 1439
+SHA256sum: d6e3efac9e9de6060c3472cdf40fe0c4e0edd955a46b6574cfd231b10a60abc0
+Description:  if perl module
+
+Package: perlbase-integer
+Version: 5.40.0-r2
+Depends: libc, perl
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-integer_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 1156
+SHA256sum: edd0ff5ec1ed6d9989dc91d3f1489edd91fd45488a98a0f5b6e6e34423c65bed
+Description:  integer perl module
+
+Package: perlbase-io
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-base, perlbase-bytes, perlbase-config, perlbase-errno, perlbase-essential, perlbase-fcntl, perlbase-list, perlbase-posix, perlbase-scalar, perlbase-selectsaver, perlbase-socket, perlbase-symbol, perlbase-tie, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 389120
+Filename: perlbase-io_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 69826
+SHA256sum: 6138454828a2a218a4faa70763dab0011def84ca13ed7b392cf3137ba9ecddd0
+Description:  IO perl module
+
+Package: perlbase-ipc
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-config, perlbase-essential, perlbase-file, perlbase-locale, perlbase-params, perlbase-symbol, perlbase-text
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 153600
+Filename: perlbase-ipc_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 28822
+SHA256sum: ac51bc78e157a59ca03a442417e0b8260eb7c519de22a209e438a8fc6e86e5c3
+Description:  IPC perl module
+
+Package: perlbase-json-pp
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-b, perlbase-base, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 61440
+Filename: perlbase-json-pp_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 12271
+SHA256sum: 1fad8a535206954851dac031ac1ec3dd3307e9ba82761ebcc1be32f7d48c49c7
+Description:  json-pp perl module
+
+Package: perlbase-less
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-less_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 1564
+SHA256sum: 7a360e61fa3e44740dbd7a2cfa7955cf844d0f4823c2a9cda5b382da1611fd9d
+Description:  less perl module
+
+Package: perlbase-list
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: perlbase-list_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 24089
+SHA256sum: 66d78de1d6719cc2e14679407faa1d23205d6be7bd1243fe353269f57632fd81
+Description:  List perl module
+
+Package: perlbase-locale
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential, perlbase-i18n, perlbase-integer, perlbase-utf8
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 51200
+Filename: perlbase-locale_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 11247
+SHA256sum: 6ae7fe31bc544b6eacc97a4e4540eae504a2297e29cee02bbaefe914d85c2e25
+Description:  Locale perl module
+
+Package: perlbase-math
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-config, perlbase-essential, perlbase-scalar, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 706560
+Filename: perlbase-math_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 128966
+SHA256sum: c8d3e1323175f32710cffa0803082f34106a2d9fb50ea95ca1a128088b5658ec
+Description:  Math perl module
+
+Package: perlbase-memoize
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-config, perlbase-essential, perlbase-storable
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 20480
+Filename: perlbase-memoize_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 5112
+SHA256sum: e2a204c7edb0078c9fe222fe3d8723da78e3799c590831e2fdcfe3c7ef537222
+Description:  Memoize perl module
+
+Package: perlbase-meta-notation
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-meta-notation_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 1930
+SHA256sum: 186001dd5ab107ea46640aa78084bc52ccda21a6bebbdf4248940ed8c86dc8c7
+Description:  meta_notation module
+
+Package: perlbase-mime
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: perlbase-mime_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 6920
+SHA256sum: 1419a9776fb55bd452b3f8c884d5808f04edbd99ed048d32abcf10b6276e7133
+Description:  MIME perl module
+
+Package: perlbase-module
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential, perlbase-file, perlbase-filehandle, perlbase-locale, perlbase-params, perlbase-version
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 1198080
+Filename: perlbase-module_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 137591
+SHA256sum: fba188ab1673d9454f6afbeac99ecb16874818f23f2039f2ed6a4520bf160d16
+Description:  Module perl module
+
+Package: perlbase-mro
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: perlbase-mro_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 9967
+SHA256sum: f064cc61fd15c54a1658a49d7d0215132355d50d89169320474d4d50a524b582
+Description:  mro perl module
+
+Package: perlbase-net
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-class, perlbase-errno, perlbase-essential, perlbase-fcntl, perlbase-filehandle, perlbase-io, perlbase-posix, perlbase-socket, perlbase-symbol, perlbase-time
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 194560
+Filename: perlbase-net_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 46186
+SHA256sum: 14ab36fffc58b786ee3393a80adce7b72a9340401644756d2e23f4f928df14a2
+Description:  Net perl module
+
+Package: perlbase-next
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 20480
+Filename: perlbase-next_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 2673
+SHA256sum: 0c673d60ac58bd494f087faecce90b11aee2ece9acebcb7e852ebb21a7a8a48a
+Description:  NEXT perl module
+
+Package: perlbase-o
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-b, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-o_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 1704
+SHA256sum: a5de9a5be1747c63ea1cadb1fd06d583e967b55bb77631bea8b8aa9f44edb02a
+Description:  O perl module
+
+Package: perlbase-opcode
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 92160
+Filename: perlbase-opcode_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 15951
+SHA256sum: 8c15d944c0f907d7ba2897ab1cb5ea7f8c07901742b2f19a116f92c511e2d0e2
+Description:  Opcode perl module
+
+Package: perlbase-open
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-open_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 2499
+SHA256sum: 9b1bae0fa70600ed48b52facaecdc57d35b22e537bb7262b7c35ac7b11e9b31c
+Description:  open perl module
+
+Package: perlbase-ops
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-opcode
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-ops_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 1317
+SHA256sum: 123934a33b673bbd42dd25a0dbb33b12b0efc320c049ad210aa2f43a3a792c09
+Description:  ops perl module
+
+Package: perlbase-ostype
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-ostype_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 1686
+SHA256sum: c8c41b240c6f0dd49f4ea2abd82d842055a39ebb7c0f32b12c6eb24fe175eeca
+Description:  OSType perl module
+
+Package: perlbase-params
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential, perlbase-locale
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 20480
+Filename: perlbase-params_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 4122
+SHA256sum: 1d5c6c4c61e599bc655d444e29c8c03804c6b9e11e632355c013597555c8971b
+Description:  Params perl module
+
+Package: perlbase-perl5db
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-cwd, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 235520
+Filename: perlbase-perl5db_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 64262
+SHA256sum: 6540d68a0a0d74016b880164ef79085014b8c3898b8fbe697579500cd3e3ad1a
+Description:  perl5db perl module
+
+Package: perlbase-perlio
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential, perlbase-mime, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 215040
+Filename: perlbase-perlio_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 21436
+SHA256sum: f0236ad473c5f53d1f42573f02415c95c4c3d48051ed8739df6735bfa0af1359
+Description:  PerlIO perl module
+
+Package: perlbase-pod
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-config, perlbase-cwd, perlbase-encode, perlbase-essential, perlbase-fcntl, perlbase-file, perlbase-getopt, perlbase-integer, perlbase-posix, perlbase-symbol, perlbase-term, perlbase-text
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 645120
+Filename: perlbase-pod_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 174607
+SHA256sum: 413d46e2fa14d934844d771bde5abbabb91bd900030b13ee357e9ece11050a37
+Description:  Pod perl module
+
+Package: perlbase-posix
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential, perlbase-fcntl, perlbase-tie, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 163840
+Filename: perlbase-posix_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 40675
+SHA256sum: 60d8a3846a844eb091da04b2e1a5432778c01ee24ff0d3c0a294587de7ef296d
+Description:  POSIX perl module
+
+Package: perlbase-re
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 675840
+Filename: perlbase-re_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 268052
+SHA256sum: 412fdef8a00cd5c3cf569d1ef62f8cd7fc0dfef2af254c856c8920610f1aa1fc
+Description:  re perl module
+
+Package: perlbase-safe
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-b, perlbase-essential, perlbase-opcode, perlbase-scalar, perlbase-utf8
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 20480
+Filename: perlbase-safe_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 4878
+SHA256sum: 1636b018ddc269b3299f1c4842801a91b2d21ebb697280b4ed0982f0b0cfd56b
+Description:  Safe perl module
+
+Package: perlbase-scalar
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential, perlbase-list
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-scalar_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 1652
+SHA256sum: f56842123c2e2888770249c691eb924094fc9e87b31263750b2b3d18fe5fcd7a
+Description:  Scalar perl module
+
+Package: perlbase-sdbm-file
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential, perlbase-tie, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: perlbase-sdbm-file_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 12206
+SHA256sum: a5f6fb456ddcd58e859fe8108b1f73ba51685fb7784ffb49408818ec93a78613
+Description:  SDBM_File perl module
+
+Package: perlbase-search
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-search_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 1991
+SHA256sum: ba668e7f8d5982f565c98f03c60e9dc35794fba735a21bca59fd8a4872c71c84
+Description:  Search perl module
+
+Package: perlbase-selectsaver
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential, perlbase-symbol
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-selectsaver_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 1301
+SHA256sum: 62504f4d56b6e5912946ee489622da30af1525fbede1ed25e0baf44260c03d26
+Description:  SelectSaver perl module
+
+Package: perlbase-selfloader
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential, perlbase-io
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 20480
+Filename: perlbase-selfloader_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 3251
+SHA256sum: df7bf8917e5e1f4d34e87856ea0a27305650e17380a344ecf861e24e9551caac
+Description:  SelfLoader perl module
+
+Package: perlbase-sigtrap
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential, perlbase-meta-notation
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-sigtrap_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 2749
+SHA256sum: 03642f7afd280f2b1cb4203064e3396fe4fc33c504117aa35b7d4955980e3a2b
+Description:  sigtrap perl module
+
+Package: perlbase-socket
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 92160
+Filename: perlbase-socket_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 20117
+SHA256sum: 6b9d35eb3a4cee1a826161d04e0228b48693c92950f39edc239bbe7581650c09
+Description:  Socket perl module
+
+Package: perlbase-sort
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-sort_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 1373
+SHA256sum: 3be4a04d3c3bec0909e13f65f4bc1c8f976d6b5207ff60f589e059be94df48f3
+Description:  sort perl module
+
+Package: perlbase-storable
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 153600
+Filename: perlbase-storable_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 46976
+SHA256sum: d1dd49ca7e12e77094793af663099320b3bfb9861e36158f642954789e18d926
+Description:  Storable perl module
+
+Package: perlbase-symbol
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-symbol_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 1993
+SHA256sum: 6c9b468bea209736aacb553df532d4fd56be237cf361a97f189d172b01b5f9d6
+Description:  Symbol perl module
+
+Package: perlbase-sys
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential, perlbase-file, perlbase-posix, perlbase-socket
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 174080
+Filename: perlbase-sys_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 15656
+SHA256sum: 794d247b0169c23c0801828a256398a5d6dcdfd8ae7ef8c1385f2827497aa852
+Description:  Sys perl module
+
+Package: perlbase-tap
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-base, perlbase-benchmark, perlbase-config, perlbase-essential, perlbase-file, perlbase-io, perlbase-posix, perlbase-text
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 184320
+Filename: perlbase-tap_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 36053
+SHA256sum: c13143b2b6bf34213dda5eb31d4651b55dc42c7ba999e4cdc6304511f16c8e63
+Description:  TAP perl module
+
+Package: perlbase-term
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 51200
+Filename: perlbase-term_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 12352
+SHA256sum: ebd50fe3a425391e7304c247a9e14abd55557c5fed25e761529388f4e956799e
+Description:  Term perl module
+
+Package: perlbase-test
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-base, perlbase-config, perlbase-essential, perlbase-io, perlbase-symbol, perlbase-tap, perlbase-text
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 440320
+Filename: perlbase-test_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 103492
+SHA256sum: 55eef5536207580f159d82ea785ee815435bf1c10e8f47d7b855cbee1e83fc94
+Description:  Test perl module
+
+Package: perlbase-text
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential, perlbase-selfloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 61440
+Filename: perlbase-text_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 12817
+SHA256sum: d9aed27483db9debd5099fa430f7d760bb6a032fe6b2a6cbac26a58f06d326cb
+Description:  Text perl module
+
+Package: perlbase-thread
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential, perlbase-scalar, perlbase-threads
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 20480
+Filename: perlbase-thread_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 3463
+SHA256sum: 89b7f0f3ea98ec8008571fd5229a7a67f9e5377cebaf3663bf7181b53e3330d0
+Description:  Thread perl module
+
+Package: perlbase-threads
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-config, perlbase-essential, perlbase-scalar, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 153600
+Filename: perlbase-threads_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 33942
+SHA256sum: 99981c5ad2949fa83d8ce297e630571fd2cd58f3181385c253bbde10fb4c8d0a
+Description:  threads perl module
+
+Package: perlbase-tie
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential, perlbase-fcntl, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: perlbase-tie_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 18854
+SHA256sum: b1ede7fe9aaecac64a674580ef483aedb8f954b4bec79b8874045c3d7b65f055
+Description:  Tie perl module
+
+Package: perlbase-time
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-class, perlbase-config, perlbase-dynaloader, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 184320
+Filename: perlbase-time_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 30964
+SHA256sum: ce53e7c2475894737d6e8a9066f60d49e0a8a634be5334085d21ce26735ea703
+Description:  Time perl module
+
+Package: perlbase-unicode
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-base, perlbase-charnames, perlbase-dynaloader, perlbase-essential, perlbase-file
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 6092800
+Filename: perlbase-unicode_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 970537
+SHA256sum: 56f1b625bcdde20e9986321da3b65d07584cd7cbe29cf8976d5395aa2d6a7769
+Description:  Unicode perl module
+
+Package: perlbase-unicore
+Version: 5.40.0-r2
+Depends: libc, perl
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 4945920
+Filename: perlbase-unicore_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 798559
+SHA256sum: a6c3940253faa161844409e4c2b38bccf1e52be2948abd61f9326dea9cc0feda
+Description:  unicore perl module
+
+Package: perlbase-universal
+Version: 5.40.0-r2
+Depends: libc, perl
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-universal_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 1111
+SHA256sum: b46fb6face224c12bf633eb98c1671923e032f280b72674c266dba23c0426642
+Description:  UNIVERSAL perl module
+
+Package: perlbase-user
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-class, perlbase-config, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 20480
+Filename: perlbase-user_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 2877
+SHA256sum: 295b3dd96aa22e8edb440d1e9d521dd536cf24e3d17e3e5bc57946038c262d37
+Description:  User perl module
+
+Package: perlbase-utf8
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-essential, perlbase-re, perlbase-unicore
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-utf8_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 1287
+SHA256sum: 950709c00b97e03e78ad4fda6a0cee55161cdd9e15d8becd0d672fb8ccba57d7
+Description:  utf8 perl module
+
+Package: perlbase-version
+Version: 5.40.0-r2
+Depends: libc, perl, perlbase-config, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-version_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 2051
+SHA256sum: 4f3e044424a8009bc7b244a22ee37cff8dde981e8e8298ffb2ebb95f53712b70
+Description:  version perl module
+
+Package: perlbase-xsloader
+Version: 5.40.0-r2
+Depends: libc, perl
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: http://www.cpan.org/
+CPE-ID: cpe:/a:perl:perl
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: perlbase-xsloader_5.40.0-r2_aarch64_cortex-a53.ipk
+Size: 2607
+SHA256sum: 4ee48aea804167d6e5b28a3e32493be9e5c37591548852327729c5623451be1f
+Description:  XSLoader perl module
 
 Package: python3-asyncio-src
 Version: 3.11.14-r1
@@ -4244,8 +5844,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: aarch64_cortex-a53
 Installed-Size: 79718400
 Filename: python3-dev_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 38187119
-SHA256sum: fa93407eb3ec4f41b1c2c9b4e4812fd0d636ddcf5b5b62edff13612d6b6a0907
+Size: 38186713
+SHA256sum: fab48bde59fd8d19b88c8d7585e07cf79894985d158e6accc11ef7cf4c5ca19c
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
