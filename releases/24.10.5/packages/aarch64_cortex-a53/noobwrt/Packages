@@ -7,8 +7,8 @@ URL: https://amnezia.org/
 Architecture: aarch64_cortex-a53
 Installed-Size: 92160
 Filename: amneziawg-tools_1.0.20250903-r1_aarch64_cortex-a53.ipk
-Size: 33116
-SHA256sum: ab3053b78cbd83314ebe52225b896c3d6ae2b3bfa380b585a4d62494984a493c
+Size: 33120
+SHA256sum: d8f911446a3f35cebbe332e8757346ed36f7c0b03cbeefaef9195ae02475e991
 Description:  Amnezia VPN — simple and free app to run a self-hosted VPN with
  high privacy requirements.
  
@@ -23,8 +23,8 @@ Section: net
 Architecture: aarch64_cortex-a53
 Installed-Size: 4700160
 Filename: bandix_0.12.4-r1_aarch64_cortex-a53.ipk
-Size: 2325062
-SHA256sum: 0908c237e0f2c04a2d3c479bf01231ea982b79b4b262282cdfe736f4cfe40669
+Size: 2325048
+SHA256sum: 09a417b7524cbdcd0092c469e4261a835c3f274e3b9770327867067dd7289042
 Description:  Bandix core service for network traffic monitoring
 
 Package: chinadns-ng
@@ -36,8 +36,8 @@ URL: https://github.com/zfl9/chinadns-ng
 Architecture: aarch64_cortex-a53
 Installed-Size: 522240
 Filename: chinadns-ng_2025.08.09-r1_aarch64_cortex-a53.ipk
-Size: 269721
-SHA256sum: 959b405a0ed66c8981df952e5db674bc02c7e70b6218593cf9a1119e65a9805a
+Size: 269745
+SHA256sum: d1b7c5dae9a6cb44d82842f0e1b9c7d19227007c044dd94d1d3adb8e4e47f461
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: dns2socks
@@ -49,8 +49,8 @@ URL: http://dns2socks.sourceforge.net/
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: dns2socks_2.1-r2_aarch64_cortex-a53.ipk
-Size: 11836
-SHA256sum: 65359fff64af102eae318e1065167ddb30fe11d2de65d97769b141b8284e1e28
+Size: 11837
+SHA256sum: f9aa4e9754b40233f5eaeacd4c87508c59e2b13dcc53b969e005b4fbd4f90c23
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -63,8 +63,8 @@ URL: https://github.com/snowie2000/geoview
 Architecture: aarch64_cortex-a53
 Installed-Size: 6010880
 Filename: geoview_0.2.5-r1_aarch64_cortex-a53.ipk
-Size: 2345267
-SHA256sum: 5a36a16f382ba02ebe5662cbbf546c32b3653d509fd141a9af15a78563e7c580
+Size: 2345209
+SHA256sum: 0a58fd10983008dd26046cf2ed7cb34ebf7f9efcccfa43cc400be457ff15dd6b
 Description:  geoview is a handy tool to extract useful information from geo* files.
 
 Package: internet-detector
@@ -75,8 +75,8 @@ URL: https://github.com/gSpotx2f/luci-app-internet-detector
 Architecture: all
 Installed-Size: 92160
 Filename: internet-detector_1.7.1-r1_all.ipk
-Size: 16316
-SHA256sum: 0b9e2289007e4c8297ba4f29a0ca665c59e4283007c29ec5a50545f6804b1a89
+Size: 16308
+SHA256sum: 3792c7008c5406315ceed015f1acd4843aba327fd575d3ce441476c645c73ab4
 Description:  Internet-detector is a small daemon
  for checking Internet availability.
  Written in Lua using the luaposix library.
@@ -90,7 +90,7 @@ Architecture: aarch64_cortex-a53
 Installed-Size: 81920
 Filename: libQt6Concurrent_6.10.2-r1_aarch64_cortex-a53.ipk
 Size: 8581
-SHA256sum: d336ccd2b162cbf2a63b9afcdde6ffbdfd780dab6c73e97f54a622a1391f7fb8
+SHA256sum: a92aac6ad486ad16b9ce6ba9625a132515947e0a4e665b7d395613b4526555d2
 Description:  This package provides the Qt6 Concurrent v6.10.2 library.
 
 Package: libQt6Core
@@ -101,8 +101,8 @@ URL: http://qt-project.org
 Architecture: aarch64_cortex-a53
 Installed-Size: 11048960
 Filename: libQt6Core_6.10.2-r1_aarch64_cortex-a53.ipk
-Size: 3709911
-SHA256sum: 0e78ffc3fb2f5c782cc772de8418dc8a1b27e31241796162a4200de4807d1ce1
+Size: 3709710
+SHA256sum: 1b39f0a97ba93cd1a5e96d69988af5069b85389952295f15f74586b74d9afa5c
 Description:  This package provides the Qt6 Core v6.10.2 library.
 
 Package: libQt6DBus
@@ -113,8 +113,8 @@ URL: http://qt-project.org
 Architecture: aarch64_cortex-a53
 Installed-Size: 1003520
 Filename: libQt6DBus_6.10.2-r1_aarch64_cortex-a53.ipk
-Size: 354135
-SHA256sum: 988f3299a0e89de64e22c7202ec26b3a480e742f4ddeb4b6d6f6e3768b219d59
+Size: 354141
+SHA256sum: e1aa3a3973908fd170f33301ba9e33b50d8a79da4805e086dfecb0db5569612b
 Description:  This package provides the Qt6 DBus v6.10.2 library.
 
 Package: libQt6Gui
@@ -125,8 +125,8 @@ URL: http://qt-project.org
 Architecture: aarch64_cortex-a53
 Installed-Size: 8048640
 Filename: libQt6Gui_6.10.2-r1_aarch64_cortex-a53.ipk
-Size: 3266729
-SHA256sum: e0b617beb3ef0d8c1add82261bd2e4a18fc2329c621f861d8e9fb5f3236752ae
+Size: 3266805
+SHA256sum: c9955c0c819303615a30a6345f8664f359128fbeea9d8d9a7f89b1eee05135ce
 Description:  This package provides the Qt6 Gui v6.10.2 library.
 
 Package: libQt6Network
@@ -137,8 +137,8 @@ URL: http://qt-project.org
 Architecture: aarch64_cortex-a53
 Installed-Size: 2447360
 Filename: libQt6Network_6.10.2-r1_aarch64_cortex-a53.ipk
-Size: 923589
-SHA256sum: 7bcc8c3a1cc55d732bd61f4f996533c4f03f0bc07d141df9910b5f9dd443cd42
+Size: 923591
+SHA256sum: 0f71754c7ac081bbf99d3852f478b27ec72f58f7b73bd0e1fa0fad48ecfb3166
 Description:  This package provides the Qt6 Network v6.10.2 library.
 
 Package: libQt6PrintSupport
@@ -149,8 +149,8 @@ URL: http://qt-project.org
 Architecture: aarch64_cortex-a53
 Installed-Size: 542720
 Filename: libQt6PrintSupport_6.10.2-r1_aarch64_cortex-a53.ipk
-Size: 170078
-SHA256sum: 30fccfb7bb985528dd12487b6973429712fc633aef1750c4ab0b0ce6cd1e2633
+Size: 170063
+SHA256sum: 8e01857a100bd24a4adeffad417952c14e69fb7171db8c216d58004eb23367b5
 Description:  This package provides the Qt6 PrintSupport v6.10.2 library.
 
 Package: libQt6Sql
@@ -161,8 +161,8 @@ URL: http://qt-project.org
 Architecture: aarch64_cortex-a53
 Installed-Size: 276480
 Filename: libQt6Sql_6.10.2-r1_aarch64_cortex-a53.ipk
-Size: 93168
-SHA256sum: 120ee51d1b4ef49cf800a10fd02926a7384b695e5829a5138adab7d35f69a427
+Size: 93174
+SHA256sum: 2a5562f9ba1a21ed248816da76c803af14bc6cd096f397fc00cc04a3131046ab
 Description:  This package provides the Qt6 Sql v6.10.2 library.
 
 Package: libQt6Test
@@ -173,8 +173,8 @@ URL: http://qt-project.org
 Architecture: aarch64_cortex-a53
 Installed-Size: 471040
 Filename: libQt6Test_6.10.2-r1_aarch64_cortex-a53.ipk
-Size: 156596
-SHA256sum: 025c3c62a01887f0921f7cd4ee0e79c54386ca33adf4480551e4405570e47c57
+Size: 156586
+SHA256sum: dd82356fd6831df03ae24fd0f3208f80b8e2261f9df110597f159437eac55ce4
 Description:  This package provides the Qt6 Test v6.10.2 library.
 
 Package: libQt6Widgets
@@ -185,8 +185,8 @@ URL: http://qt-project.org
 Architecture: aarch64_cortex-a53
 Installed-Size: 8837120
 Filename: libQt6Widgets_6.10.2-r1_aarch64_cortex-a53.ipk
-Size: 3570482
-SHA256sum: 96af3ee42414e2153cb957ce789c9a997da493661e1d1454007a02b19770c6f5
+Size: 3570672
+SHA256sum: 3817b1ba1a7df5abc2731381ae671083cfd4b4cb96cc80eb86c837c6f9a2e3ee
 Description:  This package provides the Qt6 Widgets v6.10.2 library.
 
 Package: libQt6Xml
@@ -197,8 +197,8 @@ URL: http://qt-project.org
 Architecture: aarch64_cortex-a53
 Installed-Size: 204800
 Filename: libQt6Xml_6.10.2-r1_aarch64_cortex-a53.ipk
-Size: 73603
-SHA256sum: 99332d07d34f3ca603a5df6a282a522f02bd7bf5834ecdec11232c55ae588d9c
+Size: 73590
+SHA256sum: b0ae0c467c51ffcff5deaba14e09c3cdfafab7f39903073486c4ce6e8d63313b
 Description:  This package provides the Qt6 Xml v6.10.2 library.
 
 Package: luci-app-3ginfo-lite
@@ -209,8 +209,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 593920
 Filename: luci-app-3ginfo-lite_1.0.76-r20250609_all.ipk
-Size: 117878
-SHA256sum: eef631dc16f11ac5b92ccef898c296343f397fd94b36b4d5cfb03199a6f93745
+Size: 117833
+SHA256sum: 7a31b8790f4bc5ab3871c4bf7ca82ff715c3a6a7ae148635f83f21de24ddfe01
 Description:  LuCI JS interface for the 3ginfo-lite. The package allows you to view the parameters of the mobile internet connection.
 
 Package: luci-app-adguardhome
@@ -221,8 +221,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 327680
 Filename: luci-app-adguardhome_1.1.1-r1_all.ipk
-Size: 92823
-SHA256sum: b638ab8206c08ae5fca271a09b3ce4c776107e6c014b5ab02f7c1747fc580fc2
+Size: 92813
+SHA256sum: d8d94b68bf0ae00444f716c57e1c59ac90804d56cbce70810d96c3b9ff79d750
 Description:  LuCI support for AdGuardHome
 
 Package: luci-app-alpha-config
@@ -234,21 +234,21 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 20480
 Filename: luci-app-alpha-config_2.1-r1_all.ipk
-Size: 2725
-SHA256sum: 361160dc0fb4e3a4947a30cdd8065ae514a9f4beee71058777bea8b304cd4d1e
+Size: 2724
+SHA256sum: 1a9b9daf9cb9a224eb5781fa7ba56522cd50e022e7a6803b6e580515c8b8038d
 Description:  Configuration Alpha theme in LuCI.
 
 Package: luci-app-alwaysonline
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, uci-alwaysonline
 License: MIT
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-app-alwaysonline_26.039.11095~b2e7896_all.ipk
-Size: 2534
-SHA256sum: e402356e38380a63f13bcc7972a50fab5e5736a8c93d657474c5346be6156239
+Filename: luci-app-alwaysonline_26.039.63292~34dad1c_all.ipk
+Size: 2535
+SHA256sum: 4f95b75ed300ce915f35059496ac696b6f6740604be4b322bf17a4bf965d532d
 Description:  Hijack/bypass Windows NCSI and iOS portal detection
 
 Package: luci-app-argon-config
@@ -259,8 +259,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 30720
 Filename: luci-app-argon-config_1.0-r20230608_all.ipk
-Size: 4011
-SHA256sum: 11d121e5a5a51f3015dfa440af9c3b486226f55f01cdb91be8a46df5962cde1e
+Size: 4010
+SHA256sum: 2e5164ce416868db1389b75fcc919f0365b1eb38c8dbea3c511c3474d0ef0b55
 Description:  LuCI app for Argon theme configuration
 
 Package: luci-app-aw1k-led
@@ -271,8 +271,8 @@ Section: luci
 Architecture: all
 Installed-Size: 30720
 Filename: luci-app-aw1k-led_1.0-r5_all.ipk
-Size: 4591
-SHA256sum: 9f83c25c233f10082bb36534c234a5870354e86f89185a0253cb3c20402c5c47
+Size: 4588
+SHA256sum: d5d9625372fb7fbdb6fe949732d896a4d4db8df0e987a1fe33676022707fe0c3
 Description:  LuCI application to configure LED behavior based on 5G signal quality.
 
 Package: luci-app-bandix
@@ -284,8 +284,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 368640
 Filename: luci-app-bandix_0.12.3-r1_all.ipk
-Size: 62306
-SHA256sum: e26c086453f4c708899b29c1d35bf748f1ca16f49e50d6aae73b9ded3c1252a1
+Size: 62058
+SHA256sum: 6692742f20e7c96c6f6500525286bad1f3dc718f05c346fea20beda2725f06a8
 Description:  LuCI Bandix app for network traffic monitoring
 
 Package: luci-app-clash
@@ -295,8 +295,8 @@ Section: luci
 Architecture: all
 Installed-Size: 6922240
 Filename: luci-app-clash_v1.8.0_all.ipk
-Size: 2827025
-SHA256sum: 53e349615cadff64eb60bc22be8a07178fc1e0d666bcc2dba4b2484c3440fcd9
+Size: 2826987
+SHA256sum: eae3e2601e7a61c6d5868a0ccda148d3b8c17c01f71f7c6fce8fe34f3506bf6f
 Description:  Luci Interface for clash.
 
 Package: luci-app-cpu-status-mini
@@ -308,8 +308,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 10240
 Filename: luci-app-cpu-status-mini_0.2.0-r1_all.ipk
-Size: 1844
-SHA256sum: 3fb767cc7f5c6c4071d4246f822c69ba69a1af10337a05f0bfd654be40a28ad7
+Size: 1854
+SHA256sum: 2a6606a761fa2d296d2d6907d887dc8cef295a5d1a386bd2aa0e19acfd14748c
 Description:  CPU utilization info for the LuCI status page
 
 Package: luci-app-cpu-status
@@ -321,9 +321,21 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 40960
 Filename: luci-app-cpu-status_0.6.2-r1_all.ipk
-Size: 6518
-SHA256sum: de9ff7e3f35add724028d6fd7ff00859e74d585bbf5e8dc7be91e193849bc3b7
+Size: 6524
+SHA256sum: 635663aeea9af3b402f817781093a19e9ea27c4eb5a0b8076ad25eb8d94c6980
 Description:  CPU utilization info for the LuCI status page
+
+Package: luci-app-cpufreq
+Version: 26.039.63292~34dad1c
+Depends: libc, luci-lua-runtime
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-cpufreq_26.039.63292~34dad1c_all.ipk
+Size: 3845
+SHA256sum: 6d2e41c4def2fbf4a083fcaf8b29d4a0e948a1dac14ee52247d392783b55de3d
+Description:  LuCI for CPU Freq Setting
 
 Package: luci-app-diskman
 Version: 0.2.13-r1
@@ -334,8 +346,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 112640
 Filename: luci-app-diskman_0.2.13-r1_all.ipk
-Size: 21704
-SHA256sum: 4729975ca747263e75a08c8679d6b321b7f0d2c9f253550f67c4f615cfc98497
+Size: 21710
+SHA256sum: 1a49d2bc17b91c64e7749d5a67ec390c15f901a0aaae9b3fda7d01f40902efa5
 Description:  Disk Manager interface for LuCI
 
 Package: luci-app-internet-detector
@@ -346,8 +358,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 71680
 Filename: luci-app-internet-detector_1.7.1-r1_all.ipk
-Size: 12907
-SHA256sum: a1f988903a2bffdda2d6c3be5f0b8abb6a604660a149242ba4af29eb95a444a8
+Size: 12908
+SHA256sum: ca9b9a456ed366232a6d5fdebaf94f1408ec2eb411be65b6d9e6d29da1f39a0e
 Description:  LuCI support for internet-detector
 
 Package: luci-app-ipinfo
@@ -359,20 +371,20 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 20480
 Filename: luci-app-ipinfo_2.4-r1_all.ipk
-Size: 2956
-SHA256sum: e39303c76a630d17d1b752e4d879186ccf637ef74705a6343996a538497de051
+Size: 2951
+SHA256sum: 5e332fdcc8e1732a9f1b789b67a10aa83973abcfba8f62e527a3f84695ef25d4
 Description:  Displays IP address information in overview via ip.guide.
 
 Package: luci-app-mini-diskmanager
-Version: 1.0.27-r20260207
+Version: 1.0.28-r20260208
 Depends: libc, luci-base, block-mount, fdisk, parted, lsblk
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 245760
-Filename: luci-app-mini-diskmanager_1.0.27-r20260207_all.ipk
-Size: 47656
-SHA256sum: bc175b47efc7f515c86317f4a32b92ae4d7dd2837ed1e6fe8d06eb9ed3f4b7b4
+Filename: luci-app-mini-diskmanager_1.0.28-r20260208_all.ipk
+Size: 48017
+SHA256sum: 4ffac85966397de274011d385c782be683a8ff90fb9a1bdf52cc4ba3abeff290
 Description:  Interface for managing disk partitions and filesystems in OpenWrt.
 
 Package: luci-app-modemdata
@@ -383,21 +395,21 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 471040
 Filename: luci-app-modemdata_1.0.24-r20251209_all.ipk
-Size: 186634
-SHA256sum: 195df454d201bc77e8321e7a5fd84298f7146df52eee0fd99921feafcca8ea44
+Size: 188687
+SHA256sum: a85b6bbb26ba6300a6cf4d7e090e7134c075124bd7d8d7d908325618f0d2ed47
 Description:  Detailed information about the cellular modem and parameters of the mobile internet connection.
 
 Package: luci-app-netspeedtest
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, iperf3, librespeed-go, ca-certificates, curl
 License: MIT
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 40960
-Filename: luci-app-netspeedtest_26.039.11095~b2e7896_all.ipk
-Size: 6666
-SHA256sum: 6c717c4029f1aafe2ee8e534a2681f508a11aff0e7353b16878def0442411593
+Filename: luci-app-netspeedtest_26.039.63292~34dad1c_all.ipk
+Size: 6651
+SHA256sum: 5f4b84bff2a054bfc3a15063e3eff86ecf7f7b1df71bc5d9fe1914931c0299b7
 Description:  Test Net speed
 
 Package: luci-app-netstat
@@ -408,8 +420,8 @@ Section: luci
 Architecture: all
 Installed-Size: 276480
 Filename: luci-app-netstat_1.2-r5_all.ipk
-Size: 84994
-SHA256sum: 6f980d9df9bf862ceddd3ad48e4a274d444b53ecc31d29e961f44a0f1ebce636
+Size: 84997
+SHA256sum: c39af42830fdc7a63f99cc370ccef0e97907474b4f9e1020db7daae6a8862e78
 Description:  This LuCI app provides net statistic functionality in a web interface.
 
 Package: luci-app-passwall2
@@ -420,8 +432,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 1269760
 Filename: luci-app-passwall2_26.2.5-r1_all.ipk
-Size: 319120
-SHA256sum: ba53e35fec38f6ded7257f598335cc4e2254da3b2eaa3b8fe35315ef9d6d1f34
+Size: 319188
+SHA256sum: b7516f790a6fc3c4c0c914a779085327505af5f7fa98fd772f2a237d07011d9b
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
@@ -432,8 +444,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 3153920
 Filename: luci-app-passwall_26.2.6-r1_all.ipk
-Size: 889824
-SHA256sum: 0fd3bb0a2f3b8004c32b3a64ed0bc51ae7adff6465b0a4a1a24fee7974ec9c2a
+Size: 890679
+SHA256sum: dd405f97ed8f1836dc5638ddc2f5d5aa3551b13495ab636f6275c3233942571e
 Description:  LuCI support for PassWall
 
 Package: luci-app-qbittorrent
@@ -444,8 +456,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 20480
 Filename: luci-app-qbittorrent_1.0.1-r1_all.ipk
-Size: 2643
-SHA256sum: 60633c921d2cafb7eb92cf3e252ef273803f02886d4999641bdfb00e90fede0e
+Size: 2648
+SHA256sum: 247a632e9dabce53e27478a79ea849ca1b8d909a545a25b07aa30541726d20f1
 Description:  LuCI support for qBittorrent
 
 Package: luci-app-qmodem-monitor
@@ -457,8 +469,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 30720
 Filename: luci-app-qmodem-monitor_3.0.0-r1_all.ipk
-Size: 5537
-SHA256sum: 33d5b1feef198249ea7765c98a281f76b5554209f4abc1c3408deab3ce705fa9
+Size: 5541
+SHA256sum: 37cc591a0e6a1c7f1138fedeb18267a1e0d3c8db8421eac13b85396b596fb0ce
 Description:  LuCI App for QModem Monitor Configuration(JS Luci Only)
 
 Package: luci-app-qmodem-mwan
@@ -470,8 +482,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 30720
 Filename: luci-app-qmodem-mwan_3.0.0-r1_all.ipk
-Size: 4172
-SHA256sum: e0fbd997edd689b09413313ca1b3554ebda980334e520ae1dec74be8c5704b29
+Size: 4171
+SHA256sum: 8e8633e2eb68e269a4b6c00b0166e20085e1f879f515c81f98d4da41b791ef4f
 Description:  Luci qwrt modem mwan support
 
 Package: luci-app-qmodem-next
@@ -483,8 +495,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 235520
 Filename: luci-app-qmodem-next_3.0.0-r1_all.ipk
-Size: 43051
-SHA256sum: 6f5ab7011c89085a9ef78bde2e06c73844150f4a716f80f13e9e9f48c00dd7f2
+Size: 43045
+SHA256sum: b2d2e112bbd4549aaeb4a399ad6a1ca282b056ee4596f6776b05f4d3063d82a6
 Description:  LuCI Modern UI for QModem(Not Support Lua Version)
 
 Package: luci-app-qmodem-sms
@@ -496,8 +508,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 61440
 Filename: luci-app-qmodem-sms_3.0.0-r1_all.ipk
-Size: 12210
-SHA256sum: fb3b5441eb4afd214c2c491a8058c951e4d18fa7530fd80de1ad4f660cefb9e7
+Size: 12207
+SHA256sum: 7a855fdc899ce9a9b4c59a8ee11df7a2d5cc3bda59cadc9f3f3876934b8954d6
 Description:  Luci qwrt modem sms support
 
 Package: luci-app-qmodem-ttl
@@ -509,8 +521,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 20480
 Filename: luci-app-qmodem-ttl_3.0.0-r1_all.ipk
-Size: 2430
-SHA256sum: 16c43c916dfb96150ecaedaba1d61ed9341459369ac0a471db0a45d3a4eb90af
+Size: 2433
+SHA256sum: 093c805140882cc48e5a79efd76a1a8a65e2e996d642fd38e001416a9c126ba9
 Description:  Luci qwrt modem ttl support
 
 Package: luci-app-qmodem-ttlfw4
@@ -522,8 +534,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 20480
 Filename: luci-app-qmodem-ttlfw4_3.0.0-r1_all.ipk
-Size: 3206
-SHA256sum: 85dfde7bbe5bcaf988b22c067eae3e6ced9b9c82f8dd10d582a0be34b4e2767e
+Size: 3207
+SHA256sum: 6ede77dfa384aa77aada88792f479854b76aaf82e57e0a452811aae72b531e2f
 Description:  LuCI App for QModem TTL Configuration (JS LuCI / fw4 Only)
 
 Package: luci-app-qmodem
@@ -535,9 +547,21 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 122880
 Filename: luci-app-qmodem_3.0.0-r1_all.ipk
-Size: 23317
-SHA256sum: 9e7d359dd8dbb672bb1a8deb99f3ee14cb57157112b544ac6ea0c00dee79fd64
+Size: 23319
+SHA256sum: 15ef566ce689bac15ddba4ed2a7ed79edba39adae1e4064766774ff472cde01e
 Description:  LuCI support for QWRT Modem
+
+Package: luci-app-ramfree
+Version: 1.0-r1
+Depends: libc
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-app-ramfree_1.0-r1_all.ipk
+Size: 1598
+SHA256sum: 2c5b6d916f0c28aa8914f5999f55da6ce2f4206a8202c632d9d128382ad1758b
+Description:  LuCI support for ramfree
 
 Package: luci-app-sms-tool-js
 Version: 2.0.32-r20260127
@@ -547,8 +571,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 122880
 Filename: luci-app-sms-tool-js_2.0.32-r20260127_all.ipk
-Size: 30781
-SHA256sum: 5920239d492f110d75a044d7ad9a4f987187fceed54d5c0dc1dce79b940acc53
+Size: 30778
+SHA256sum: ea18fb439b6e428e72c63fb065dee90639237b2dcc05374728ccb397bab70c3b
 Description:  LuCI JS interface for the sms-tool. The user interface supports SMS / USSD Codes / AT Commands.
 
 Package: luci-app-tailscale
@@ -559,22 +583,9 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-app-tailscale_1.2.6-r1_all.ipk
-Size: 9752
-SHA256sum: d0a465c481043cf25399c970676a03039f41dc2e0c69ccc8620b4055ff783c95
+Size: 9768
+SHA256sum: f6c3c538eb6984b4da9dbee7855c72c3c479f682924c9878893298f54c3db091
 Description:  LuCI for Tailscale
-
-Package: luci-app-tinyfilemanager
-Version: 2.6-r20251224
-Depends: libc, php8, php8-cgi, php8-fastcgi, php8-fpm, php8-mod-session, php8-mod-ctype, php8-mod-fileinfo, php8-mod-zip, php8-mod-iconv, php8-mod-mbstring, coreutils-stat, zoneinfo-asia, bash, curl, tar, inotifywait
-License: GPL-3.0
-Section: luci
-URL: https://github.com/openwrt/luci
-Architecture: all
-Installed-Size: 952320
-Filename: luci-app-tinyfilemanager_2.6-r20251224_all.ipk
-Size: 918492
-SHA256sum: 9a5efc20d0b227de18d06defd5be663ba2d82a8039a32a57a375a49d83e2d98f
-Description:  A Web based File Manager in PHP
 
 Package: luci-app-wrtbwmon
 Version: 2.0.13-r1
@@ -586,477 +597,488 @@ Architecture: all
 Installed-Size: 40960
 Filename: luci-app-wrtbwmon_2.0.13-r1_all.ipk
 Size: 8741
-SHA256sum: a4f77728af5feb837b407229bf4ead3420bd199631630bcdf79270dcd8fd1de9
+SHA256sum: 84e5a1ffb8e6a3e8a58c949254bfe268cb08f155cc3f94c35b8c8e30f5c1dcc9
 Description:  A Luci module that uses wrtbwmon to track bandwidth usage
 
 Package: luci-i18n-3ginfo-lite-de
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-3ginfo-lite
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-3ginfo-lite-de_26.039.11095~b2e7896_all.ipk
-Size: 2187
-SHA256sum: d15e26c281cb014b5efc4983d00a4ca1aa26d5298036b98cd2f884d89d8ac6c9
+Filename: luci-i18n-3ginfo-lite-de_26.039.63292~34dad1c_all.ipk
+Size: 2190
+SHA256sum: 2f62a52c0f02d9f063996db2ac84f8c4298df20bd1db0979c6f087e4e8f22877
 Description:  Translation for luci-app-3ginfo-lite - Deutsch (German)
 
 Package: luci-i18n-3ginfo-lite-it
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-3ginfo-lite
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-3ginfo-lite-it_26.039.11095~b2e7896_all.ipk
-Size: 2369
-SHA256sum: e58842f1ae618212c974d008fad1149bbdbc45329f983f337a224c649733c864
+Filename: luci-i18n-3ginfo-lite-it_26.039.63292~34dad1c_all.ipk
+Size: 2383
+SHA256sum: 07de91f2bed8636dd40529f9f50131744ac534ead24161e248626ef92b250217
 Description:  Translation for luci-app-3ginfo-lite - Italiano (Italian)
 
 Package: luci-i18n-3ginfo-lite-pl
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-3ginfo-lite
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-3ginfo-lite-pl_26.039.11095~b2e7896_all.ipk
-Size: 3554
-SHA256sum: f34ac6dd80d1f57a9826a83edd94caa5d7c3698e0ce58d007d41f3dff2dcb8ad
+Filename: luci-i18n-3ginfo-lite-pl_26.039.63292~34dad1c_all.ipk
+Size: 3547
+SHA256sum: 3133fdc2a90d9122f452b160dc12b7f4165ab3f56d246116e9af4af1e3525d11
 Description:  Translation for luci-app-3ginfo-lite - Polski (Polish)
 
 Package: luci-i18n-3ginfo-lite-ru
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-3ginfo-lite
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-3ginfo-lite-ru_26.039.11095~b2e7896_all.ipk
-Size: 3283
-SHA256sum: fc469e4f91521a07bdf46f7937f4fc0d040570cbac64cf7a7e3a197fd1346753
+Filename: luci-i18n-3ginfo-lite-ru_26.039.63292~34dad1c_all.ipk
+Size: 3276
+SHA256sum: 0eb62d7cf8851e5f9f8eeca73123acb7527a239d555c12a6c6f4253bc06a7f0e
 Description:  Translation for luci-app-3ginfo-lite - Русский (Russian)
 
 Package: luci-i18n-3ginfo-lite-zh-cn
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-3ginfo-lite
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-3ginfo-lite-zh-cn_26.039.11095~b2e7896_all.ipk
-Size: 2578
-SHA256sum: c47831476512b2564e2446ae240ddcfe4cb2a36fc8ecda7927856300c2902959
+Filename: luci-i18n-3ginfo-lite-zh-cn_26.039.63292~34dad1c_all.ipk
+Size: 2576
+SHA256sum: 5906915cbf6236123fc13443f380d5db16df8a671a9b0e94a5e0bf39b10f74f5
 Description:  Translation for luci-app-3ginfo-lite - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-adguardhome-zh-cn
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-adguardhome
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-adguardhome-zh-cn_26.039.11095~b2e7896_all.ipk
-Size: 3457
-SHA256sum: 8d70c6a9dc43b6656c1dc4ad29eada1c4ef155d30403c1b3db6aea697ab3bbe0
+Filename: luci-i18n-adguardhome-zh-cn_26.039.63292~34dad1c_all.ipk
+Size: 3458
+SHA256sum: 7a922ebe14a347cef3bd51a755329f068f5ba65eb98f8abed5f9738441c57c86
 Description:  Translation for luci-app-adguardhome - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-alwaysonline-zh-cn
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-alwaysonline
 License: MIT
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-alwaysonline-zh-cn_26.039.11095~b2e7896_all.ipk
+Filename: luci-i18n-alwaysonline-zh-cn_26.039.63292~34dad1c_all.ipk
 Size: 1728
-SHA256sum: 89094beccc28a45076a88ed50cf799a27dff6dc802a5a90c4b17f454e28398c0
+SHA256sum: b7e8f700224da6566f0965e7d9667af2de946cd57b52d26545f03e8bbc950951
 Description:  Translation for luci-app-alwaysonline - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-alwaysonline-zh-tw
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-alwaysonline
 License: MIT
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-alwaysonline-zh-tw_26.039.11095~b2e7896_all.ipk
-Size: 1724
-SHA256sum: aa37b0ed1599a1cc9565e3f05f93202ae86dfc42ce94b647bc0a7c7787dc789a
+Filename: luci-i18n-alwaysonline-zh-tw_26.039.63292~34dad1c_all.ipk
+Size: 1728
+SHA256sum: 2f10261c38ecdbe2fd0e2016b95520d4439633b6385dd0821930ee41788e96ae
 Description:  Translation for luci-app-alwaysonline - 正體中文 (Traditional Chinese)
 
 Package: luci-i18n-amneziawg-ru
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-proto-amneziawg
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-amneziawg-ru_26.039.11095~b2e7896_all.ipk
-Size: 3018
-SHA256sum: d4c3d3721c3ca12a4a7968619277dd27a3130fbce030bfa6ecf5d01ef8e18f23
+Filename: luci-i18n-amneziawg-ru_26.039.63292~34dad1c_all.ipk
+Size: 3015
+SHA256sum: 6a4c8574763dfe745fa3ea88accfed14b01750d11e7d8a0f57f51fa4e73d2641
 Description:  Translation for luci-proto-amneziawg - Русский (Russian)
 
 Package: luci-i18n-argon-config-es
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-argon-config
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-argon-config-es_26.039.11095~b2e7896_all.ipk
+Filename: luci-i18n-argon-config-es_26.039.63292~34dad1c_all.ipk
 Size: 1447
-SHA256sum: 9bece51ff716bbe60ab29c3fbb02991974e1a05f164541c4832c210fe2150820
+SHA256sum: c34df495f2683a4a58089977bfe362c7d9c6704202377df1cd46fae5219f67fd
 Description:  Translation for luci-app-argon-config - Español (Spanish)
 
 Package: luci-i18n-argon-config-zh-cn
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-argon-config
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-argon-config-zh-cn_26.039.11095~b2e7896_all.ipk
-Size: 2252
-SHA256sum: 8815ef9632b4c3b4b1c95a75f43991e801202ad5ef9ee8d8d5b9d1deb9362b31
+Filename: luci-i18n-argon-config-zh-cn_26.039.63292~34dad1c_all.ipk
+Size: 2244
+SHA256sum: c3fe2a519c7446a35042cb13d681119d7ced023cd534ab2051d38e443379f0c1
 Description:  Translation for luci-app-argon-config - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-argon-config-zh-tw
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-argon-config
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-argon-config-zh-tw_26.039.11095~b2e7896_all.ipk
-Size: 1481
-SHA256sum: c3ef411f082ac3a5f12f8bfdef200eb8f9f85e744ead226d98dfa68cda2a35e9
+Filename: luci-i18n-argon-config-zh-tw_26.039.63292~34dad1c_all.ipk
+Size: 1482
+SHA256sum: ee573fae3fc6156e6b981235f0e8a81a87f670f65193878c1b963ee0e5a1638a
 Description:  Translation for luci-app-argon-config - 正體中文 (Traditional Chinese)
 
 Package: luci-i18n-bandix-es
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-bandix
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-bandix-es_26.039.11095~b2e7896_all.ipk
-Size: 8115
-SHA256sum: f866afbc8ab2bc288fcaca26a622d63e4c668f80f0b1e62fca9ff8b8e76bd23e
+Filename: luci-i18n-bandix-es_26.039.63292~34dad1c_all.ipk
+Size: 8117
+SHA256sum: 11486503a7ffab7a0961aeeaf3eea334efc81055010a84bb0711f92a409f99e0
 Description:  Translation for luci-app-bandix - Español (Spanish)
 
 Package: luci-i18n-bandix-fr
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-bandix
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-bandix-fr_26.039.11095~b2e7896_all.ipk
-Size: 8502
-SHA256sum: 5bd813d956d55142c7fac9f96cbbb1a34db7c01650641075a2093749b8683c27
+Filename: luci-i18n-bandix-fr_26.039.63292~34dad1c_all.ipk
+Size: 8515
+SHA256sum: 9b934bc9776322bf4cef8816e346730da691f8587141d57236a8bdc97e07d5a7
 Description:  Translation for luci-app-bandix - Français (French)
 
 Package: luci-i18n-bandix-ja
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-bandix
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-bandix-ja_26.039.11095~b2e7896_all.ipk
-Size: 8251
-SHA256sum: ec721983a86365bff5c34e186095349878db5c90390fd958bc305673463cabf0
+Filename: luci-i18n-bandix-ja_26.039.63292~34dad1c_all.ipk
+Size: 8246
+SHA256sum: 76f8a00200a19f662579525e028cc7401af91895240dceec5517cfccda6d23d7
 Description:  Translation for luci-app-bandix - 日本語 (Japanese)
 
 Package: luci-i18n-bandix-pl
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-bandix
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-bandix-pl_26.039.11095~b2e7896_all.ipk
-Size: 8261
-SHA256sum: 405f032c11484ee87400c7051487f9be2f39639aef7f77c3e833f150b34d4b98
+Filename: luci-i18n-bandix-pl_26.039.63292~34dad1c_all.ipk
+Size: 8250
+SHA256sum: 18a85643d0854a8a2c1771add8966d5e80eb4bffe6c36946854136678ba89076
 Description:  Translation for luci-app-bandix - Polski (Polish)
 
 Package: luci-i18n-bandix-ru
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-bandix
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-bandix-ru_26.039.11095~b2e7896_all.ipk
-Size: 9091
-SHA256sum: 139eab63c084c9f154a37b73733cc9b5e8f8a711ba7e3190f0867f82b9d1211b
+Filename: luci-i18n-bandix-ru_26.039.63292~34dad1c_all.ipk
+Size: 9087
+SHA256sum: 84100761dbd59f332fad8ccd0f39619cc8f2c812038762a375513002370d163c
 Description:  Translation for luci-app-bandix - Русский (Russian)
 
 Package: luci-i18n-bandix-zh-cn
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-bandix
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-bandix-zh-cn_26.039.11095~b2e7896_all.ipk
-Size: 7828
-SHA256sum: ac7a4c5055a943b7e7f07deb6ef617da185d849b7613f0deddfded14b289919d
+Filename: luci-i18n-bandix-zh-cn_26.039.63292~34dad1c_all.ipk
+Size: 7825
+SHA256sum: 7fffba636f38c9e97886565be9410eca493523ac581f8c1f92e8a87da1059dd8
 Description:  Translation for luci-app-bandix - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-bandix-zh-tw
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-bandix
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-bandix-zh-tw_26.039.11095~b2e7896_all.ipk
-Size: 7716
-SHA256sum: 4f20c6e543d24132c76a770c221d1a83eebc25fb6a72892ab1352d9d6d0c59bd
+Filename: luci-i18n-bandix-zh-tw_26.039.63292~34dad1c_all.ipk
+Size: 7719
+SHA256sum: 9a1967e6f2d4fb2f19ab74f18037bc9204f392af11ec6035ee36d9c9c0e931fc
 Description:  Translation for luci-app-bandix - 正體中文 (Traditional Chinese)
 
 Package: luci-i18n-cpu-status-mini-ru
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-cpu-status-mini
 License: MIT
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-cpu-status-mini-ru_26.039.11095~b2e7896_all.ipk
-Size: 1310
-SHA256sum: 00d146c2fddaf730999300c62198e909789ffe113ba739bdc318851d417bc9ba
+Filename: luci-i18n-cpu-status-mini-ru_26.039.63292~34dad1c_all.ipk
+Size: 1313
+SHA256sum: c82a3566cf6a7227257cb3f69c68987567f0999f54b5eaf4dfea6daccbaf7ea6
 Description:  Translation for luci-app-cpu-status-mini - Русский (Russian)
 
 Package: luci-i18n-cpu-status-ru
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-cpu-status
 License: MIT
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-cpu-status-ru_26.039.11095~b2e7896_all.ipk
-Size: 1609
-SHA256sum: 81a738bbe5f3da9cf5212c0336525d8a320d67a9a1607ecf82ee7386c51e8839
+Filename: luci-i18n-cpu-status-ru_26.039.63292~34dad1c_all.ipk
+Size: 1605
+SHA256sum: 4b29d63a85fd5a0d29022acef457265e9707c57940e453dd7e8b5f7721499ba7
 Description:  Translation for luci-app-cpu-status - Русский (Russian)
 
 Package: luci-i18n-cpu-status-zh-cn
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-cpu-status
 License: MIT
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-cpu-status-zh-cn_26.039.11095~b2e7896_all.ipk
-Size: 1559
-SHA256sum: c791a00da28a061022a6103e3fffea46fb40c6aeab54fbb490b9b6a47c4d5b94
+Filename: luci-i18n-cpu-status-zh-cn_26.039.63292~34dad1c_all.ipk
+Size: 1564
+SHA256sum: 91b04c67bd745b945e43f270ae355de3a368f7a2800d500a836b0da38a24e556
 Description:  Translation for luci-app-cpu-status - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-cpu-status-zh-tw
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-cpu-status
 License: MIT
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-cpu-status-zh-tw_26.039.11095~b2e7896_all.ipk
-Size: 1403
-SHA256sum: 7cc8b1c2dfb70aa5b0e155cef98b1d3244a985d2f429295ca800da13f9d429f4
+Filename: luci-i18n-cpu-status-zh-tw_26.039.63292~34dad1c_all.ipk
+Size: 1405
+SHA256sum: 2afef1759bac42b2fcc8712a1c8ae0afdbd4f15d16fa5504b34d131516511c50
 Description:  Translation for luci-app-cpu-status - 正體中文 (Traditional Chinese)
 
+Package: luci-i18n-cpufreq-zh-cn
+Version: 26.039.63292~34dad1c
+Depends: libc, luci-app-cpufreq
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-cpufreq-zh-cn_26.039.63292~34dad1c_all.ipk
+Size: 1590
+SHA256sum: 60c842ac8e725895ed81260521ebacbf58f4bd4a160b6544a1ef6f94b9b40253
+Description:  Translation for luci-app-cpufreq - 简体中文 (Simplified Chinese)
+
 Package: luci-i18n-diskman-pl
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-diskman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-diskman-pl_26.039.11095~b2e7896_all.ipk
+Filename: luci-i18n-diskman-pl_26.039.63292~34dad1c_all.ipk
 Size: 2698
-SHA256sum: 3f18cbcc8b3fc2df141ec0bf9a214cc56f2f2260620f6e65b92d7efd205ec127
+SHA256sum: 710e75fd9d7776d91069a110f0dd50120fb60c39d5b6a4209143dd8cb375aba8
 Description:  Translation for luci-app-diskman - Polski (Polish)
 
 Package: luci-i18n-diskman-zh-cn
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-diskman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-diskman-zh-cn_26.039.11095~b2e7896_all.ipk
-Size: 2698
-SHA256sum: 77aab4526839e55eb19760d4b651c38f838b16f825bf78955918b3689506fd36
+Filename: luci-i18n-diskman-zh-cn_26.039.63292~34dad1c_all.ipk
+Size: 2703
+SHA256sum: 4f40654e5d71c668334fa249605d9a5843170edb00061d5a2c62067f1afc1847
 Description:  Translation for luci-app-diskman - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-diskman-zh-tw
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-diskman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-diskman-zh-tw_26.039.11095~b2e7896_all.ipk
-Size: 2713
-SHA256sum: 100eaa4be464037749ebecc9b6fe71463655bb24057190736f5bf2d5b012324f
+Filename: luci-i18n-diskman-zh-tw_26.039.63292~34dad1c_all.ipk
+Size: 2712
+SHA256sum: ed8d0996dae6dd01a9125c44b23f32d7d657a7d220f81059909c93d9bdd92cee
 Description:  Translation for luci-app-diskman - 正體中文 (Traditional Chinese)
 
 Package: luci-i18n-internet-detector-ru
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-internet-detector
 Section: luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-internet-detector-ru_26.039.11095~b2e7896_all.ipk
-Size: 6725
-SHA256sum: fd4f80be24b88a45559857b928b48e98c1915aba3f9f3645e73736aa1638d655
+Filename: luci-i18n-internet-detector-ru_26.039.63292~34dad1c_all.ipk
+Size: 6728
+SHA256sum: d5a3f4415ca95a86fb85d02617c98ed92963123728804e057a7c7dddacecd165
 Description:  Translation for luci-app-internet-detector - Русский (Russian)
 
 Package: luci-i18n-mini-diskmanager-de
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-mini-diskmanager
 Section: luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-mini-diskmanager-de_26.039.11095~b2e7896_all.ipk
-Size: 9446
-SHA256sum: ee005da99628bec8ac3ff95ed01536ab3fdc310bcb9e047542ca9e70e28a9498
+Filename: luci-i18n-mini-diskmanager-de_26.039.63292~34dad1c_all.ipk
+Size: 9448
+SHA256sum: 00e896511b4b43a13ac6896da4b5a9d904d447e449a8a05b425ad1cf454cbcbe
 Description:  Translation for luci-app-mini-diskmanager - Deutsch (German)
 
 Package: luci-i18n-mini-diskmanager-fr
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-mini-diskmanager
 Section: luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-mini-diskmanager-fr_26.039.11095~b2e7896_all.ipk
-Size: 9659
-SHA256sum: 0eb1afac9327a004d5b8b3e6e11d9e8c38d3deaa9ce682a4c0f971cebef27a20
+Filename: luci-i18n-mini-diskmanager-fr_26.039.63292~34dad1c_all.ipk
+Size: 9649
+SHA256sum: 954191bbe605f403f72ebdf5d8d3a162c6bfb62f39eaa13e7c51a9d35b1216f9
 Description:  Translation for luci-app-mini-diskmanager - Français (French)
 
 Package: luci-i18n-mini-diskmanager-it
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-mini-diskmanager
 Section: luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-mini-diskmanager-it_26.039.11095~b2e7896_all.ipk
-Size: 9342
-SHA256sum: 8d178ea3de8a78cecd8ea96731c8ba4f764b07e39e131ffef6d53ee9348a6e4d
+Filename: luci-i18n-mini-diskmanager-it_26.039.63292~34dad1c_all.ipk
+Size: 9348
+SHA256sum: 60b6ee6cd019796304d6f416bac515e53380cd1aa0d2a1961912a217f3cd4a05
 Description:  Translation for luci-app-mini-diskmanager - Italiano (Italian)
 
 Package: luci-i18n-mini-diskmanager-pl
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-mini-diskmanager
 Section: luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-mini-diskmanager-pl_26.039.11095~b2e7896_all.ipk
-Size: 9604
-SHA256sum: 2210903aeb0726ad0eb90d88de7ce248546cb2e6ebc280fcc52a830dc5bd4b9d
+Filename: luci-i18n-mini-diskmanager-pl_26.039.63292~34dad1c_all.ipk
+Size: 9611
+SHA256sum: 604f4b5094d82933cc69c94da0afb568d59ab716323747e0ebb66885eafc973a
 Description:  Translation for luci-app-mini-diskmanager - Polski (Polish)
 
 Package: luci-i18n-mini-diskmanager-ru
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-mini-diskmanager
 Section: luci
 Architecture: all
 Installed-Size: 40960
-Filename: luci-i18n-mini-diskmanager-ru_26.039.11095~b2e7896_all.ipk
-Size: 10537
-SHA256sum: c5c6f8492e2e879c3d5bca0455c3e68b21275567985ee2633b8eae9acf1d0239
+Filename: luci-i18n-mini-diskmanager-ru_26.039.63292~34dad1c_all.ipk
+Size: 10544
+SHA256sum: 3753b7843dfa81c9d24635ce67eba8aa8c30438f0bf98c5f020472b79b890748
 Description:  Translation for luci-app-mini-diskmanager - Русский (Russian)
 
 Package: luci-i18n-mini-diskmanager-vi
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-mini-diskmanager
 Section: luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-mini-diskmanager-vi_26.039.11095~b2e7896_all.ipk
-Size: 9354
-SHA256sum: 97d6aadf160bb3430f249dbed4c08cc8630c5a4549a20b33e4fd4cb640feeb8a
+Filename: luci-i18n-mini-diskmanager-vi_26.039.63292~34dad1c_all.ipk
+Size: 9347
+SHA256sum: de37553abb0aa6504a87aa4d7d54e3553f366c8708dff3fccffd256c6832624e
 Description:  Translation for luci-app-mini-diskmanager - Tiếng Việt (Vietnamese)
 
 Package: luci-i18n-mini-diskmanager-zh-cn
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-mini-diskmanager
 Section: luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-mini-diskmanager-zh-cn_26.039.11095~b2e7896_all.ipk
-Size: 8854
-SHA256sum: d85a27d85dde098fbdb533133dd8572741d1cbc577186b591348a1c91e9e0d79
+Filename: luci-i18n-mini-diskmanager-zh-cn_26.039.63292~34dad1c_all.ipk
+Size: 8850
+SHA256sum: f7be560f5f66c2bf8f474aaa27ff947781654b26f589e3b20d3a2ecd1dc14151
 Description:  Translation for luci-app-mini-diskmanager - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-mini-diskmanager-zh-tw
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-mini-diskmanager
 Section: luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-mini-diskmanager-zh-tw_26.039.11095~b2e7896_all.ipk
-Size: 8963
-SHA256sum: a0724bae199d0ee35e2b504d4adc762cf961104d51857ec3e295b3dfad94eac5
+Filename: luci-i18n-mini-diskmanager-zh-tw_26.039.63292~34dad1c_all.ipk
+Size: 8966
+SHA256sum: 9b2f9122f32b7a30240d223f5f922f164c18b45889940b5defe02daca25010f2
 Description:  Translation for luci-app-mini-diskmanager - 正體中文 (Traditional Chinese)
 
 Package: luci-i18n-modemdata-it
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-modemdata
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-modemdata-it_26.039.11095~b2e7896_all.ipk
-Size: 6317
-SHA256sum: 56b460e059a8e66399e2fc11aaecd1ce0e601deac27d07b7ca744f1039a88021
+Filename: luci-i18n-modemdata-it_26.039.63292~34dad1c_all.ipk
+Size: 6326
+SHA256sum: 12d6edc1fd5fc6109822890f83375894bf734940d0de7bdadbd5e938075501c2
 Description:  Translation for luci-app-modemdata - Italiano (Italian)
 
 Package: luci-i18n-modemdata-pl
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-modemdata
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-modemdata-pl_26.039.11095~b2e7896_all.ipk
-Size: 6824
-SHA256sum: 845cbaa40166a9a59758df45e7e681e5ee8c590c8a307b2613037a2c9a7b6a3e
+Filename: luci-i18n-modemdata-pl_26.039.63292~34dad1c_all.ipk
+Size: 6825
+SHA256sum: fa55fb2c89d3d069d84200e1e550d84593a2db267d33ddcc096602a109136ebf
 Description:  Translation for luci-app-modemdata - Polski (Polish)
 
 Package: luci-i18n-modemdata-ru
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-modemdata
 Section: luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-modemdata-ru_26.039.11095~b2e7896_all.ipk
-Size: 7391
-SHA256sum: 446bc643a3df4306f66ef7e8e262bd42728fbfa7517011b40affb4ea0a70017d
+Filename: luci-i18n-modemdata-ru_26.039.63292~34dad1c_all.ipk
+Size: 7396
+SHA256sum: e1bbf5dfdf01307d9ce733a7430d1393493861f155efba2a1cff06f7e505b8db
 Description:  Translation for luci-app-modemdata - Русский (Russian)
 
 Package: luci-i18n-modemdata-zh-cn
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-modemdata
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-modemdata-zh-cn_26.039.11095~b2e7896_all.ipk
-Size: 7311
-SHA256sum: 7d9436f451c9ebe2ef8c817510f58452a1456b054e05638b185c5762410e44b9
+Filename: luci-i18n-modemdata-zh-cn_26.039.63292~34dad1c_all.ipk
+Size: 7308
+SHA256sum: 9949e1e2537d2a870d7a3a42057edf3bc9f6867bec20f19e3153fac3b52ea2c5
 Description:  Translation for luci-app-modemdata - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-netspeedtest-zh-cn
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-netspeedtest
 License: MIT
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-netspeedtest-zh-cn_26.039.11095~b2e7896_all.ipk
+Filename: luci-i18n-netspeedtest-zh-cn_26.039.63292~34dad1c_all.ipk
 Size: 2025
-SHA256sum: 31312b3875abf002b723e45e425c981a27507cbe025b5cd411d0e4564bacb060
+SHA256sum: e498baa5062459d6a6924a658629f5be1a3333d016392f5a8afda1d520187a6a
 Description:  Translation for luci-app-netspeedtest - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-netspeedtest-zh-tw
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-netspeedtest
 License: MIT
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-netspeedtest-zh-tw_26.039.11095~b2e7896_all.ipk
+Filename: luci-i18n-netspeedtest-zh-tw_26.039.63292~34dad1c_all.ipk
 Size: 2038
-SHA256sum: 7de49d8649111aaed4cd4ca14efa0467eae55c6cc2fb1258096e346907c46c7e
+SHA256sum: e405b42ebd34911658faa686cd84828c190d60e69bcfed7271c3786726b75ce8
 Description:  Translation for luci-app-netspeedtest - 正體中文 (Traditional Chinese)
 
 Package: luci-i18n-passwall-zh-cn
@@ -1066,9 +1088,20 @@ Section: luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall-zh-cn_26.2.6_all.ipk
-Size: 17379
-SHA256sum: 738cfe82a222782f41c4f972c1e4af05bf5222f76ab1336903bb5e347267e3c9
+Size: 17581
+SHA256sum: d46ca302540b0fa65381ad4f1226d186e675d37c561e419872b320812e4368e3
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-passwall2-fa
+Version: 26.2.5
+Depends: libc, luci-app-passwall2
+Section: luci
+Architecture: all
+Installed-Size: 71680
+Filename: luci-i18n-passwall2-fa_26.2.5_all.ipk
+Size: 21645
+SHA256sum: 0976acebe0f2994a7e28d8b26b3e5f7eb73186ed0426d27073b38f63ea2cf938
+Description:  Translation for luci-app-passwall2 - Farsi (Persian)
 
 Package: luci-i18n-passwall2-zh-cn
 Version: 26.2.5
@@ -1077,8 +1110,8 @@ Section: luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall2-zh-cn_26.2.5_all.ipk
-Size: 19143
-SHA256sum: bc20bf5ad7775e4e47865b58a172aaa2ce25275d76151b77bb94823b1b6e92ff
+Size: 19147
+SHA256sum: 55b873850be2a9ae187cc10a9ad42f2f124b4bd2c16a4d44ce9aeda1676371a2
 Description:  Translation for luci-app-passwall2 - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-tw
@@ -1088,273 +1121,260 @@ Section: luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall2-zh-tw_26.2.5_all.ipk
-Size: 19212
-SHA256sum: 81745117e73436db5926a2ddfaea4fad876eb88a224e9ddf39a8cbd57fbb1e6a
+Size: 19216
+SHA256sum: 38fda1073cb0d131019c21d739e0593139eeda84296d673b9b0379a09b190c35
 Description:  Translation for luci-app-passwall2 - 正體中文 (Traditional Chinese)
 
 Package: luci-i18n-qbittorrent-zh-cn
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-qbittorrent
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-qbittorrent-zh-cn_26.039.11095~b2e7896_all.ipk
-Size: 1454
-SHA256sum: 1e2f522b767afb5493a768b76a3733bd98269c5071d8fd8704c0e04b1330b14d
+Filename: luci-i18n-qbittorrent-zh-cn_26.039.63292~34dad1c_all.ipk
+Size: 1451
+SHA256sum: 4ce4c070052db6c52383a1437e835bb75984997ff7b10dec718c78556b46ff70
 Description:  Translation for luci-app-qbittorrent - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-qmodem-monitor-zh-cn
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-qmodem-monitor
 License: GPLv3
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-qmodem-monitor-zh-cn_26.039.11095~b2e7896_all.ipk
-Size: 2888
-SHA256sum: 8cddfaed5b12297d8a6ae242b20044a1bba45d9d01096eea9eadfc3135d133e3
+Filename: luci-i18n-qmodem-monitor-zh-cn_26.039.63292~34dad1c_all.ipk
+Size: 2886
+SHA256sum: 2cf09f19695fbc149e80d3aa86d3971ae23a2f165b8f2e4de1aa0a5928f04ee9
 Description:  Translation for luci-app-qmodem-monitor - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-qmodem-mwan-zh-cn
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-qmodem-mwan
 License: GPLv3
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-qmodem-mwan-zh-cn_26.039.11095~b2e7896_all.ipk
-Size: 1725
-SHA256sum: c11d359d5a7912773eae650cd2c9846d689d90a9aefa7b1b197261bfd1b83c31
+Filename: luci-i18n-qmodem-mwan-zh-cn_26.039.63292~34dad1c_all.ipk
+Size: 1728
+SHA256sum: d53016eca8a6e525490a8724c5778653c265fec680bbe9e4dc48f3659864641e
 Description:  Translation for luci-app-qmodem-mwan - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-qmodem-next-zh-cn
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-qmodem-next
 License: GPLv3
 Section: luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-qmodem-next-zh-cn_26.039.11095~b2e7896_all.ipk
-Size: 11749
-SHA256sum: ae46805cd779213fe05c107862109dddddc0702bcd3f047d0d20f992fae5d09c
+Filename: luci-i18n-qmodem-next-zh-cn_26.039.63292~34dad1c_all.ipk
+Size: 11746
+SHA256sum: 3ca16c68972646c0650723f0753480deddb7ca50cb59230565072fc3d702f2c2
 Description:  Translation for luci-app-qmodem-next - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-qmodem-ru
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-qmodem
 License: GPLv3
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-qmodem-ru_26.039.11095~b2e7896_all.ipk
-Size: 5255
-SHA256sum: 007757979ad50e673e36dbb748fd7a22223ab5888a43806ae18e99f9c88e2165
+Filename: luci-i18n-qmodem-ru_26.039.63292~34dad1c_all.ipk
+Size: 5250
+SHA256sum: 7facf55df0f0a986c9b003221a4990155523795d22586e8ae9945df206beca73
 Description:  Translation for luci-app-qmodem - Русский (Russian)
 
 Package: luci-i18n-qmodem-sms-zh-cn
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-qmodem-sms
 License: GPLv3
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-qmodem-sms-zh-cn_26.039.11095~b2e7896_all.ipk
-Size: 2833
-SHA256sum: 47f040e23590142d7966b755e4409d8256bbc35c237e69fa916c1f717a6135a7
+Filename: luci-i18n-qmodem-sms-zh-cn_26.039.63292~34dad1c_all.ipk
+Size: 2831
+SHA256sum: bf5de553599bb1a52dd4186afbb9d4c8560a694c65b5fcff21104e4db5c88959
 Description:  Translation for luci-app-qmodem-sms - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-qmodem-ttl-zh-cn
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-qmodem-ttl
 License: GPLv3
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-qmodem-ttl-zh-cn_26.039.11095~b2e7896_all.ipk
-Size: 1273
-SHA256sum: a8ac433039ae3d7bd98518a4f30034b8a231d2a7c1551ee2f131e491ce65f484
+Filename: luci-i18n-qmodem-ttl-zh-cn_26.039.63292~34dad1c_all.ipk
+Size: 1266
+SHA256sum: 03b8008accd24489bd3d58ec9475cef97ae9a3bae48e71df460ed1bd1843bb5d
 Description:  Translation for luci-app-qmodem-ttl - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-qmodem-ttlfw4-zh-cn
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-qmodem-ttlfw4
 License: GPLv3
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-qmodem-ttlfw4-zh-cn_26.039.11095~b2e7896_all.ipk
-Size: 1799
-SHA256sum: a99e9f06300b8462930e131b0d07712a1b57b4c669248300b0ddc6f314fc7f7a
+Filename: luci-i18n-qmodem-ttlfw4-zh-cn_26.039.63292~34dad1c_all.ipk
+Size: 1803
+SHA256sum: f147c205d33b197b1631ec0a0224a0f31b962e9ad68667b2362f3daa6bd6aa6b
 Description:  Translation for luci-app-qmodem-ttlfw4 - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-qmodem-zh-cn
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-qmodem
 License: GPLv3
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-qmodem-zh-cn_26.039.11095~b2e7896_all.ipk
-Size: 6207
-SHA256sum: 91e6becf81b0aed2f33df9769c676ddefdd0981ce1dd2c68f0fed62f853aadd2
+Filename: luci-i18n-qmodem-zh-cn_26.039.63292~34dad1c_all.ipk
+Size: 6209
+SHA256sum: 9b678b83b4b9a7cb262aee3738b372bfcca9158c2fcecb0a1dd07ed00b6a14c7
 Description:  Translation for luci-app-qmodem - 简体中文 (Simplified Chinese)
 
+Package: luci-i18n-ramfree-zh-cn
+Version: 26.039.63292~34dad1c
+Depends: libc, luci-app-ramfree
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-ramfree-zh-cn_26.039.63292~34dad1c_all.ipk
+Size: 1166
+SHA256sum: 5e42899a50481750ef43ca4f1e82e5e00300b5ccb88d222e43d87252f923a021
+Description:  Translation for luci-app-ramfree - 简体中文 (Simplified Chinese)
+
 Package: luci-i18n-sms-tool-js-de
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-sms-tool-js
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-sms-tool-js-de_26.039.11095~b2e7896_all.ipk
-Size: 6027
-SHA256sum: 02d73010a6159bd7c0b773e95f601c92400eef336034e752fc2b7e64b2f5ca3b
+Filename: luci-i18n-sms-tool-js-de_26.039.63292~34dad1c_all.ipk
+Size: 6025
+SHA256sum: d823370dad2fcd13917729d8af06ce3eed3ef46b6a022f9a06a8e1edcf15a513
 Description:  Translation for luci-app-sms-tool-js - Deutsch (German)
 
 Package: luci-i18n-sms-tool-js-fr
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-sms-tool-js
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-sms-tool-js-fr_26.039.11095~b2e7896_all.ipk
-Size: 6057
-SHA256sum: 252008c4c754b4e5fe2fd56f9d421b3347d12bbe5230a741ca73337c326971fb
+Filename: luci-i18n-sms-tool-js-fr_26.039.63292~34dad1c_all.ipk
+Size: 6055
+SHA256sum: 7f95ef5c0f1deb15f106eac8b217cb700764eceb56c10e7729d69e6874d46667
 Description:  Translation for luci-app-sms-tool-js - Français (French)
 
 Package: luci-i18n-sms-tool-js-it
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-sms-tool-js
 Section: luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-sms-tool-js-it_26.039.11095~b2e7896_all.ipk
-Size: 8100
-SHA256sum: ef270f65b023ce759a3e1bfbf3668aad2b4a00277d28abdb8d2a7de704673df2
+Filename: luci-i18n-sms-tool-js-it_26.039.63292~34dad1c_all.ipk
+Size: 8099
+SHA256sum: 6796c990b23dee914d6b19ff0dd6bef04d3206d554654af035da21dfcb2af62e
 Description:  Translation for luci-app-sms-tool-js - Italiano (Italian)
 
 Package: luci-i18n-sms-tool-js-pl
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-sms-tool-js
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-sms-tool-js-pl_26.039.11095~b2e7896_all.ipk
-Size: 6548
-SHA256sum: 3b02381facb1c65a41913a5aaa48f3d5811216f3288fba98b0d06cf2b8534f16
+Filename: luci-i18n-sms-tool-js-pl_26.039.63292~34dad1c_all.ipk
+Size: 6558
+SHA256sum: 106050088998d8304a3995bf69a287a4b877a70688c7be6b08ba8273bbfa02ab
 Description:  Translation for luci-app-sms-tool-js - Polski (Polish)
 
 Package: luci-i18n-sms-tool-js-ru
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-sms-tool-js
 Section: luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-sms-tool-js-ru_26.039.11095~b2e7896_all.ipk
-Size: 6721
-SHA256sum: c2727d2a4e3543dc3671934f2d1cf465b40c3cc6d03a3e6df7f73a5b702b7d75
+Filename: luci-i18n-sms-tool-js-ru_26.039.63292~34dad1c_all.ipk
+Size: 6725
+SHA256sum: b379f7a65fdeb82fdf26bb114b16f05494c60aa1ee1e69ed498af9c559cf1b7f
 Description:  Translation for luci-app-sms-tool-js - Русский (Russian)
 
 Package: luci-i18n-sms-tool-js-vi
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-sms-tool-js
 Section: luci
 Architecture: all
 Installed-Size: 40960
-Filename: luci-i18n-sms-tool-js-vi_26.039.11095~b2e7896_all.ipk
-Size: 7776
-SHA256sum: 15812984bd3fbbe6f5f69a563aeb1720be8f89fca335c406463679c82adb0944
+Filename: luci-i18n-sms-tool-js-vi_26.039.63292~34dad1c_all.ipk
+Size: 7774
+SHA256sum: ef6a36f3ab7fab87ec9a20f7ecf4a02fa76e3d6c37e182647dbdb48b8781a19a
 Description:  Translation for luci-app-sms-tool-js - Tiếng Việt (Vietnamese)
 
 Package: luci-i18n-sms-tool-js-zh-cn
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-sms-tool-js
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-sms-tool-js-zh-cn_26.039.11095~b2e7896_all.ipk
-Size: 5703
-SHA256sum: 784a6a1651f56acbf4cab74d3cd9dc6c7b32a27d22709d94293526bf0149db96
+Filename: luci-i18n-sms-tool-js-zh-cn_26.039.63292~34dad1c_all.ipk
+Size: 5699
+SHA256sum: d1d1b1c686ebdf74215f7ccc21b2634b34f1df2c43cea571bb9c50e8bb1a6cad
 Description:  Translation for luci-app-sms-tool-js - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-sms-tool-js-zh-tw
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-sms-tool-js
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-sms-tool-js-zh-tw_26.039.11095~b2e7896_all.ipk
-Size: 5768
-SHA256sum: 830176e305b0e08d0e5e978b45728788f0801f795840f21b40490b0067627132
+Filename: luci-i18n-sms-tool-js-zh-tw_26.039.63292~34dad1c_all.ipk
+Size: 5772
+SHA256sum: 502fa9a80178927108cd3b42e64da73e5381323251d3542c3a47a2e317486d5b
 Description:  Translation for luci-app-sms-tool-js - 正體中文 (Traditional Chinese)
 
 Package: luci-i18n-tailscale-zh-cn
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-tailscale
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-tailscale-zh-cn_26.039.11095~b2e7896_all.ipk
-Size: 2756
-SHA256sum: f7dbfbe0d5e045882ae5d918add73d9f83daadddcc4f96af58e3c855acf94ce4
+Filename: luci-i18n-tailscale-zh-cn_26.039.63292~34dad1c_all.ipk
+Size: 2752
+SHA256sum: 276a875d255b4b77571e91693adf77454a2a1b3e5731e8f7631000b2fb5e331f
 Description:  Translation for luci-app-tailscale - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-tailscale-zh-tw
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-tailscale
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-tailscale-zh-tw_26.039.11095~b2e7896_all.ipk
-Size: 2768
-SHA256sum: bd4a7ae90ff635d7e0932369fc0094db3dc94a7753a431cc75985a9caac3b244
+Filename: luci-i18n-tailscale-zh-tw_26.039.63292~34dad1c_all.ipk
+Size: 2770
+SHA256sum: 72f8695f21dd0813383d7487f72042d5a9b85d3a9fd75a3ad30f61777318e754
 Description:  Translation for luci-app-tailscale - 正體中文 (Traditional Chinese)
 
-Package: luci-i18n-tinyfilemanager-zh-cn
-Version: 26.039.11095~b2e7896
-Depends: libc, luci-app-tinyfilemanager
-License: GPL-3.0
-Section: luci
-Architecture: all
-Installed-Size: 10240
-Filename: luci-i18n-tinyfilemanager-zh-cn_26.039.11095~b2e7896_all.ipk
-Size: 1973
-SHA256sum: 12b01d91916d09e2f58b74693bc93382f48546bae70ed7624fec925c1894127a
-Description:  Translation for luci-app-tinyfilemanager - 简体中文 (Simplified Chinese)
-
-Package: luci-i18n-tinyfilemanager-zh-tw
-Version: 26.039.11095~b2e7896
-Depends: libc, luci-app-tinyfilemanager
-License: GPL-3.0
-Section: luci
-Architecture: all
-Installed-Size: 10240
-Filename: luci-i18n-tinyfilemanager-zh-tw_26.039.11095~b2e7896_all.ipk
-Size: 1985
-SHA256sum: 8d31b083da77537524b8110c989dbea057ef32a353857ff2df2b69134170a878
-Description:  Translation for luci-app-tinyfilemanager - 正體中文 (Traditional Chinese)
-
 Package: luci-i18n-wrtbwmon-zh-cn
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-wrtbwmon
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-wrtbwmon-zh-cn_26.039.11095~b2e7896_all.ipk
-Size: 2308
-SHA256sum: 792e91982a5cc70cc29e8264f5c5cf217aa2127c6d68e158ca39d4ac590ea2ce
+Filename: luci-i18n-wrtbwmon-zh-cn_26.039.63292~34dad1c_all.ipk
+Size: 2316
+SHA256sum: 35589cb67b81fa2f7baa8aa1ee03acbc384f801e54962f92900e92e957db0f8b
 Description:  Translation for luci-app-wrtbwmon - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-wrtbwmon-zh-tw
-Version: 26.039.11095~b2e7896
+Version: 26.039.63292~34dad1c
 Depends: libc, luci-app-wrtbwmon
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-wrtbwmon-zh-tw_26.039.11095~b2e7896_all.ipk
-Size: 2345
-SHA256sum: 1a7c74748676f334d6c38aaa0ba73734b94e164fdbdfd9396a8d5a9ef1c12e10
+Filename: luci-i18n-wrtbwmon-zh-tw_26.039.63292~34dad1c_all.ipk
+Size: 2348
+SHA256sum: 1fb41c7c70ebd136c5b1f8d7ebea977c4f559aad3ab97abd16f439d6e5e04524
 Description:  Translation for luci-app-wrtbwmon - 正體中文 (Traditional Chinese)
 
 Package: luci-proto-amneziawg
@@ -1366,8 +1386,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 102400
 Filename: luci-proto-amneziawg_2.0.4-r1_all.ipk
-Size: 27970
-SHA256sum: a5f630c292d4de019cc8a403f5bb3688f7fd322fc8ce4a5c1ad93da51d9a8c5a
+Size: 27965
+SHA256sum: db3c937cc3681127e95442edb559c4531583870b0375c00179151ed10c8af92c
 Description:  Provides support and Web UI for AmneziaWG VPN
 
 Package: luci-theme-alpha
@@ -1378,8 +1398,8 @@ URL: http://facebook.com/derisamedia/
 Architecture: all
 Installed-Size: 3594240
 Filename: luci-theme-alpha_3.9.5-beta-r10_all.ipk
-Size: 3003156
-SHA256sum: 42bec7cd8c46bd6c79761982804b44ab91d14c63d4313f8462761b361556b408
+Size: 3003125
+SHA256sum: a8fa33809d1e5eabba824b1d9212b5285fadbef3174bfdc4d1cbb85bb21134a6
 Description:  LuCi Theme For OpenWrt And Alpha OS ONLY - Alpha
 
 Package: luci-theme-argon
@@ -1390,8 +1410,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 604160
 Filename: luci-theme-argon_2.4.3-r20250722_all.ipk
-Size: 398976
-SHA256sum: 6dfd5c20f7ad56d1a562381291ec464c8eedc0b6bae5529ee70464aa77ad1516
+Size: 398971
+SHA256sum: c095c11eb0d25db437f8c570fc81e6e1e89d265ba18cad72bcde189d7dfb2f06
 Description:  Argon Theme
 
 Package: luci-theme-carbonpx
@@ -1402,8 +1422,8 @@ URL: http://t.me/peditx
 Architecture: all
 Installed-Size: 6410240
 Filename: luci-theme-carbonpx_1.0.5-r01_all.ipk
-Size: 4050926
-SHA256sum: 1052ab0e9c049be9bf2c8509a138fe970dd852891146a24964cff10f0c71f9bc
+Size: 4050905
+SHA256sum: 099e9e4923e6f5a6458ec842b986d3dac243a7b33b4eede3553a0eaf7d71bd34
 Description:  LuCi Theme For OpenWrt - carbonPX
 
 Package: luci-theme-noobwrt
@@ -1414,8 +1434,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 1136640
 Filename: luci-theme-noobwrt_1.0.6-r20260602_all.ipk
-Size: 856768
-SHA256sum: 86812c6a5358bd49dc1060ef25f21c5a8aac9c9354d60371633c8430ee06183e
+Size: 856760
+SHA256sum: f0cd8cda228c0e8c6da598181c2681b4058b8c6f67db3c1a5823bdb811d0a3ad
 Description:  Noobwrt Theme
 
 Package: luci-theme-peditx
@@ -1426,8 +1446,8 @@ URL: http://t.me/peditx
 Architecture: all
 Installed-Size: 7106560
 Filename: luci-theme-peditx_1.2.3-r01_all.ipk
-Size: 5024870
-SHA256sum: 2e57308c7eafb4ce869fcc581a75e6235b9da1b614590f1d82642a3feb9f4e55
+Size: 5024819
+SHA256sum: f74f21199ffeaef5f418582a5e13b080c4436b66640b2292698ee1480ccdb812
 Description:  LuCi Theme For OpenWrt - PeDitX
 
 Package: modemdata
@@ -1437,8 +1457,8 @@ Section: utils
 Architecture: all
 Installed-Size: 256000
 Filename: modemdata_20251216-r1_all.ipk
-Size: 37699
-SHA256sum: df8c6acfe5eb50f85cb7ab3f740d58da5f64786bea45ceca3ec9e9b4b2ea0847
+Size: 37585
+SHA256sum: a8726e6ef89a3cbc1209c712602209aa0924e40963e89201fd2254980f901936
 Description:  Detailed information about the cellular modem
 
 Package: ndisc6
@@ -1449,8 +1469,8 @@ URL: http://www.remlab.net/ndisc6/
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: ndisc6_1.0.2-r1_aarch64_cortex-a53.ipk
-Size: 6164
-SHA256sum: 0b8bd33fa1b5f5bbe1e63946fddb9177b8dd2a1c62e5a9ffad3c8d2beda0189c
+Size: 6171
+SHA256sum: 9ace0295bc3c1801cb0d46d12add497a68d3e944fcd0404d7880eaee196e98c4
 Description:  An ICMPv6 neighbour discovery tools
 
 Package: qbittorrent
@@ -1464,8 +1484,8 @@ CPE-ID: cpe:/a:qbittorrent:qbittorrent
 Architecture: aarch64_cortex-a53
 Installed-Size: 9461760
 Filename: qbittorrent_5.1.4-r1_aarch64_cortex-a53.ipk
-Size: 8090732
-SHA256sum: 6001fac4d639ad2ce67f3966a7a982702ab4b72e2e95822ddd006791d4f96169
+Size: 8090727
+SHA256sum: d8cfd66dd037e4ebf183f84eac6fa83f2f0bb907cefd184c8df25a37e8a17459
 Description:  qBittorrent is a bittorrent client programmed in C++ / Qt that uses
  libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
  It aims to be a good alternative to all other bittorrent clients out
@@ -1479,8 +1499,8 @@ Section: utils
 Architecture: all
 Installed-Size: 634880
 Filename: qmodem_3.0.0-r1_all.ipk
-Size: 94441
-SHA256sum: f7b59a457fea34e7486396c4ca46347163e12e39c5004faed4ba8fc1edad7774
+Size: 94432
+SHA256sum: 67c9d9fccd307b5b4aac2fb58d49aa850ff7fbf14861acc2eebd273b00eb43a4
 Description:  QModem scripts
 
 Package: qmodem_monitor
@@ -1490,8 +1510,8 @@ Section: utils
 Architecture: all
 Installed-Size: 20480
 Filename: qmodem_monitor_3.0.0-r1_all.ipk
-Size: 3739
-SHA256sum: 6cc87013e84cda6da0cc5c4d690628619ec71165f7471b8d9bfd6ef95a0d212d
+Size: 3742
+SHA256sum: b02b79eec39f2e5dfd72eb7247a80b5521a696207f9c5cce3ec761ccff864b50
 Description:  QModem Network Monitor scripts
 
 Package: qt6-plugin-libqcertonlybackend
@@ -1502,8 +1522,8 @@ URL: http://qt-project.org
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: qt6-plugin-libqcertonlybackend_6.10.2-r1_aarch64_cortex-a53.ipk
-Size: 39630
-SHA256sum: 03e27397c7c189d70f622be83e7a0715ea6c9ff10165576738856b63ed646948
+Size: 39624
+SHA256sum: a893ade3667622bae5d474bf6d61c408bf4ccc9b33079c1b60adde443ef0be27
 Description:  Qt6 Plugin libqcertonlybackend
 
 Package: qt6-plugin-libqminimal
@@ -1514,8 +1534,8 @@ URL: http://qt-project.org
 Architecture: aarch64_cortex-a53
 Installed-Size: 81920
 Filename: qt6-plugin-libqminimal_6.10.2-r1_aarch64_cortex-a53.ipk
-Size: 10833
-SHA256sum: 28f7d32252b8a7476e2404a65e6f3fae97ca117962973a3159fc343993e292b5
+Size: 10829
+SHA256sum: 99400b8238cf3e3be4d002d9d6b4d3c44710320fc7403c01ebdc030f397e56d9
 Description:  Qt6 Plugin libqminimal
 
 Package: qt6-plugin-libqnetworkmanager
@@ -1526,8 +1546,8 @@ URL: http://qt-project.org
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: qt6-plugin-libqnetworkmanager_6.10.2-r1_aarch64_cortex-a53.ipk
-Size: 28789
-SHA256sum: d63f55bf2ce0150a346fa8994e52a444baabd6da1f2970ca1dc25b2145ce924b
+Size: 28790
+SHA256sum: b72622dd13f94a63e0ef0a1470673513a8e8dd02391a7112cd55ec9238d69316
 Description:  Qt6 Plugin libqnetworkmanager
 
 Package: qt6-plugin-libqoffscreen
@@ -1538,8 +1558,8 @@ URL: http://qt-project.org
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: qt6-plugin-libqoffscreen_6.10.2-r1_aarch64_cortex-a53.ipk
-Size: 39400
-SHA256sum: 7046072cc932f251d1cbd39729b31bbc7563585dec80db97d37b38a3a0c07cd3
+Size: 39405
+SHA256sum: 68b51fb1b3c746dc204a2945a356fb3a2a9f08ab5a0fb623881d96e4f1a25bc2
 Description:  Qt6 Plugin libqoffscreen
 
 Package: qt6-plugin-libqopensslbackend
@@ -1550,8 +1570,8 @@ URL: http://qt-project.org
 Architecture: aarch64_cortex-a53
 Installed-Size: 409600
 Filename: qt6-plugin-libqopensslbackend_6.10.2-r1_aarch64_cortex-a53.ipk
-Size: 119919
-SHA256sum: 5e620f947874852930e157e0dd8ab268959df16d237271f357f7451284b6adb3
+Size: 120056
+SHA256sum: e51c8e2808f24257e1a24d6d839ad9c65fdac2dbe2710c1982b60b30f98ee5d7
 Description:  Qt6 Plugin libqopensslbackend
 
 Package: qt6-plugin-libqsqlite
@@ -1562,8 +1582,8 @@ URL: http://qt-project.org
 Architecture: aarch64_cortex-a53
 Installed-Size: 1996800
 Filename: qt6-plugin-libqsqlite_6.10.2-r1_aarch64_cortex-a53.ipk
-Size: 1010072
-SHA256sum: bbc757312d9e9922fe58e74022663958a01e5518fee8454b88f61148a12726cc
+Size: 1010111
+SHA256sum: d0623806ee659e0f271980e8e8265ade20a4375def080894955963a61ee5d0ac
 Description:  Qt6 Plugin libqsqlite
 
 Package: qt6-plugin-libqtuiotouchplugin
@@ -1574,8 +1594,8 @@ URL: http://qt-project.org
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: qt6-plugin-libqtuiotouchplugin_6.10.2-r1_aarch64_cortex-a53.ipk
-Size: 36332
-SHA256sum: f917db979361363524a5164310565dc39651dc6c7d1d38cd6466a38ba4a39989
+Size: 36322
+SHA256sum: cffaf1607cd0776a87806c9b03b6444aff76849555e50553edc368dd76cdd3fd
 Description:  Qt6 Plugin libqtuiotouchplugin
 
 Package: qt6-plugin-libqxdgdesktopportal
@@ -1586,8 +1606,8 @@ URL: http://qt-project.org
 Architecture: aarch64_cortex-a53
 Installed-Size: 204800
 Filename: qt6-plugin-libqxdgdesktopportal_6.10.2-r1_aarch64_cortex-a53.ipk
-Size: 58470
-SHA256sum: 18ce425ef81a39b927583013b3a1c412ec30a21c280b931f56eaea02d1028218
+Size: 58466
+SHA256sum: f746de88e5693d0807d7665ac00410a7c62b151ddc464c60af8bacd6a259cd7c
 Description:  Qt6 Plugin libqxdgdesktopportal
 
 Package: quectel-CM-5G-M
@@ -1597,8 +1617,8 @@ Section: utils
 Architecture: aarch64_cortex-a53
 Installed-Size: 1146880
 Filename: quectel-CM-5G-M_3.0.0-r1_aarch64_cortex-a53.ipk
-Size: 132059
-SHA256sum: 3ed23bcf04aea8600d6da41cea447f1bc9bff869f0246ea4ec6ef05f3a056de8
+Size: 132051
+SHA256sum: e192befd45af4b7523b59af9724c97306af2a741eb916aece35898dd7be0df47
 Description:  quectel-CM-5G app building test
 
 Package: rblibtorrent2.0
@@ -1612,8 +1632,8 @@ ABIVersion: 2.0
 Architecture: aarch64_cortex-a53
 Installed-Size: 3809280
 Filename: rblibtorrent2.0_2.0.11-r1_aarch64_cortex-a53.ipk
-Size: 1389960
-SHA256sum: 7174ce77f6ecd630c9138810ba25d53df9d28f45aa7bf9b4aa5129e287117092
+Size: 1389953
+SHA256sum: c268a318944279dbb7650b277d3e16490edcb6561c21614be953f0f4a36b38bf
 Description:  Rasterbar libtorrent is a C++ library that aims to be a good alternative to
  all the other bittorrent implementations around. It is a library and not a
  full featured client, although it comes with a working example client.
@@ -1626,8 +1646,8 @@ URL: http://www.remlab.net/ndisc6/
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: rdisc6_1.0.2-r1_aarch64_cortex-a53.ipk
-Size: 7291
-SHA256sum: 3c09c85a5c5578e8ff5be5bd081c2bb407daa0d855d7f135f22b832ebd680090
+Size: 7285
+SHA256sum: 6e14446c67ac38dc77a9a23d2b074babb6c65c8ecac7bfed27d3b5a61816c00f
 Description:  An ICMPv6 router discovery tool
 
 Package: rdnssd
@@ -1638,8 +1658,8 @@ URL: http://www.remlab.net/ndisc6/
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: rdnssd_1.0.2-r1_aarch64_cortex-a53.ipk
-Size: 8437
-SHA256sum: b6e334a3e8474a9bb94be2d1a8fdfa74a9dc4fb025b698d640de09f8cd0632f9
+Size: 8433
+SHA256sum: 69bc07d8d32d9fbba1ad8f082e2158e6c58de404a3649c586bf587036d462a81
 Description:  A recursive DNS server discovery daemon gathering
  information through stateless IPv6 autoconfiguration (RFC5006)
 
@@ -1651,7 +1671,7 @@ Architecture: aarch64_cortex-a53
 Installed-Size: 40960
 Filename: sms-forwarder-next_3.0.0-r1_aarch64_cortex-a53.ipk
 Size: 10007
-SHA256sum: 3c11efc124926cf96e9fad36d31930fd4eee1bf22efca25acaf4a7ce47441564
+SHA256sum: fcaa8abacce46a85064109968e53d2b5867771dd212e5d561d553faf24137987
 Description:  SMS forward service for QModem that supports multiple forwarding methods:
  - Telegram Bot
  - ServerChan
@@ -1665,8 +1685,8 @@ Section: utils
 Architecture: aarch64_cortex-a53
 Installed-Size: 102400
 Filename: sms-forwarder_3.0.0-r1_aarch64_cortex-a53.ipk
-Size: 13797
-SHA256sum: c0b31c8fa0d1f1d6c1a4797914211481075fc12b3f29fcc874a9815ed6fbcaae
+Size: 13789
+SHA256sum: ec6be4f4112644cb511027436e61c99d152797fc58fbdae867f2493065b9d3c9
 Description:  SMS forward service for QModem that supports multiple forwarding methods:
  - Telegram Bot
  - ServerChan
@@ -1681,8 +1701,8 @@ URL: https://github.com/obsy/sms_tool
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: sms-tool_q_3.0.0-r1_aarch64_cortex-a53.ipk
-Size: 10033
-SHA256sum: c2aed4500da869dd86f841893dcea2edc0ddc5c16a33dc2cfa3ef9c1af1d9cae
+Size: 10026
+SHA256sum: 6ad81345730614117fc075ad3ec31f4a00fd8ffc1359fab0a5c0cdd6ec1bed58
 Description:  SMS Tool for 3G/4G/5G modem
 
 Package: tcping
@@ -1694,8 +1714,8 @@ URL: https://github.com/jlyo/tcping
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_cortex-a53.ipk
-Size: 4326
-SHA256sum: ed89c550f5ae82e6a1cc302152ac617014dbff416976eac90a5ff3ec1d3cc596
+Size: 4323
+SHA256sum: 9d50d84e8cce3724996b8d4d94164d526c330e751f2796910e35d08283e2ef3f
 Description:  tcping measures the latency of a tcp-connection
 
 Package: tom_modem
@@ -1705,8 +1725,8 @@ Section: utils
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: tom_modem_3.0.0-r1_aarch64_cortex-a53.ipk
-Size: 17305
-SHA256sum: 8cd89df8fa82f530400c93e0d00d8fe61a98e83b97e09d131eb54d15af2eafc2
+Size: 17299
+SHA256sum: 260aa0655f4741bb6110a60882f0dd22667a74008ce8ec09b073fc5d2abfb2cf
 Description:  Modem Communite Tool for 5G modem (By Fujr)
 
 Package: traceroute6
@@ -1717,8 +1737,8 @@ URL: http://www.remlab.net/ndisc6/
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: traceroute6_1.0.2-r1_aarch64_cortex-a53.ipk
-Size: 14960
-SHA256sum: 3ebcf2fc02e700a8486e9a0ef60c357ab6f60c07537a22c6739ed7645edb30ee
+Size: 14945
+SHA256sum: 0a28b94e387d5e04f38516afaaa2ab7c9ef27414b5a2707abd83ff6c55e17f77
 Description:  An IPv6-based traceroute implementation
 
 Package: ubus-at-daemon
@@ -1728,8 +1748,8 @@ Section: utils
 Architecture: aarch64_cortex-a53
 Installed-Size: 81920
 Filename: ubus-at-daemon_3.0.0-r1_aarch64_cortex-a53.ipk
-Size: 11549
-SHA256sum: c3bacb30963218f10f1474e767c61039bf6b0f865e1d126a4a2090cd70b7a186
+Size: 11555
+SHA256sum: a445672e6e1b8f1f13e76844db5b06c7f419f112368002715649e16f0f8a8ddc
 Description:  A ubus daemon for handling AT commands with OpenWRT
 
 Package: wrtbwmon
@@ -1740,7 +1760,7 @@ Architecture: all
 Installed-Size: 30720
 Filename: wrtbwmon_1.2.1-r3_all.ipk
 Size: 7946
-SHA256sum: af09b37e9af9651c7ab02f7dc98508e00b6e52e26c5f1be74785046d8495407d
+SHA256sum: bcac96c9e2d0817d4f3da7f72c35cc8fc5fe1b4a3907559aae2ae32e97976308
 Description:  An CERNET client daemon,
  Most usually used in China collages.
 
