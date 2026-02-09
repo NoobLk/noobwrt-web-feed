@@ -7137,8 +7137,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: aarch64_cortex-a53
 Installed-Size: 79718400
 Filename: python3-dev_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 38184899
-SHA256sum: 801370b6cf0d27055cb75f887a0b5fedf62035d30c517308a842fe0e4062186d
+Size: 38187818
+SHA256sum: 2160d52505b61ae5c06b8d724b6497efbd088fc12ef1f9465a412784933a781a
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -8064,6 +8064,36 @@ Description:  Python is an interpreted, interactive, object-oriented programming
  
  This package installs almost all parts of the standard Python
  installation.
+
+Package: sing-box-tiny
+Version: 1.12.12-r1
+Depends: libc, ca-bundle, kmod-inet-diag, kmod-tun
+Conflicts: sing-box
+Provides: sing-box
+License: GPL-3.0-or-later
+Section: net
+URL: https://sing-box.sagernet.org
+Architecture: aarch64_cortex-a53
+Installed-Size: 29153280
+Filename: sing-box-tiny_1.12.12-r1_aarch64_cortex-a53.ipk
+Size: 10417253
+SHA256sum: e8a717249e68a824e8e6e93ab0100576675c5e40fc0cf227bcf83bc5a1334148
+Description:  Sing-box is a universal proxy platform which supports hysteria, SOCKS, Shadowsocks,
+ ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
+
+Package: sing-box
+Version: 1.12.12-r1
+Depends: libc, ca-bundle, kmod-inet-diag, kmod-tun
+License: GPL-3.0-or-later
+Section: net
+URL: https://sing-box.sagernet.org
+Architecture: aarch64_cortex-a53
+Installed-Size: 40458240
+Filename: sing-box_1.12.12-r1_aarch64_cortex-a53.ipk
+Size: 14473100
+SHA256sum: b70e7394683765d69f5095689e2bb4bef52c48b183cc9bad91a999d01faea667
+Description:  Sing-box is a universal proxy platform which supports hysteria, SOCKS, Shadowsocks,
+ ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
 
 Package: smartd-mail
 Version: 7.4-r1
