@@ -967,6 +967,38 @@ Size: 10257
 SHA256sum: bac2c07b05f0504db3318aeacf934ab82f4f1eebe43ec27c7e415d727ee1f556
 Description:  This package contains an cgi utility that is useful for up/downloading files
 
+Package: conntrack
+Version: 1.4.8-r1
+Depends: libc, libnetfilter-conntrack3, libnetfilter-cttimeout1, libnetfilter-cthelper0, libnetfilter-queue1
+License: GPL-2.0-or-later
+Section: net
+URL: https://conntrack-tools.netfilter.org/
+CPE-ID: cpe:/a:netfilter:conntrack-tools
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: conntrack_1.4.8-r1_aarch64_cortex-a53.ipk
+Size: 26839
+SHA256sum: 145aea20277421fb8fa992a124d7cf72695dbec1b7e0becfd3784ad176bf7f24
+Description:  Conntrack is a userspace command line program targeted at system
+ administrators. It enables them to view and manage the in-kernel
+ connection tracking state table.
+
+Package: conntrackd
+Version: 1.4.8-r1
+Depends: libc, libnetfilter-conntrack3, libnetfilter-cttimeout1, libnetfilter-cthelper0, libnetfilter-queue1
+License: GPL-2.0-or-later
+Section: net
+URL: https://conntrack-tools.netfilter.org/
+CPE-ID: cpe:/a:netfilter:conntrack-tools
+Architecture: aarch64_cortex-a53
+Installed-Size: 215040
+Filename: conntrackd_1.4.8-r1_aarch64_cortex-a53.ipk
+Size: 84378
+SHA256sum: fe2a3dd563329931aa76673372be3fabd99b882af09284205041b4256f0a9789
+Description:  Conntrackd can replicate the status of the connections that are
+ currently being processed by your stateful firewall based on Linux.
+ Conntrackd can also run as statistics daemon.
+
 Package: coreutils-b2sum
 Version: 9.7-r1
 Depends: libc, coreutils
@@ -3516,6 +3548,60 @@ Description:  MariaDB is a very fast and robust SQL database server.
  This package includes the client library.
  
 
+Package: libnetfilter-cthelper0
+Version: 1.0.0-r2
+Depends: libc, libmnl0
+Provides: libnetfilter-cthelper
+License: GPL-2.0+
+Section: libs
+URL: http://www.netfilter.org/projects/libnetfilter_cthelper/
+ABIVersion: 0
+CPE-ID: cpe:/a:netfilter:libnetfilter_cthelper
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libnetfilter-cthelper0_1.0.0-r2_aarch64_cortex-a53.ipk
+Size: 5265
+SHA256sum: 9636f0c5a3ce8da146b3954d6818ac1e32aeb1df60b50181448d383e82768908
+Description:  libnetfilter_cthelper is a userspace library providing a programming
+ interface (API) to the in-kernel connection tracking helpers. 
+ This library is currently used by conntrack-tools.
+
+Package: libnetfilter-cttimeout1
+Version: 1.0.0-r2
+Depends: libc, libmnl0
+Provides: libnetfilter-cttimeout
+License: GPL-2.0+
+Section: libs
+URL: http://www.netfilter.org/projects/libnetfilter_cttimeout/
+ABIVersion: 1
+CPE-ID: cpe:/a:netfilter:libnetfilter_cttimeout
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libnetfilter-cttimeout1_1.0.0-r2_aarch64_cortex-a53.ipk
+Size: 5305
+SHA256sum: c118cf7e57047abe12f253eb6b11a2a4bc9e619dfba2319243d8d3bd846667c2
+Description:  libnetfilter_cttimeout is a userspace library providing a programming
+ interface (API) to the in-kernel connection tracking timeout handling.
+ This library is currently used by conntrack-tools.
+
+Package: libnetfilter-queue1
+Version: 1.0.5-r4
+Depends: libc, libmnl0, libnfnetlink0
+Provides: libnetfilter-queue
+License: GPL-2.0-or-later
+Section: libs
+URL: https://www.netfilter.org/projects/libnetfilter_queue/
+ABIVersion: 1
+CPE-ID: cpe:/a:netfilter:libnetfilter_queue
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libnetfilter-queue1_1.0.5-r4_aarch64_cortex-a53.ipk
+Size: 11708
+SHA256sum: c91cafeda112a6324768315282a4aea01fde166519ec3f18e54583f276f354bf
+Description:  libnetfilter_queue is a userspace library providing a programming
+ interface (API) to packets that have been queued by the kernel
+ packet filter.
+
 Package: libnetsnmp
 Version: 5.9.4-r3
 Depends: libc, libnl-tiny1, libpci, libpcre2
@@ -3827,6 +3913,20 @@ Filename: libtiff6_4.7.0-r1_aarch64_cortex-a53.ipk
 Size: 152087
 SHA256sum: c1f10f4de92a5821b7aa8a49e0b190470513b383eadc0896dc237e489539a0cd
 Description:  TIFF library
+
+Package: libtirpc
+Version: 1.3.4-r1
+Depends: libc, libpthread
+License: BSD-3-Clause
+Section: libs
+URL: http://libtirpc.sourceforge.net/
+CPE-ID: cpe:/a:libtirpc_project:libtirpc
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: libtirpc_1.3.4-r1_aarch64_cortex-a53.ipk
+Size: 66680
+SHA256sum: 00c9f4b9c883a98339b977426184f20652890fa4efba94b9e14af44b3f108da8
+Description:  Library TI RPC for RPC bindings
 
 Package: libucontext-tests
 Version: 1.3.2-r1
@@ -7121,8 +7221,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: aarch64_cortex-a53
 Installed-Size: 79718400
 Filename: python3-dev_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 38189861
-SHA256sum: ab56bb5b01b588d6eb75582aa7d08609049fc64ea4885532bdb6335a57d75f20
+Size: 38185176
+SHA256sum: d222c8661ef77f4f3aee82767471bf82b0499eb77a0f42668da44c45ee50c223
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
