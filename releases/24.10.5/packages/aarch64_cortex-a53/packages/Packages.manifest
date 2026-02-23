@@ -455,8 +455,8 @@ Maintainer: Aleksey Vasilenko <aleksey.vasilenko@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: bc_1.07.1-r1_aarch64_cortex-a53.ipk
-Size: 36742
-SHA256sum: 025a1235b608db4121fce633e0fd63d2cee5ce51cffe4fa5790b6e28a702ec08
+Size: 36668
+SHA256sum: e36cf3a808574498d41adef00735ff9abe4508a62fd8e6a8fbf4cf85a9c8b4ef
 Description:  bc is a language that supports arbitrary precision numbers with
  interactive execution of statements.
 
@@ -5256,8 +5256,8 @@ Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 1269760
 Filename: libunbound_1.24.2-r1_aarch64_cortex-a53.ipk
-Size: 493670
-SHA256sum: 140f100d0b135764ce54aba4a06edf15ec9d0f6af514e8d4a85868bdbb15f39b
+Size: 493699
+SHA256sum: 3f1dc888a50474f8b341b1c6e08f8f6da0d6c6f4d5ea7e09ea55f420cb5af0f4
 Description:  This package contains the Unbound library including 'libevent', 'libmnl', and
  'libpthread' to better handle large networks with heavy query loads. Options
  are available to custom trim Unbound for smaller targets.
@@ -9532,8 +9532,8 @@ Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 79718400
 Filename: python3-dev_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 38185958
-SHA256sum: 6026482eaf395d4b565d1acef1f10d8c950c2243ba7523ddeb7032e73da74020
+Size: 38185739
+SHA256sum: c40af8cedbcec21dbd76f50ab24d8375f359aed79e79a886b39348ef742c0cb2
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
