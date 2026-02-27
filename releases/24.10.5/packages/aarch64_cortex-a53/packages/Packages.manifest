@@ -5256,8 +5256,8 @@ Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 1269760
 Filename: libunbound_1.24.2-r1_aarch64_cortex-a53.ipk
-Size: 493699
-SHA256sum: 3f1dc888a50474f8b341b1c6e08f8f6da0d6c6f4d5ea7e09ea55f420cb5af0f4
+Size: 493670
+SHA256sum: 140f100d0b135764ce54aba4a06edf15ec9d0f6af514e8d4a85868bdbb15f39b
 Description:  This package contains the Unbound library including 'libevent', 'libmnl', and
  'libpthread' to better handle large networks with heavy query loads. Options
  are available to custom trim Unbound for smaller targets.
@@ -9532,8 +9532,8 @@ Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 79718400
 Filename: python3-dev_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 38185739
-SHA256sum: c40af8cedbcec21dbd76f50ab24d8375f359aed79e79a886b39348ef742c0cb2
+Size: 38184539
+SHA256sum: fb5c9e4da48099d5f179c7ba6b5d2f72d9a9b99f204cea480ff193de4103b06f
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
