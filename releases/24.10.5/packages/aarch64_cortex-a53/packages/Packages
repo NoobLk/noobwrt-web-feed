@@ -2795,37 +2795,6 @@ Description:  inotify-tools is a C library and a set of command-line programs fo
  
  This package provides the inotifywatch tool.
 
-Package: iperf3-ssl
-Version: 3.17.1-r4
-Depends: libc, libopenssl3, libatomic1
-Conflicts: iperf3
-License: BSD-3-Clause
-Section: net
-URL: https://github.com/esnet/iperf
-CPE-ID: cpe:/a:es:iperf3
-Architecture: aarch64_cortex-a53
-Installed-Size: 143360
-Filename: iperf3-ssl_3.17.1-r4_aarch64_cortex-a53.ipk
-Size: 58805
-SHA256sum: 970452cc9421215489062a49657e9247c1d9efb0f9917038549783ee45967a94
-Description:  Internet Protocol bandwidth measuring tool with iperf_auth support
-
-Package: iperf3
-Version: 3.17.1-r4
-Depends: libc, libiperf3
-License: BSD-3-Clause
-Section: net
-URL: https://github.com/esnet/iperf
-CPE-ID: cpe:/a:es:iperf3
-Architecture: aarch64_cortex-a53
-Installed-Size: 71680
-Filename: iperf3_3.17.1-r4_aarch64_cortex-a53.ipk
-Size: 3128
-SHA256sum: e3c68ae9a6d7b440f95537932f800c6564788af7c012c19f5d5677519664463a
-Description:  Iperf is a modern alternative for measuring TCP and UDP bandwidth
- performance, allowing the tuning of various parameters and
- characteristics.
-
 Package: jq-full
 Version: 1.8.1-r1
 Depends: libc, oniguruma5
@@ -3405,20 +3374,6 @@ Description:  inotify-tools is a C library and a set of command-line programs fo
  supporting inotify.
  
  This package provides the libinotifytools shared library.
-
-Package: libiperf3
-Version: 3.17.1-r4
-Depends: libc, libatomic1
-License: BSD-3-Clause
-Section: libs
-URL: https://github.com/esnet/iperf
-CPE-ID: cpe:/a:es:iperf3
-Architecture: aarch64_cortex-a53
-Installed-Size: 204800
-Filename: libiperf3_3.17.1-r4_aarch64_cortex-a53.ipk
-Size: 67747
-SHA256sum: 81c8ae136bddf6b2bb054e5bdbea5c77081f703360a09a2ccd100745690a16ba
-Description:  Libiperf is a library providing an API for iperf3 functionality.
 
 Package: libjpeg-turbo-utils
 Version: 3.0.3-r1
@@ -7221,8 +7176,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: aarch64_cortex-a53
 Installed-Size: 79718400
 Filename: python3-dev_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 38184539
-SHA256sum: fb5c9e4da48099d5f179c7ba6b5d2f72d9a9b99f204cea480ff193de4103b06f
+Size: 38185875
+SHA256sum: 63b000193dc17f620370488395d7ccc9b465675fa0ebe1ce93144a8d59ea6a3b
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
